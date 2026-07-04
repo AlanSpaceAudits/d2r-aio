@@ -231,6 +231,17 @@
     margin:0 0 8px;text-transform:uppercase;border-bottom:1px solid var(--line);padding-bottom:6px}
   .actsec h3 .twn{float:right;font-family:'EB Garamond';text-transform:none;font-size:14px;color:var(--muted);font-style:italic;letter-spacing:0}
   .ztblwrap{overflow-x:auto}
+  .subnav{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 16px}
+  .subnav button{font-family:'Cinzel';font-size:12.5px;letter-spacing:.5px;background:#0d0a06;color:var(--muted);padding:7px 17px;border-radius:8px;border:1px solid var(--line);cursor:pointer;transition:color .12s,border-color .12s,background .12s}
+  .subnav button:hover{color:var(--gold-bright);border-color:#6a4f26}
+  .subnav button.on{color:#0a0806;background:var(--gold);border-color:var(--gold);font-weight:700}
+  .twnline{color:var(--muted);font-style:italic;margin:0 0 10px;font-size:13px}
+  .qrh{font-family:'Cinzel';color:var(--gold);margin:24px 0 10px;font-size:17px}
+  .qhint{font-family:'EB Garamond';font-style:italic;color:var(--muted);font-size:12px;font-weight:400;letter-spacing:0}
+  .qtbl td{vertical-align:top;font-size:13.5px}
+  .qtbl .qn{font-weight:600;color:#e6d9bd;font-family:'Cinzel';font-size:13px}
+  .qtbl .qr{color:#c9bb9a}
+  .qeach{color:var(--muted);font-style:italic;font-size:11.5px}
   .ztbl{width:100%;border-collapse:collapse;font-size:15px;min-width:640px}
   .ztbl th{font-family:'Cinzel';font-size:11px;letter-spacing:1px;color:var(--muted);text-transform:uppercase;
     text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);font-weight:500}
@@ -1025,24 +1036,66 @@ const QUESTS={
 "Arreat Summit":"<b>Rite of Passage</b> — beat the Ancients (Talic / Madawc / Korlic) → opens the Worldstone Keep.",
 "Worldstone Chamber":"<b>Eve of Destruction</b> — kill Baal → completes the difficulty.",
 };
+const ROMAN=['','I','II','III','IV','V'];
+let zoneAct=1;
+const QREWARDS={
+1:[
+ {n:"Den of Evil",r:"+1 Skill Point"},
+ {n:"Sisters' Burial Grounds (Blood Raven)",r:"Unlocks Rogue mercs (Kashya)"},
+ {n:"The Search for Cain",r:"Free item ID forever (Cain)"},
+ {n:"The Forgotten Tower (Countess)",r:"No NPC reward (Countess drops runes)"},
+ {n:"Tools of the Trade (Horadric Malus)",r:"Charsi imbues 1 item (to rare)"},
+ {n:"Sisters to the Slaughter (Andariel)",r:"Opens Act 2"},
+],
+2:[
+ {n:"Radament's Lair",r:"+1 Skill Point"},
+ {n:"The Horadric Staff",r:"Keeps the Horadric Cube"},
+ {n:"The Tainted Sun",r:"No item (ends the eclipse)"},
+ {n:"The Summoner",r:"Opens the Canyon of the Magi"},
+ {n:"The Seven Tombs (Duriel)",r:"Opens Act 3"},
+],
+3:[
+ {n:"The Golden Bird",r:"Potion of Life (+20 Max Life, permanent)"},
+ {n:"Blade of the Old Religion (Gidbinn)",r:"Ormus magic ring + Iron Wolf mercs"},
+ {n:"Khalim's Will",r:"Khalim's Flail (opens the Durance)"},
+ {n:"Lam Esen's Tome",r:"+5 Stat Points"},
+ {n:"The Guardian (Mephisto)",r:"Opens Act 4"},
+],
+4:[
+ {n:"The Fallen Angel (Izual)",r:"+2 Skill Points"},
+ {n:"Hell's Forge",r:{N:"1 rune El-Amn, plus gems",NM:"1 rune Sol-Um, plus gems",H:"1 rune Hel-Gul, plus gems"}},
+ {n:"Terror's End (Diablo)",r:"Opens Act 5"},
+],
+5:[
+ {n:"Siege on Harrogath (Shenk)",r:"Larzuk adds sockets to 1 item"},
+ {n:"Rescue on Mount Arreat",r:"Unlocks Barbarian mercs (Qual-Kehk)"},
+ {n:"Prison of Ice (Anya)",r:"Scroll of Resistance (+10 all resists)"},
+ {n:"Betrayal of Harrogath (Nihlathak)",r:"Anya personalizes 1 item"},
+ {n:"Rite of Passage (Ancients)",r:"Opens the Worldstone Keep"},
+ {n:"Eve of Destruction (Baal)",r:"Completes the difficulty"},
+],
+};
 function renderZones(){
-  const wrap=document.getElementById('acts'); wrap.innerHTML='';
-  ACTS.forEach(A=>{
-    let rows='';
-    A.z.forEach(z=>{
-      const xp=xpFor(z);
-      rows+=`<tr${z.x?' class="l85row"':''}>`
-        +`<td class="area${z.s?' sub':''}">${z.a}${z.w?'<span class="wpb">WP</span>':''}</td>`
-        +`<td class="num">${z.N??'—'}</td><td class="num">${z.NM??'—'}</td>`
-        +`<td class="num hell${z.x?' l85':''}">${z.H??'—'}${z.x?' <span class="star85">★85</span>':''}</td>`
-        +`<td class="num xp ${xp.c}">${xp.t}</td>`
-        +`<td class="note">${z.note}${QUESTS[z.a]?'<div class="qnote">⚑ '+QUESTS[z.a]+'</div>':''}</td></tr>`;
-    });
-    const sec=document.createElement('div'); sec.className='actsec';
-    sec.innerHTML=`<h3>Act ${A.n}<span class="twn">town — ${A.town}</span></h3>`
-      +`<div class="ztblwrap"><table class="ztbl"><thead><tr><th>Zone</th><th class="num">Norm</th><th class="num">NM</th><th class="num">Hell</th><th class="num">XP@${lvl}</th><th>Farming notes</th></tr></thead><tbody>${rows}</tbody></table></div>`;
-    wrap.appendChild(sec);
+  const wrap=document.getElementById('acts');
+  wrap.innerHTML='<div class="subnav" id="actnav">'+ACTS.map(A=>'<button data-act="'+A.n+'"'+(A.n===zoneAct?' class="on"':'')+'>Act '+ROMAN[A.n]+'</button>').join('')+'</div><div id="actbody"></div>';
+  wrap.querySelector('#actnav').addEventListener('click',e=>{const b=e.target.closest('button');if(b){zoneAct=+b.dataset.act;renderZones();}});
+  const A=ACTS.find(a=>a.n===zoneAct)||ACTS[0];
+  let rows='';
+  A.z.forEach(z=>{
+    const xp=xpFor(z);
+    rows+=`<tr${z.x?' class="l85row"':''}>`
+      +`<td class="area${z.s?' sub':''}">${z.a}${z.w?'<span class="wpb">WP</span>':''}</td>`
+      +`<td class="num">${z.N??'—'}</td><td class="num">${z.NM??'—'}</td>`
+      +`<td class="num hell${z.x?' l85':''}">${z.H??'—'}${z.x?' <span class="star85">★85</span>':''}</td>`
+      +`<td class="num xp ${xp.c}">${xp.t}</td>`
+      +`<td class="note">${z.note}${QUESTS[z.a]?'<div class="qnote">⚑ '+QUESTS[z.a]+'</div>':''}</td></tr>`;
   });
+  const qr=QREWARDS[A.n]||[];
+  const qrows=qr.map(q=>'<tr><td class="qn">'+q.n+'</td>'+(typeof q.r==='string'?'<td class="qr" colspan="3">'+q.r+' <span class="qeach">(each difficulty)</span></td>':'<td class="qr">'+q.r.N+'</td><td class="qr">'+q.r.NM+'</td><td class="qr">'+q.r.H+'</td>')+'</tr>').join('');
+  document.getElementById('actbody').innerHTML=`<div class="twnline">Town: ${A.town}</div>`
+    +`<div class="ztblwrap"><table class="ztbl"><thead><tr><th>Zone</th><th class="num">Norm</th><th class="num">NM</th><th class="num">Hell</th><th class="num">XP@${lvl}</th><th>Farming notes</th></tr></thead><tbody>${rows}</tbody></table></div>`
+    +`<h4 class="qrh">Act ${ROMAN[A.n]} Quests &amp; Rewards <span class="qhint">each reward is granted once per difficulty</span></h4>`
+    +`<div class="ztblwrap"><table class="ztbl qtbl"><thead><tr><th>Quest</th><th>Normal</th><th>Nightmare</th><th>Hell</th></tr></thead><tbody>${qrows}</tbody></table></div>`;
   document.querySelectorAll('#difftg button').forEach(b=>b.classList.toggle('on',b.dataset.d===diff));
 }
 function render85(){
