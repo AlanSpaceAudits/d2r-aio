@@ -168,6 +168,16 @@
   .bmrow b{color:var(--gold-bright);font-family:'Cinzel';font-size:15px}
   .bmrunes{color:var(--rune);font-size:13px}
   .bmlvl{color:var(--muted);font-size:12px;margin-left:auto;white-space:nowrap}
+  .acwrap{position:relative}
+  .acwrap>.lootq{width:100%}
+  .baseqrow .acwrap{flex:1}
+  .acbox{position:absolute;top:calc(100% + 4px);left:0;right:0;z-index:60;background:#130e08;border:1px solid #4a3a1c;border-radius:9px;overflow-y:auto;max-height:330px;box-shadow:0 10px 28px rgba(0,0,0,.55)}
+  .acitem{padding:8px 13px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:1px solid rgba(255,255,255,.045)}
+  .acitem:last-child{border-bottom:none}
+  .acitem.on,.acitem:hover{background:rgba(216,180,90,.15)}
+  .acitem b{font-family:'Cinzel';font-weight:600;font-size:14px;color:#e6d9bd}
+  .acitem .acsub{color:var(--muted);font-size:11.5px;font-style:italic;white-space:nowrap;text-align:right}
+  .acitem.uq b{color:var(--gold-bright)} .acitem.st b{color:var(--set)} .acitem.rw b{color:var(--rune)}
   .section,#lvlnotes{scroll-margin-top:66px}
   html{scroll-behavior:smooth}
   .lootq{width:100%;font-family:'EB Garamond',serif;font-size:19px;background:#0d0a06;border:1px solid var(--line);
@@ -271,7 +281,7 @@
   <div class="tab" id="tab-loot">
   <h2 class="section" id="loot">Loot Check <span class="hint">type an item name → its stats with min-max rolls</span></h2>
   <div class="panel">
-    <input id="lootq" class="lootq" type="text" placeholder="Search an item…  e.g. Shako, Stone of Jordan, Tal Rasha's, Vampire Gaze" autocomplete="off" spellcheck="false">
+    <div class="acwrap"><input id="lootq" class="lootq" type="text" placeholder="Search an item…  e.g. Shako, Stone of Jordan, Tal Rasha's, Vampire Gaze" autocomplete="off" spellcheck="false"></div>
     <div id="lootres" class="lootres"></div>
   </div>
   </div><!-- /tab-loot -->
@@ -284,7 +294,7 @@
   <h2 class="section">White Item Checker <span class="hint">found a white base? type it + its sockets → every runeword that fits</span></h2>
   <div class="panel">
     <div class="baseqrow">
-      <input id="baseq" class="lootq" type="text" placeholder="Base item or type — e.g. Monarch, Colossus Voulge, shield, polearm, bow" autocomplete="off" spellcheck="false">
+      <div class="acwrap"><input id="baseq" class="lootq" type="text" placeholder="Base item or type — e.g. Monarch, Colossus Voulge, shield, polearm, bow" autocomplete="off" spellcheck="false"></div>
       <input id="baseqs" class="baseqs" type="number" min="1" max="6" placeholder="sox">
     </div>
     <div id="basematch" class="basematch"></div>
@@ -309,7 +319,7 @@
   <div class="panel"><div id="baselist"></div></div>
 
   <h2 class="section" id="runewords">The Runewords <span class="hint">tick “Make” to plan it · “Crafted” when it's done · endgame ones start off</span></h2>
-  <div class="panel" style="margin:0 0 18px"><input id="rwq" class="lootq" type="text" placeholder="Search runewords by name or rune…  e.g. Enigma, Grief, Ber" autocomplete="off" spellcheck="false"></div>
+  <div class="panel" style="margin:0 0 18px"><div class="acwrap"><input id="rwq" class="lootq" type="text" placeholder="Search runewords by name or rune…  e.g. Enigma, Grief, Ber" autocomplete="off" spellcheck="false"></div></div>
   <div class="grid" id="cards"></div>
   </div><!-- /tab-craft -->
 
@@ -1131,6 +1141,40 @@ function renderBaseMatch(){const inp=document.getElementById('baseq');if(!inp)re
 document.getElementById('baseq').addEventListener('input',renderBaseMatch);
 document.getElementById('baseqs').addEventListener('input',renderBaseMatch);
 renderBaseMatch();
+function attachAC(input,getSug,onPick){const wrap=input.closest('.acwrap');if(!wrap)return;
+ const box=document.createElement('div');box.className='acbox';box.style.display='none';wrap.appendChild(box);
+ let items=[],sel=-1;
+ function close(){box.style.display='none';sel=-1;}
+ function draw(){if(!items.length){close();return;}box.innerHTML=items.map(function(it,i){return '<div class="acitem '+(it.cls||'')+(i===sel?' on':'')+'" data-i="'+i+'">'+it.label+'</div>';}).join('');box.style.display='block';}
+ function refresh(){const q=input.value.trim();items=q?getSug(q).slice(0,8):[];sel=-1;draw();}
+ function pick(it){input.value=it.val;close();items=[];if(onPick)onPick();}
+ input.addEventListener('input',refresh);
+ input.addEventListener('focus',refresh);
+ input.addEventListener('keydown',function(e){if(box.style.display==='none')return;
+  if(e.key==='ArrowDown'){e.preventDefault();sel=Math.min(sel+1,items.length-1);draw();}
+  else if(e.key==='ArrowUp'){e.preventDefault();sel=Math.max(sel-1,0);draw();}
+  else if(e.key==='Enter'&&sel>=0){e.preventDefault();pick(items[sel]);}
+  else if(e.key==='Escape'){close();}});
+ box.addEventListener('mousedown',function(e){const el=e.target.closest('.acitem');if(el){e.preventDefault();pick(items[+el.dataset.i]);}});
+ input.addEventListener('blur',function(){setTimeout(close,140);});}
+function acLoot(q){const nq=lnorm(q);if(!nq)return[];const seen={},out=[];const pool=ITEMS.concat(ITEMS_RW);
+ for(let i=0;i<pool.length&&out.length<8;i++){const it=pool[i];if(seen[it.name])continue;
+  if(lnorm(it.name).indexOf(nq)>=0||(it.set&&lnorm(it.set).indexOf(nq)>=0)){seen[it.name]=1;
+   const cls=it.q==='s'?'st':it.q==='r'?'rw':'uq';const sub=it.q==='s'?(it.set||'set'):it.q==='r'?'runeword':(it.type||'');
+   out.push({val:it.name,cls:cls,label:'<b>'+it.name+'</b><span class="acsub">'+sub+'</span>'});}}
+ return out;}
+function acRW(q){const nq=lnorm(q);if(!nq)return[];const out=[];
+ for(let i=0;i<RW.length&&out.length<8;i++){const rw=RW[i];
+  if(lnorm(rw.name).indexOf(nq)>=0||rw.runes.some(function(r){return lnorm(r).indexOf(nq)>=0;}))
+   out.push({val:rw.name,cls:'rw',label:'<b>'+rw.name+'</b><span class="acsub">'+rw.sock+' sox · '+rw.runes.join('+')+'</span>'});}
+ return out;}
+function acBase(q){const nq=lnorm(q),low=q.toLowerCase(),out=[];
+ for(const k in BASEMAP){if(out.length>=8)break;if(lnorm(k).indexOf(nq)>=0)out.push({val:k,label:'<b>'+k+'</b><span class="acsub">'+BASEMAP[k].join(', ')+'</span>'});}
+ ['body armor','helm','shield','sword','axe','mace','polearm','spear','scepter','bow','crossbow','claw','staff','dagger','wand'].forEach(function(c){if(out.length<11&&low.length>=2&&c.indexOf(low)>=0)out.push({val:c,label:'<b>'+c+'</b><span class="acsub">item type</span>'});});
+ return out;}
+attachAC(document.getElementById('lootq'),acLoot,renderLoot);
+attachAC(document.getElementById('rwq'),acRW,function(){rwquery=lnorm(document.getElementById('rwq').value);renderCards();});
+attachAC(document.getElementById('baseq'),acBase,renderBaseMatch);
 (function(){const links=[...document.querySelectorAll('#nav a')],map={};links.forEach(a=>map[a.getAttribute('href').slice(1)]=a);
  const io=new IntersectionObserver(es=>{es.forEach(en=>{if(en.isIntersecting){links.forEach(a=>a.classList.remove('active'));if(map[en.target.id])map[en.target.id].classList.add('active');}});},{rootMargin:'-60px 0px -72% 0px'});
  ['loot','runes','craft','bases','runewords','lvlnotes','zones','areas','topfarms'].forEach(id=>{const el=document.getElementById(id);if(el)io.observe(el);});})();
