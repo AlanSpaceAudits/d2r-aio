@@ -1,0 +1,9358 @@
+[
+ {
+  "name": "The Gnasher",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Hand Axe",
+  "tier": "Normal",
+  "lvl": 5,
+  "stats": [
+   "+8 to Strength",
+   "50% Chance of Open Wounds",
+   "20% Chance of Crushing Blow",
+   "+60-70% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Deathspade",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Axe",
+  "tier": "Normal",
+  "lvl": 9,
+  "stats": [
+   "Hit Blinds Target",
+   "+8 to Minimum Damage",
+   "15% Bonus to Attack Rating",
+   "+4 to Mana after each Kill",
+   "+60-70% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Bladebone",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Double Axe",
+  "tier": "Normal",
+  "lvl": 15,
+  "stats": [
+   "+100% Damage to Undead",
+   "+40 to Attack Rating against Undead",
+   "+20% Increased Attack Speed",
+   "+20 Defense",
+   "+8 to Minimum Fire Damage",
+   "+12 to Maximum Fire Damage",
+   "+30-50% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Skull Splitter",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Military Pick",
+  "tier": "Normal",
+  "lvl": 21,
+  "stats": [
+   "Hit Blinds Target",
+   "Regenerate Mana 20%",
+   "+1 to Minimum Lightning Damage",
+   "+12-15 to Maximum Lightning Damage",
+   "+50-100 to Attack Rating",
+   "+60-100% Enhanced Damage",
+   "15% Chance of Open Wounds"
+  ]
+ },
+ {
+  "name": "Rakescar",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "War Axe",
+  "tier": "Normal",
+  "lvl": 27,
+  "stats": [
+   "+128 to Minimum Poison Damage",
+   "+128 to Maximum Poison Damage",
+   "+50 to Attack Rating",
+   "Poison Resist +50%",
+   "+75-150% Enhanced Damage",
+   "+30% Increased Attack Speed"
+  ]
+ },
+ {
+  "name": "Axe of Fechmar",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Large Axe",
+  "tier": "Normal",
+  "lvl": 8,
+  "stats": [
+   "+70-90% Enhanced Damage",
+   "Freezes target",
+   "Cold Resist +50%",
+   "+2 to Light Radius"
+  ]
+ },
+ {
+  "name": "Goreshovel",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Broad Axe",
+  "tier": "Normal",
+  "lvl": 14,
+  "stats": [
+   "+30% Increased Attack Speed",
+   "+25 to Strength",
+   "60% Chance of Open Wounds",
+   "+40-50% Enhanced Damage",
+   "+9 to Maximum Damage"
+  ]
+ },
+ {
+  "name": "The Chieftain",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Battle Axe",
+  "tier": "Normal",
+  "lvl": 19,
+  "stats": [
+   "+100% Enhanced Damage",
+   "All Resistances +10-20%",
+   "+6 to Mana after each Kill",
+   "+20% Increased Attack Speed",
+   "Adds 1-40 Lightning Damage"
+  ]
+ },
+ {
+  "name": "Brainhew",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Great Axe",
+  "tier": "Normal",
+  "lvl": 25,
+  "stats": [
+   "+14 to Minimum Damage",
+   "+25 to Mana",
+   "+4 to Light Radius",
+   "10-13% Mana Stolen per Hit",
+   "+50-80% Enhanced Damage",
+   "Adds 15-35 Fire Damage"
+  ]
+ },
+ {
+  "name": "Humongous",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Giant Axe",
+  "tier": "Normal",
+  "lvl": 29,
+  "stats": [
+   "+20-30 to Strength",
+   "+8 to Minimum Damage",
+   "+15-25 to Maximum Damage",
+   "33% Chance of Crushing Blow",
+   "Requirements +20%",
+   "+80-120% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Torch of Iro",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Wand",
+  "tier": "Normal",
+  "lvl": 5,
+  "stats": [
+   "+1 to Necromancer Skill Levels",
+   "6% Life Stolen per Hit",
+   "Adds 5-9 Fire Damage",
+   "+3 to Light Radius",
+   "+10 to Energy",
+   "Regenerate Mana 5%"
+  ]
+ },
+ {
+  "name": "Maelstrom",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Yew Wand",
+  "tier": "Normal",
+  "lvl": 14,
+  "stats": [
+   "+1 to Minimum Lightning Damage",
+   "+9 to Maximum Lightning Damage",
+   "Lightning Resist +40%",
+   "+13 to Mana",
+   "+30% Faster Cast Rate",
+   "+1-3 to Corpse Explosion (Necromancer Only)",
+   "+1-3 to Terror (Necromancer Only)",
+   "+1-3 to Amplify Damage (Necromancer Only)",
+   "+1-3 to Iron Maiden (Necromancer Only)"
+  ]
+ },
+ {
+  "name": "Gravenspine",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Bone Wand",
+  "tier": "Normal",
+  "lvl": 20,
+  "stats": [
+   "+10 to Strength",
+   "+10 to Dexterity",
+   "+4 to Minimum Cold Damage",
+   "+8 to Maximum Cold Damage",
+   "Freezes Target +75",
+   "5% Mana Stolen per Hit",
+   "+2 to Necromancer Skill Levels",
+   "+25-50 to Mana"
+  ]
+ },
+ {
+  "name": "Ume's Lament",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Grim Wand",
+  "tier": "Normal",
+  "lvl": 28,
+  "stats": [
+   "+2 to Necromancer Skill Levels",
+   "+40 to Mana",
+   "+20% Faster Cast Rate",
+   "Hit Causes Monster to Flee +64%",
+   "+3 to Terror (Necromancer Only)",
+   "+2 to Decrepify (Necromancer Only)"
+  ]
+ },
+ {
+  "name": "Felloak",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Club",
+  "tier": "Normal",
+  "lvl": 3,
+  "stats": [
+   "Lightning Resist +60%",
+   "Fire Resist +20%",
+   "Knockback",
+   "+6 to Minimum Fire Damage",
+   "+8 to Maximum Fire Damage",
+   "+70-80% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Knell Striker",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Scepter",
+  "tier": "Normal",
+  "lvl": 5,
+  "stats": [
+   "25% Chance of Crushing Blow",
+   "Fire Resist +20%",
+   "Poison Resist +20%",
+   "+15 to Mana",
+   "+35 to Attack Rating",
+   "+70-80% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Rusthandle",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Grand Scepter",
+  "tier": "Normal",
+  "lvl": 17,
+  "stats": [
+   "+1 to Paladin Skill Levels",
+   "+3-7 to Minimum Damage",
+   "Magic Damage Reduced by 1",
+   "8% Life Stolen per Hit",
+   "+50-60% Enhanced Damage",
+   "+50-60% Damage to Undead",
+   "+1-3 to Vengeance (Paladin Only)",
+   "+3 to Thorns (Paladin Only)"
+  ]
+ },
+ {
+  "name": "Stormeye",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "War Scepter",
+  "tier": "Normal",
+  "lvl": 23,
+  "stats": [
+   "Adds 1-6 Lightning Damage",
+   "Adds 3-5 Cold Damage",
+   "Replenish Life +10",
+   "+80-120% Enhanced Damage",
+   "+3-5 to Resist Lightning (Paladin Only)",
+   "+3 to Holy Shock (Paladin Only)",
+   "+1 to Fist of the Heavens (Paladin Only)"
+  ]
+ },
+ {
+  "name": "Stoutnail",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Spiked Club",
+  "tier": "Normal",
+  "lvl": 5,
+  "stats": [
+   "Attacker Takes Damage of 3-10",
+   "+100% Enhanced Damage",
+   "+7 to Vitality",
+   "Magic Damage Reduced by 2"
+  ]
+ },
+ {
+  "name": "Crushflange",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Mace",
+  "tier": "Normal",
+  "lvl": 9,
+  "stats": [
+   "+15 to Strength",
+   "Knockback",
+   "+2 to Light Radius",
+   "Fire Resist +50%",
+   "+50-60% Enhanced Damage",
+   "33% Chance of Crushing Blow"
+  ]
+ },
+ {
+  "name": "Bloodrise",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Morning Star",
+  "tier": "Normal",
+  "lvl": 15,
+  "stats": [
+   "+120% Enhanced Damage",
+   "50% Bonus to Attack Rating",
+   "25% Chance of Open Wounds",
+   "+2 to Light Radius",
+   "+10% Increased Attack Speed",
+   "+3 to Sacrifice (Paladin Only)",
+   "5% Life Stolen per Hit"
+  ]
+ },
+ {
+  "name": "The General's Tan Do Li Ga",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Flail",
+  "tier": "Normal",
+  "lvl": 21,
+  "stats": [
+   "+1 to Minimum Damage",
+   "+20 to Maximum Damage",
+   "Slows Target by 50%",
+   "+25 Defense",
+   "5% Mana Stolen per Hit",
+   "+50-60% Enhanced Damage",
+   "+20% Increased Attack Speed"
+  ]
+ },
+ {
+  "name": "Ironstone",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "War Hammer",
+  "tier": "Normal",
+  "lvl": 27,
+  "stats": [
+   "+100-150 to Attack Rating",
+   "+100-150% Enhanced Damage",
+   "+1 to Minimum Lightning Damage",
+   "+10 to Maximum Lightning Damage",
+   "+10 to Strength"
+  ]
+ },
+ {
+  "name": "Bonesnap",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Maul",
+  "tier": "Normal",
+  "lvl": 24,
+  "stats": [
+   "+200-300% Enhanced Damage",
+   "40% Chance of Crushing Blow",
+   "Fire Resist +30%",
+   "Cold Resist +30%",
+   "+50% Damage to Undead"
+  ]
+ },
+ {
+  "name": "Steeldriver",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Great Maul",
+  "tier": "Normal",
+  "lvl": 29,
+  "stats": [
+   "Requirements -50%",
+   "+40% Increased Attack Speed",
+   "Heal Stamina Plus 25%",
+   "+150-250% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Rixot's Keen",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Short Sword",
+  "tier": "Normal",
+  "lvl": 2,
+  "stats": [
+   "+5 to Minimum Damage",
+   "20% Bonus to Attack Rating",
+   "+2 to Light Radius",
+   "25% Chance of Crushing Blow",
+   "+25 Defense",
+   "+100% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Blood Crescent",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Scimitar",
+  "tier": "Normal",
+  "lvl": 7,
+  "stats": [
+   "All Resistances +15%",
+   "+60-80% Enhanced Damage",
+   "+15 to Life",
+   "+4 to Light Radius",
+   "33% Chance of Open Wounds",
+   "+15% Increased Attack Speed",
+   "15% Life Stolen per Hit"
+  ]
+ },
+ {
+  "name": "Skewer of Krintiz",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Saber",
+  "tier": "Normal",
+  "lvl": 10,
+  "stats": [
+   "Ignore Target's Defense",
+   "+10 to Strength",
+   "+10 to Dexterity",
+   "7% Mana Stolen per Hit",
+   "+50% Enhanced Damage",
+   "+3-7 to Minimum Damage"
+  ]
+ },
+ {
+  "name": "Gleamscythe",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Falchion",
+  "tier": "Normal",
+  "lvl": 13,
+  "stats": [
+   "+3 to Light Radius",
+   "+30 to Mana",
+   "+20 Defense",
+   "+20% Increased Attack Speed",
+   "+60-100% Enhanced Damage",
+   "Adds 3-5 Cold Damage"
+  ]
+ },
+ {
+  "name": "Azurewrath",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Crystal Sword",
+  "tier": "Normal",
+  "lvl": 13,
+  "stats": [
+   "50% Deadly Strike",
+   "10% Better Chance of Getting Magic Items",
+   "Adds 3-6 Cold Damage",
+   "+100% Enhanced Damage",
+   "Increase Maximum Durability 25%",
+   "Adds 5-10 Magic Damage"
+  ]
+ },
+ {
+  "name": "Griswold's Edge",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Broad Sword",
+  "tier": "Normal",
+  "lvl": 17,
+  "stats": [
+   "+10-12 to Minimum Fire Damage",
+   "+15-25 to Maximum Fire Damage",
+   "+100 to Attack Rating",
+   "+10% Increased Attack Speed",
+   "Knockback",
+   "+80-120% Enhanced Damage",
+   "+12 to Strength"
+  ]
+ },
+ {
+  "name": "Hellplague",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Long Sword",
+  "tier": "Normal",
+  "lvl": 22,
+  "stats": [
+   "5% Mana Stolen per Hit",
+   "5% Life Stolen per Hit",
+   "+48 to Minimum Poison Damage",
+   "+96 to Maximum Poison Damage",
+   "+70-80% Enhanced Damage",
+   "Adds 25-75 Fire Damage",
+   "+2 to Fire Skills"
+  ]
+ },
+ {
+  "name": "Culwen's Point",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "War Sword",
+  "tier": "Normal",
+  "lvl": 29,
+  "stats": [
+   "+1 to All Skills",
+   "Poison Length Reduced by 50%",
+   "+20% Faster Hit Recovery",
+   "+20% Increased Attack Speed",
+   "+60 to Attack Rating",
+   "+70-80% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Shadowfang",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "2-Handed Sword",
+  "tier": "Normal",
+  "lvl": 12,
+  "stats": [
+   "9% Mana Stolen per Hit",
+   "Cold Resist +20%",
+   "-2 to Light Radius",
+   "Adds 10-30 Cold Damage",
+   "+100% Enhanced Damage",
+   "9% Life Stolen per Hit"
+  ]
+ },
+ {
+  "name": "Soulflay",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Claymore",
+  "tier": "Normal",
+  "lvl": 19,
+  "stats": [
+   "4-10% Mana Stolen per Hit",
+   "4% Life Stolen per Hit",
+   "+70-100% Enhanced Damage",
+   "All Resistances +5%",
+   "+10% Increased Attack Speed"
+  ]
+ },
+ {
+  "name": "Kinemil's Awl",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Giant Sword",
+  "tier": "Normal",
+  "lvl": 23,
+  "stats": [
+   "+100-150 to Attack Rating",
+   "+20 to Mana",
+   "+6 to Minimum Fire Damage",
+   "+20-40 to Maximum Fire Damage",
+   "+80-100% Enhanced Damage",
+   "+6 to Holy Fire (Paladin Only)"
+  ]
+ },
+ {
+  "name": "Blacktongue",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Bastard Sword",
+  "tier": "Normal",
+  "lvl": 26,
+  "stats": [
+   "Adds 112-112 Poison Damage over 6 Seconds",
+   "Prevent Monster Heal",
+   "+50 to Attack Rating",
+   "Poison Resist +50%",
+   "+50-60% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Ripsaw",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Flamberge",
+  "tier": "Normal",
+  "lvl": 26,
+  "stats": [
+   "80% Chance of Open Wounds",
+   "+15 to Maximum Damage",
+   "6% Mana Stolen per Hit",
+   "+80-100% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "The Patriarch",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Great Sword",
+  "tier": "Normal",
+  "lvl": 29,
+  "stats": [
+   "Damage Reduced by 3",
+   "Magic Damage Reduced by 3",
+   "Hit Blinds Target",
+   "100% Extra Gold from Monsters",
+   "+100-120% Enhanced Damage",
+   "+10 to Strength"
+  ]
+ },
+ {
+  "name": "Gull",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Dagger",
+  "tier": "Normal",
+  "lvl": 4,
+  "stats": [
+   "+1 to Minimum Damage",
+   "+15 to Maximum Damage",
+   "100% Better Chance of Getting Magic Items",
+   "-5 to Mana"
+  ]
+ },
+ {
+  "name": "The Diggler",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Dirk",
+  "tier": "Normal",
+  "lvl": 11,
+  "stats": [
+   "+10 to Dexterity",
+   "+50% Enhanced Damage",
+   "+30% Increased Attack Speed",
+   "Cold Resist +25%",
+   "Fire Resist +25%",
+   "Ignore Target's Defense"
+  ]
+ },
+ {
+  "name": "The Jade Tan Do",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Kris",
+  "tier": "Normal",
+  "lvl": 19,
+  "stats": [
+   "+100-150 to Attack Rating",
+   "Cannot Be Frozen",
+   "Adds 180-180 Poison Damage over 4 Seconds",
+   "Poison Resist +95%",
+   "+20% to Maximum Poison Resist"
+  ]
+ },
+ {
+  "name": "Spectral Shard",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Blade",
+  "tier": "Normal",
+  "lvl": 25,
+  "stats": [
+   "+50% Faster Cast Rate",
+   "+50 to Mana",
+   "+55 to Attack Rating",
+   "All Resistances +10%"
+  ]
+ },
+ {
+  "name": "The Dragon Chang",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Spear",
+  "tier": "Normal",
+  "lvl": 8,
+  "stats": [
+   "+35 to Attack Rating",
+   "+10 to Minimum Damage",
+   "+2 to Light Radius",
+   "+100% Damage to Undead",
+   "Adds 3-6 Fire Damage"
+  ]
+ },
+ {
+  "name": "Razortine",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Trident",
+  "tier": "Normal",
+  "lvl": 12,
+  "stats": [
+   "Slows Target by 25%",
+   "-50% Target Defense",
+   "+15 to Strength",
+   "+8 to Dexterity",
+   "+30% Increased Attack Speed",
+   "+30-50% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Bloodthief",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Brandistock",
+  "tier": "Normal",
+  "lvl": 17,
+  "stats": [
+   "35% Chance of Open Wounds",
+   "+10 to Strength",
+   "8-12% Life Stolen per Hit",
+   "+26 to Life",
+   "+50-70% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Lance of Yaggai",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Spetum",
+  "tier": "Normal",
+  "lvl": 22,
+  "stats": [
+   "Attacker Takes Damage of 8",
+   "+1 to Minimum Lightning Damage",
+   "+60 to Maximum Lightning Damage",
+   "All Resistances +15%",
+   "+40% Increased Attack Speed"
+  ]
+ },
+ {
+  "name": "The Tannr Gorerod",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Pike",
+  "tier": "Normal",
+  "lvl": 27,
+  "stats": [
+   "+23 to Minimum Fire Damage",
+   "+54 to Maximum Fire Damage",
+   "+15% to Maximum Fire Resist",
+   "+30 to Life",
+   "+60 to Attack Rating",
+   "+3 to Light Radius",
+   "Fire Resist +15%",
+   "+80-100% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Dimoak's Hew",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Bardiche",
+  "tier": "Normal",
+  "lvl": 8,
+  "stats": [
+   "+15 to Dexterity",
+   "+100% Enhanced Damage",
+   "+20% Increased Attack Speed",
+   "-8 Defense"
+  ]
+ },
+ {
+  "name": "Steelgoad",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Voulge",
+  "tier": "Normal",
+  "lvl": 14,
+  "stats": [
+   "Hit Causes Monster to Flee +96%",
+   "30% Deadly Strike",
+   "+30 to Attack Rating",
+   "All Resistances +5%",
+   "+60-80% Enhanced Damage",
+   "Increase Maximum Durability 20-40%"
+  ]
+ },
+ {
+  "name": "Soul Harvest",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Scythe",
+  "tier": "Normal",
+  "lvl": 19,
+  "stats": [
+   "30% Chance of Open Wounds",
+   "+45 to Attack Rating",
+   "All Resistances +20%",
+   "+50-90% Enhanced Damage",
+   "10% Mana Stolen per Hit",
+   "+5 to Energy"
+  ]
+ },
+ {
+  "name": "The Battlebranch",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Poleaxe",
+  "tier": "Normal",
+  "lvl": 25,
+  "stats": [
+   "+30% Increased Attack Speed",
+   "+10 to Dexterity",
+   "+50-70% Enhanced Damage",
+   "+50-100 to Attack Rating",
+   "7% Life Stolen per Hit"
+  ]
+ },
+ {
+  "name": "Woestave",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Halberd",
+  "tier": "Normal",
+  "lvl": 28,
+  "stats": [
+   "Slows Target by 50%",
+   "50% Chance of Open Wounds",
+   "Hit Blinds Target",
+   "-50 to Monster Defense Per Hit",
+   "Freezes target",
+   "-3 to Light Radius",
+   "Prevent Monster Heal",
+   "+20-40% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "The Grim Reaper",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "War Scythe",
+  "tier": "Normal",
+  "lvl": 29,
+  "stats": [
+   "100% Deadly Strike",
+   "Prevent Monster Heal",
+   "5% Mana Stolen per Hit",
+   "+20% Enhanced Damage",
+   "+15 to Minimum Damage"
+  ]
+ },
+ {
+  "name": "Bane Ash",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Short Staff",
+  "tier": "Normal",
+  "lvl": 5,
+  "stats": [
+   "+4 to Minimum Fire Damage",
+   "+6 to Maximum Fire Damage",
+   "Fire Resist +50%",
+   "+30 to Mana",
+   "+20% Increased Attack Speed",
+   "+50-60% Enhanced Damage",
+   "+5 to Fire Bolt (Sorceress Only)",
+   "+2 to Warmth (Sorceress Only)"
+  ]
+ },
+ {
+  "name": "Serpent Lord",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Long Staff",
+  "tier": "Normal",
+  "lvl": 9,
+  "stats": [
+   "Adds 12-12 Poison Damage over 3 Seconds",
+   "Poison Resist +50%",
+   "-1 to Light Radius",
+   "+10 to Mana",
+   "+30-40% Enhanced Damage",
+   "100% Mana Stolen per Hit",
+   "-50% Target Defense"
+  ]
+ },
+ {
+  "name": "Spire of Lazarus",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Gnarled Staff",
+  "tier": "Normal",
+  "lvl": 18,
+  "stats": [
+   "Lightning Resist +75%",
+   "Damage Reduced by 5",
+   "+15 to Energy",
+   "+1 to Chain Lightning (Sorceress Only)",
+   "+2 to Lightning (Sorceress Only)",
+   "+3 to Static Field (Sorceress Only)",
+   "Regenerate Mana 43%",
+   "Adds 1-28 Lightning Damage",
+   "+1 to Sorceress Skill Levels"
+  ]
+ },
+ {
+  "name": "The Salamander",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Battle Staff",
+  "tier": "Normal",
+  "lvl": 21,
+  "stats": [
+   "Adds 15-32 Fire Damage",
+   "Fire Resist +30%",
+   "+1 to Fire Wall (Sorceress Only)",
+   "+2 to Fire Ball (Sorceress Only)",
+   "+3 to Warmth (Sorceress Only)",
+   "+2 to Fire Skills"
+  ]
+ },
+ {
+  "name": "The Iron Jang Bong",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "War Staff",
+  "tier": "Normal",
+  "lvl": 28,
+  "stats": [
+   "+30 Defense",
+   "+20% Faster Cast Rate",
+   "+100% Enhanced Damage",
+   "50% Bonus to Attack Rating",
+   "+2 to Nova (Sorceress Only)",
+   "+2 to Blaze (Sorceress Only)",
+   "+3 to Frost Nova (Sorceress Only)",
+   "+2 to Sorceress Skill Levels"
+  ]
+ },
+ {
+  "name": "Pluckeye",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Short Bow",
+  "tier": "Normal",
+  "lvl": 7,
+  "stats": [
+   "+28 to Attack Rating",
+   "+100% Enhanced Damage",
+   "+10 to Life",
+   "+2 to Light Radius",
+   "3% Mana Stolen per Hit",
+   "+2 to Mana after each Kill"
+  ]
+ },
+ {
+  "name": "Witherstring",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Hunter\\92s Bow",
+  "tier": "Normal",
+  "lvl": 13,
+  "stats": [
+   "+30% Increased Attack Speed",
+   "+1 to Minimum Damage",
+   "+3 to Maximum Damage",
+   "+50 to Attack Rating",
+   "Fires Magic Arrows",
+   "+40-50% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Raven Claw",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Long Bow",
+  "tier": "Normal",
+  "lvl": 15,
+  "stats": [
+   "50% Bonus to Attack Rating",
+   "+3 to Dexterity",
+   "Fires Explosive Arrows or Bolts",
+   "+3 to Strength",
+   "+60-70% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Rogue's Bow",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Composite Bow",
+  "tier": "Normal",
+  "lvl": 20,
+  "stats": [
+   "All Resistances +10%",
+   "30% Deadly Strike",
+   "+60 to Attack Rating",
+   "+100% Damage to Undead",
+   "+40-60% Enhanced Damage",
+   "+50% Increased Attack Speed"
+  ]
+ },
+ {
+  "name": "Stormstrike",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Short Battle Bow",
+  "tier": "Normal",
+  "lvl": 25,
+  "stats": [
+   "Adds 1-30 Lightning Damage",
+   "+8 to Strength",
+   "+28 to Attack Rating",
+   "Piercing Attack 25%",
+   "Lightning Resist +25%",
+   "+70-90% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Wizendraw",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Long Battle Bow",
+  "tier": "Normal",
+  "lvl": 26,
+  "stats": [
+   "Fires Magic Arrows",
+   "+30 to Mana",
+   "+20% Increased Attack Speed",
+   "Cold Resist +26%",
+   "+50-100 to Attack Rating",
+   "+70-80% Enhanced Damage",
+   "+15 to Energy",
+   "-20-35% to Enemy Cold Resistance"
+  ]
+ },
+ {
+  "name": "Hellclap",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Short War Bow",
+  "tier": "Normal",
+  "lvl": 27,
+  "stats": [
+   "+10% Increased Attack Speed",
+   "+15 to Minimum Fire Damage",
+   "+30-50 to Maximum Fire Damage",
+   "+50-75 to Attack Rating",
+   "Fire Resist +40%",
+   "+12 to Dexterity",
+   "+70-90% Enhanced Damage",
+   "+1 to Fire Skills"
+  ]
+ },
+ {
+  "name": "Blastbark",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Long War Bow",
+  "tier": "Normal",
+  "lvl": 28,
+  "stats": [
+   "+70-130% Enhanced Damage",
+   "+5 to Strength",
+   "+1 to Amazon Skill Levels",
+   "3% Mana Stolen per Hit",
+   "+2 to Exploding Arrow (Amazon Only)"
+  ]
+ },
+ {
+  "name": "Leadcrow",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Light Crossbow",
+  "tier": "Normal",
+  "lvl": 9,
+  "stats": [
+   "+10 to Dexterity",
+   "+10 to Life",
+   "+70% Enhanced Damage",
+   "Poison Resist +30%",
+   "25% Deadly Strike",
+   "+40 to Attack Rating"
+  ]
+ },
+ {
+  "name": "Ichorsting",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Crossbow",
+  "tier": "Normal",
+  "lvl": 18,
+  "stats": [
+   "Adds 30-30 Poison Damage over 3 Seconds",
+   "+20 to Dexterity",
+   "Piercing Attack 50%",
+   "+50 to Attack Rating",
+   "+50% Enhanced Damage",
+   "+20% Increased Attack Speed"
+  ]
+ },
+ {
+  "name": "Hellcast",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Heavy Crossbow",
+  "tier": "Normal",
+  "lvl": 27,
+  "stats": [
+   "Fires Explosive Arrows or Bolts",
+   "+15% to Maximum Fire Resist",
+   "Fire Resist +15%",
+   "+70 to Attack Rating",
+   "+20% Increased Attack Speed",
+   "+70-80% Enhanced Damage",
+   "Adds 15-35 Fire Damage"
+  ]
+ },
+ {
+  "name": "Doomslinger",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Repeating Crossbow",
+  "tier": "Normal",
+  "lvl": 28,
+  "stats": [
+   "+1 to Amazon Skill Levels",
+   "Piercing Attack 35%",
+   "+30% Increased Attack Speed",
+   "+15 to Life",
+   "+60-100% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Biggin's Bonnet",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Cap",
+  "tier": "Normal",
+  "lvl": 3,
+  "stats": [
+   "+15 to Life",
+   "+30 to Attack Rating",
+   "+30% Enhanced Damage",
+   "+15 to Mana",
+   "+14 Defense"
+  ]
+ },
+ {
+  "name": "Tarnhelm",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Skull Cap",
+  "tier": "Normal",
+  "lvl": 15,
+  "stats": [
+   "75% Extra Gold from Monsters",
+   "25-50% Better Chance of Getting Magic Items",
+   "+1 to All Skills"
+  ]
+ },
+ {
+  "name": "Coif of Glory",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Helm",
+  "tier": "Normal",
+  "lvl": 14,
+  "stats": [
+   "Attacker Takes Lightning Damage of 7",
+   "Hit Blinds Target",
+   "Lightning Resist +15%",
+   "+100 Defense vs. Missile",
+   "+10 Defense"
+  ]
+ },
+ {
+  "name": "Duskdeep",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Full Helm",
+  "tier": "Normal",
+  "lvl": 17,
+  "stats": [
+   "-2 to Light Radius",
+   "All Resistances +15%",
+   "Damage Reduced by 7",
+   "+8 to Maximum Damage",
+   "+10-20 Defense",
+   "+30-50% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Wormskull",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Bone Helm",
+  "tier": "Normal",
+  "lvl": 21,
+  "stats": [
+   "+1 to Necromancer Skill Levels",
+   "5% Life Stolen per Hit",
+   "+10 to Mana",
+   "Poison Resist +25%",
+   "Adds 80-80 Poison Damage over 8 Seconds"
+  ]
+ },
+ {
+  "name": "Howltusk",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Great Helm",
+  "tier": "Normal",
+  "lvl": 25,
+  "stats": [
+   "Magic Damage Reduced by 2",
+   "Attacker Takes Damage of 3",
+   "+80% Enhanced Defense",
+   "+35% Damage Taken Goes To Mana",
+   "Knockback",
+   "Hit Causes Monster to Flee +33%"
+  ]
+ },
+ {
+  "name": "Undead Crown",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Crown",
+  "tier": "Normal",
+  "lvl": 29,
+  "stats": [
+   "5% Life Stolen per Hit",
+   "+40 Defense",
+   "Poison Resist +50%",
+   "Half Freeze Duration",
+   "+30-60% Enhanced Defense",
+   "+50% Damage to Undead",
+   "+50-100 to Attack Rating against Undead",
+   "+3 to Skeleton Mastery (Necromancer Only)"
+  ]
+ },
+ {
+  "name": "The Face of Horror",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Mask",
+  "tier": "Normal",
+  "lvl": 20,
+  "stats": [
+   "Hit Causes Monster to Flee +64%",
+   "+20 to Strength",
+   "All Resistances +10%",
+   "+50% Damage to Undead",
+   "+25 Defense"
+  ]
+ },
+ {
+  "name": "Greyform",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Quilted Armor",
+  "tier": "Normal",
+  "lvl": 7,
+  "stats": [
+   "Magic Damage Reduced by 3",
+   "Cold Resist +20%",
+   "Fire Resist +20%",
+   "+10 to Dexterity",
+   "5% Life Stolen per Hit",
+   "+20 Defense"
+  ]
+ },
+ {
+  "name": "Blinkbat's Form",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Leather Armor",
+  "tier": "Normal",
+  "lvl": 12,
+  "stats": [
+   "+50 Defense vs. Missile",
+   "+10% Faster Run/Walk",
+   "+25 Defense",
+   "+3 to Minimum Fire Damage",
+   "+6 to Maximum Fire Damage",
+   "+40% Faster Hit Recovery"
+  ]
+ },
+ {
+  "name": "The Centurion",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Hard Leather",
+  "tier": "Normal",
+  "lvl": 14,
+  "stats": [
+   "+30 Defense",
+   "+50 to Attack Rating",
+   "Damage Reduced by 2",
+   "+15 to Life",
+   "+15 to Mana",
+   "+15 Maximum Stamina",
+   "Replenish Life +5",
+   "25% Slower Stamina Drain"
+  ]
+ },
+ {
+  "name": "Twitchthroe",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Studded Leather",
+  "tier": "Normal",
+  "lvl": 16,
+  "stats": [
+   "+20% Increased Attack Speed",
+   "+10 to Dexterity",
+   "25% Increased Chance of Blocking",
+   "+25 Defense",
+   "+10 to Strength",
+   "+20% Faster Hit Recovery"
+  ]
+ },
+ {
+  "name": "Darkglow",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ring Mail",
+  "tier": "Normal",
+  "lvl": 14,
+  "stats": [
+   "+20 to Attack Rating",
+   "All Maximum Resistances +5%",
+   "+3 to Light Radius",
+   "+50 Defense vs. Melee",
+   "All Resistances +10%",
+   "+70-100% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Hawkmail",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Scale Mail",
+  "tier": "Normal",
+  "lvl": 15,
+  "stats": [
+   "+80-100% Enhanced Defense",
+   "+15% to Maximum Cold Resist",
+   "Cold Resist +15%",
+   "Cannot Be Frozen",
+   "+10% Faster Run/Walk"
+  ]
+ },
+ {
+  "name": "Sparking Mail",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Chain Mail",
+  "tier": "Normal",
+  "lvl": 17,
+  "stats": [
+   "+75-85% Enhanced Defense",
+   "Adds 1-20 Lightning Damage",
+   "Attacker Takes Lightning Damage of 10-14",
+   "Lightning Resist +30%"
+  ]
+ },
+ {
+  "name": "Venom Ward",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Breast Plate",
+  "tier": "Normal",
+  "lvl": 20,
+  "stats": [
+   "+15% to Maximum Poison Resist",
+   "Poison Length Reduced by 50%",
+   "Poison Resist +90%",
+   "+2 to Light Radius",
+   "+60-100% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Iceblink",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Splint Mail",
+  "tier": "Normal",
+  "lvl": 22,
+  "stats": [
+   "Freezes target",
+   "Cold Resist +30%",
+   "+4 to Light Radius",
+   "Magic Damage Reduced by 1",
+   "+70-80% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Boneflesh",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Plate Mail",
+  "tier": "Normal",
+  "lvl": 26,
+  "stats": [
+   "5% Life Stolen per Hit",
+   "+100-120% Enhanced Defense",
+   "+35 to Attack Rating",
+   "25% Chance of Open Wounds"
+  ]
+ },
+ {
+  "name": "Rockfleece",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Field Plate",
+  "tier": "Normal",
+  "lvl": 28,
+  "stats": [
+   "Requirements -10%",
+   "+100-130% Enhanced Defense",
+   "Damage Reduced by 10%",
+   "Damage Reduced by 5",
+   "+5 to Strength"
+  ]
+ },
+ {
+  "name": "Rattlecage",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Gothic Plate",
+  "tier": "Normal",
+  "lvl": 29,
+  "stats": [
+   "Hit Causes Monster to Flee +52%",
+   "+45 to Attack Rating",
+   "25% Chance of Crushing Blow",
+   "+200 Defense"
+  ]
+ },
+ {
+  "name": "Goldskin",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Full Plate Mail",
+  "tier": "Normal",
+  "lvl": 28,
+  "stats": [
+   "+120-150% Enhanced Defense",
+   "All Resistances +35%",
+   "Attacker Takes Damage of 10",
+   "+2 to Light Radius",
+   "100% Extra Gold from Monsters"
+  ]
+ },
+ {
+  "name": "Silks of the Victor",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "AncientArmor",
+  "tier": "Normal",
+  "lvl": 28,
+  "stats": [
+   "5% Mana Stolen per Hit",
+   "+1 to All Skills",
+   "+2 to Light Radius",
+   "+100-120% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Heavenly Garb",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Light Plate",
+  "tier": "Normal",
+  "lvl": 29,
+  "stats": [
+   "+100% Enhanced Defense",
+   "All Resistances +10%",
+   "Regenerate Mana 25%",
+   "+15 to Energy",
+   "+50% Damage to Undead",
+   "+100 to Attack Rating against Undead"
+  ]
+ },
+ {
+  "name": "Pelta Lunata",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Buckler",
+  "tier": "Normal",
+  "lvl": 2,
+  "stats": [
+   "+30 Defense",
+   "+10 to Vitality",
+   "+2 to Strength",
+   "+10 to Energy",
+   "+30-40% Enhanced Defense",
+   "20% Increased Chance of Blocking",
+   "40% Faster Block Rate",
+   "Increase Maximum Durability 8-12%"
+  ]
+ },
+ {
+  "name": "Umbral Disk",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Small Shield",
+  "tier": "Normal",
+  "lvl": 9,
+  "stats": [
+   "Hit Blinds Target",
+   "+10 to Dexterity",
+   "+30 Defense",
+   "+20 to Life",
+   "-2 to Light Radius",
+   "+40-50% Enhanced Defense",
+   "30% Increased Chance of Blocking",
+   "Increase Maximum Durability 10-15%"
+  ]
+ },
+ {
+  "name": "Stormguild",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Large Shield",
+  "tier": "Normal",
+  "lvl": 13,
+  "stats": [
+   "Magic Damage Reduced by 1",
+   "Lightning Resist +25%",
+   "+30 Defense",
+   "Adds 1-6 Lightning Damage",
+   "+50-60% Enhanced Defense",
+   "30% Increased Chance of Blocking",
+   "Attacker Takes Lightning Damage of 3",
+   "Increase Maximum Durability 10-15%"
+  ]
+ },
+ {
+  "name": "Wall of the Eyeless",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Bone Shield",
+  "tier": "Normal",
+  "lvl": 20,
+  "stats": [
+   "+5 to Mana after each Kill",
+   "3% Mana Stolen per Hit",
+   "+20% Faster Cast Rate",
+   "Poison Resist +20%",
+   "+30-40% Enhanced Defense",
+   "+10 Defense"
+  ]
+ },
+ {
+  "name": "Swordback Hold",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Spiked Shield",
+  "tier": "Normal",
+  "lvl": 15,
+  "stats": [
+   "Attacker Takes Damage of 5",
+   "20% Increased Chance of Blocking",
+   "50% Chance of Open Wounds",
+   "+30-60% Enhanced Defense",
+   "Attacker Takes Damage of 5",
+   "+10 Defense"
+  ]
+ },
+ {
+  "name": "Steelclash",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Kite Shield",
+  "tier": "Normal",
+  "lvl": 17,
+  "stats": [
+   "25% Increased Chance of Blocking",
+   "+1 to Paladin Skill Levels",
+   "Damage Reduced by 3",
+   "+3 to Light Radius",
+   "+60-100% Enhanced Defense",
+   "20% Faster Block Rate",
+   "All Resistances +15%",
+   "+20 Defense",
+   "Increase Maximum Durability 15-20%"
+  ]
+ },
+ {
+  "name": "Bverrit Keep",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Tower Shield",
+  "tier": "Normal",
+  "lvl": 19,
+  "stats": [
+   "+30 Defense",
+   "Fire Resist +75%",
+   "+5 to Strength",
+   "Magic Damage Reduced by 5",
+   "+80-120% Enhanced Defense",
+   "10% Increased Chance of Blocking",
+   "Increase Maximum Durability 80-100%"
+  ]
+ },
+ {
+  "name": "The Ward",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Gothic Shield",
+  "tier": "Normal",
+  "lvl": 26,
+  "stats": [
+   "+40 Defense",
+   "Magic Damage Reduced by 2",
+   "+10 to Strength",
+   "10% Increased Chance of Blocking",
+   "+100% Enhanced Defense",
+   "All Resistances +30-50%"
+  ]
+ },
+ {
+  "name": "The Hand of Broc",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Gloves",
+  "tier": "Normal",
+  "lvl": 5,
+  "stats": [
+   "3% Mana Stolen per Hit",
+   "3% Life Stolen per Hit",
+   "Poison Resist +10%",
+   "+20 to Mana",
+   "+10 Defense",
+   "+10-20% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Bloodfist",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Heavy Gloves",
+  "tier": "Normal",
+  "lvl": 9,
+  "stats": [
+   "+5 to Minimum Damage",
+   "+40 to Life",
+   "+30% Faster Hit Recovery",
+   "+10 Defense",
+   "+10-20% Enhanced Defense",
+   "+10% Increased Attack Speed"
+  ]
+ },
+ {
+  "name": "Chance Guards",
+  "alias": [
+   "Chancies",
+   "CG"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Bracers",
+  "tier": "Normal",
+  "lvl": 15,
+  "stats": [
+   "200% Extra Gold from Monsters",
+   "25-40% Better Chance of Getting Magic Items",
+   "+25 to Attack Rating",
+   "+15 Defense",
+   "+2 to Light Radius",
+   "+20-30% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Magefist",
+  "alias": [
+   "Mage"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Light Gauntlets",
+  "tier": "Normal",
+  "lvl": 23,
+  "stats": [
+   "+20% Faster Cast Rate",
+   "Regenerate Mana 25%",
+   "+1 to Fire Skills",
+   "Adds 1-6 Fire Damage",
+   "+10 Defense",
+   "+20-30% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Frostburn",
+  "alias": [
+   "Frostburns"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Gauntlets",
+  "tier": "Normal",
+  "lvl": 29,
+  "stats": [
+   "+30 Defense",
+   "+5% Enhanced Damage",
+   "Increase Maximum Mana 40%",
+   "Adds 1-6 Cold Damage",
+   "+10-20% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Hotspur",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Leather Boots",
+  "tier": "Normal",
+  "lvl": 5,
+  "stats": [
+   "+15% to Maximum Fire Resist",
+   "+15 to Life",
+   "Adds 3-6 Fire Damage",
+   "+6 Defense",
+   "Fire Resist +45%",
+   "+10-20% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Gorefoot",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Heavy Boots",
+  "tier": "Normal",
+  "lvl": 9,
+  "stats": [
+   "+20% Faster Run/Walk",
+   "2% Mana Stolen per Hit",
+   "Attacker Takes Damage of 2",
+   "+12 Defense",
+   "+20-30% Enhanced Defense",
+   "+2 to Leap (Barbarian Only)"
+  ]
+ },
+ {
+  "name": "Treads of Cthon",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Chain Boots",
+  "tier": "Normal",
+  "lvl": 15,
+  "stats": [
+   "+30% Faster Run/Walk",
+   "+50 Defense vs. Missile",
+   "50% Slower Stamina Drain",
+   "+10 to Life",
+   "+12 Defense",
+   "+30-40% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Goblin Toe",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Light Plate Boots",
+  "tier": "Normal",
+  "lvl": 22,
+  "stats": [
+   "25% Chance of Crushing Blow",
+   "Damage Reduced by 1",
+   "Magic Damage Reduced by 1",
+   "+15 Defense",
+   "-1 to Light Radius",
+   "+50-60% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Tearhaunch",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Plate Boots",
+  "tier": "Normal",
+  "lvl": 29,
+  "stats": [
+   "+35 Defense",
+   "+5 to Strength",
+   "+5 to Dexterity",
+   "+20% Faster Run/Walk",
+   "All Resistances +10%",
+   "+60-80% Enhanced Defense",
+   "+2 to Vigor (Paladin Only)"
+  ]
+ },
+ {
+  "name": "Lenymo",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Sash",
+  "tier": "Normal",
+  "lvl": 7,
+  "stats": [
+   "+15 to Mana",
+   "Regenerate Mana 30%",
+   "All Resistances +5%",
+   "+1 to Light Radius"
+  ]
+ },
+ {
+  "name": "Snakecord",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Light Belt",
+  "tier": "Normal",
+  "lvl": 12,
+  "stats": [
+   "Adds 12-12 Poison Damage over 3 Seconds",
+   "Poison Resist +25%",
+   "+10 Defense",
+   "+20-30% Enhanced Defense",
+   "Replenish Life +5",
+   "Poison Length Reduced by 50%"
+  ]
+ },
+ {
+  "name": "Nightsmoke",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Belt",
+  "tier": "Normal",
+  "lvl": 20,
+  "stats": [
+   "All Resistances +10%",
+   "+50% Damage Taken Goes To Mana",
+   "+20 to Mana",
+   "Damage Reduced by 2",
+   "+15 Defense",
+   "+30-50% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Goldwrap",
+  "alias": [
+   "Gold"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Heavy Belt",
+  "tier": "Normal",
+  "lvl": 27,
+  "stats": [
+   "30% Better Chance of Getting Magic Items",
+   "+2 to Light Radius",
+   "+25 Defense",
+   "+10% Increased Attack Speed",
+   "+40-60% Enhanced Defense",
+   "50-80% Extra Gold from Monsters"
+  ]
+ },
+ {
+  "name": "Bladebuckle",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Girdle",
+  "tier": "Normal",
+  "lvl": 29,
+  "stats": [
+   "Attacker Takes Damage of 8",
+   "+30 Defense",
+   "Damage Reduced by 3",
+   "+5 to Strength",
+   "+10 to Dexterity",
+   "+80-100% Enhanced Defense",
+   "+30% Faster Hit Recovery"
+  ]
+ },
+ {
+  "name": "Nokozan Relic",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 10,
+  "stats": [
+   "Adds 3-6 Fire Damage",
+   "+10% to Maximum Fire Resist",
+   "Fire Resist +50%",
+   "+3 to Light Radius",
+   "+20% Faster Hit Recovery"
+  ]
+ },
+ {
+  "name": "The Eye of Etlich",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 15,
+  "stats": [
+   "+10-40 Defense vs. Missile",
+   "+1-5 to Light Radius",
+   "+1 to All Skills",
+   "3-7% Life Stolen per Hit",
+   "+1-2 to Minimum Cold Damage",
+   "+3-5 to Maximum Cold Damage",
+   "Freezes Target +50-250"
+  ]
+ },
+ {
+  "name": "The Mahim-Oak Curio",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 25,
+  "stats": [
+   "+10 to All Attributes",
+   "+10 Defense",
+   "10% Bonus to Attack Rating",
+   "All Resistances +10%",
+   "+10% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Nagelring",
+  "alias": [
+   "Nagel"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Ring",
+  "tier": "",
+  "lvl": 7,
+  "stats": [
+   "Magic Damage Reduced by 3",
+   "Attacker Takes Damage of 3",
+   "+50-75 to Attack Rating",
+   "15-30% Better Chance of Getting Magic Items"
+  ]
+ },
+ {
+  "name": "Manald Heal",
+  "alias": [
+   "Manald"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Ring",
+  "tier": "",
+  "lvl": 15,
+  "stats": [
+   "4-7% Mana Stolen per Hit",
+   "Replenish Life +5-8",
+   "+20 to Life",
+   "Regenerate Mana 20%"
+  ]
+ },
+ {
+  "name": "The Stone of Jordan",
+  "alias": [
+   "SoJ"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Ring",
+  "tier": "",
+  "lvl": 29,
+  "stats": [
+   "+20 to Mana",
+   "Increase Maximum Mana 25%",
+   "+1 to Minimum Lightning Damage",
+   "+1 to All Skills",
+   "+12 to Maximum Lightning Damage"
+  ]
+ },
+ {
+  "name": "Amulet of the Viper",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 0,
+  "stats": [
+   "+10 to Mana",
+   "Poison Resist +25%",
+   "+10 to Life"
+  ]
+ },
+ {
+  "name": "Staff of Kings",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Staff",
+  "tier": "Normal",
+  "lvl": 0,
+  "stats": [
+   "All Resistances +10%",
+   "+50% Increased Attack Speed"
+  ]
+ },
+ {
+  "name": "Horadric Staff",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Staff",
+  "tier": "Normal",
+  "lvl": 0,
+  "stats": [
+   "+10 to Mana",
+   "Poison Resist +25%",
+   "+10 to Life",
+   "All Resistances +10%",
+   "+50% Increased Attack Speed"
+  ]
+ },
+ {
+  "name": "Hell Forge Hammer",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Hammer",
+  "tier": "Normal",
+  "lvl": 0,
+  "stats": [
+   "+5 to Minimum Fire Damage",
+   "+20 to Maximum Fire Damage",
+   "Fire Resist +40%",
+   "+35 Defense"
+  ]
+ },
+ {
+  "name": "Khalim's Flail",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Flail",
+  "tier": "",
+  "lvl": 0,
+  "stats": [
+   "+1 to Minimum Lightning Damage",
+   "+20 to Maximum Lightning Damage",
+   "+50% Increased Attack Speed",
+   "+40 to Attack Rating"
+  ]
+ },
+ {
+  "name": "Khalim's Will",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Flail",
+  "tier": "",
+  "lvl": 0,
+  "stats": [
+   "+1 to Minimum Lightning Damage",
+   "+40 to Maximum Lightning Damage",
+   "+50% Increased Attack Speed",
+   "+40 to Attack Rating",
+   "6% Mana Stolen per Hit",
+   "6% Life Stolen per Hit"
+  ]
+ },
+ {
+  "name": "Coldkill",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Hatchet",
+  "tier": "Exceptional",
+  "lvl": 36,
+  "stats": [
+   "Adds 40-40 Cold Damage",
+   "Cold Resist +15%",
+   "+15% to Maximum Cold Resist",
+   "+30% Increased Attack Speed",
+   "10% Chance to Cast Level 10 Ice Blast on Striking",
+   "10% Chance to Cast Level 5 Frost Nova When Struck",
+   "+150-190% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Butcher's Pupil",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Cleaver",
+  "tier": "Exceptional",
+  "lvl": 39,
+  "stats": [
+   "35% Deadly Strike",
+   "25% Chance of Open Wounds",
+   "+150-200% Enhanced Damage",
+   "Indestructible",
+   "+30% Increased Attack Speed",
+   "+30-50 to Minimum Damage"
+  ]
+ },
+ {
+  "name": "Islestrike",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Twin Axe",
+  "tier": "Exceptional",
+  "lvl": 43,
+  "stats": [
+   "+2 to Druid Skill Levels",
+   "+10 to All Attributes",
+   "+50 Defense vs. Missile",
+   "25% Chance of Crushing Blow",
+   "+170-190% Enhanced Damage",
+   "+1 to Maul (Druid Only)",
+   "+1 to Fury (Druid Only)"
+  ]
+ },
+ {
+  "name": "Pompeii's Wrath",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Crowbill",
+  "tier": "Exceptional",
+  "lvl": 45,
+  "stats": [
+   "4% Chance to Cast Level 8 Volcano on Striking",
+   "Slows Target by 50%",
+   "Adds 35-150 Fire Damage",
+   "Knockback",
+   "+140-170% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Guardian Naga",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Naga",
+  "tier": "Exceptional",
+  "lvl": 48,
+  "stats": [
+   "5% Chance to Cast Level 8 Poison Nova on Striking",
+   "Attacker Takes Damage of 15",
+   "Poison Resist +30%",
+   "+150-180% Enhanced Damage",
+   "Adds 250-250 Poison Damage over 10 Seconds",
+   "+20 to Maximum Damage"
+  ]
+ },
+ {
+  "name": "Warlord's Trust",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Military Axe",
+  "tier": "Exceptional",
+  "lvl": 35,
+  "stats": [
+   "+75 Defense",
+   "Replenish Life +20",
+   "+0-49 to Vitality (by character level)",
+   "All Resistances +10%",
+   "Repairs 0 durability per second",
+   "+175% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Spellsteel",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Bearded Axe",
+  "tier": "Exceptional",
+  "lvl": 39,
+  "stats": [
+   "Requirements -60%",
+   "+100 to Mana",
+   "Magic Damage Reduced by 12-15",
+   "+10% Faster Cast Rate",
+   "+165% Enhanced Damage",
+   "Regenerate Mana 25%",
+   "Level 1 Teleport (20 Charges)",
+   "Level 3 Decrepify (30 Charges)",
+   "Level 10 Holy Bolt (100 Charges)",
+   "Level 12 Firestorm (60 Charges)"
+  ]
+ },
+ {
+  "name": "Stormrider",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Tabar",
+  "tier": "Exceptional",
+  "lvl": 41,
+  "stats": [
+   "5% Chance to Cast Level 10 Chain Lightning on Striking",
+   "10% Chance to Cast Level 0 Charged Bolt on Striking",
+   "Adds 1-200 Lightning Damage",
+   "+35-75 to Minimum Damage",
+   "+100% Enhanced Damage",
+   "Increase Maximum Durability 50%",
+   "Attacker Takes Lightning Damage of 15",
+   "15% Chance to Cast Level 5 Charged Bolt When Struck"
+  ]
+ },
+ {
+  "name": "Boneslayer Blade",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Gothic Axe",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "+1-123 to Attack Rating against Undead (by character level)",
+   "+2-247% Damage to Undead (by character level)",
+   "+8 to Strength",
+   "+20% Increased Attack Speed",
+   "35% Bonus to Attack Rating",
+   "+180-220% Enhanced Damage",
+   "Level 20 Holy Bolt (200 Charges)",
+   "50% Chance to Cast Level 0 Holy Bolt When Struck"
+  ]
+ },
+ {
+  "name": "The Minotaur",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ancient Axe",
+  "tier": "Exceptional",
+  "lvl": 45,
+  "stats": [
+   "Hit Blinds Target",
+   "Half Freeze Duration",
+   "+15-20 to Strength",
+   "Slows Target by 50%",
+   "30% Chance of Crushing Blow",
+   "+20-30 to Minimum Damage",
+   "+140-200% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Suicide Branch",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Burnt Wand",
+  "tier": "Exceptional",
+  "lvl": 33,
+  "stats": [
+   "Attacker Takes Damage of 25",
+   "+50% Faster Cast Rate",
+   "All Resistances +10%",
+   "Increase Maximum Mana 10%",
+   "+40 to Life",
+   "+1 to All Skills"
+  ]
+ },
+ {
+  "name": "Carin Shard",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Petrified Wand",
+  "tier": "Exceptional",
+  "lvl": 35,
+  "stats": [
+   "+1-123 to Life (by character level)",
+   "+10% Faster Cast Rate",
+   "+1-123 to Mana (by character level)",
+   "+30% Faster Hit Recovery",
+   "Replenish Life +5",
+   "+1 to Necromancer Skill Levels",
+   "+2 to Summoning (Necromancer Only)"
+  ]
+ },
+ {
+  "name": "Arm of King Leoric",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Tomb Wand",
+  "tier": "Exceptional",
+  "lvl": 36,
+  "stats": [
+   "+2 to Summoning (Necromancer Only)",
+   "5% Chance to Cast Level 10 Bone Spirit When Struck",
+   "+1-123 to Mana (by character level)",
+   "10% Chance to Cast Level 2 Bone Prison When Struck",
+   "+10% Faster Cast Rate",
+   "+2 to Poison and Bone (Necromancer Only)",
+   "+2 to Terror (Necromancer Only)",
+   "+2 to Raise Skeletal Mage (Necromancer Only)",
+   "+3 to Skeleton Mastery (Necromancer Only)",
+   "+3 to Raise Skeleton (Necromancer Only)"
+  ]
+ },
+ {
+  "name": "Blackhand Key",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Grave Wand",
+  "tier": "Exceptional",
+  "lvl": 41,
+  "stats": [
+   "+1 to Curses (Necromancer Only)",
+   "+20% Damage Taken Goes To Mana",
+   "+50 to Life",
+   "-2 to Light Radius",
+   "+30% Faster Cast Rate",
+   "Fire Resist +37%",
+   "+2 to Necromancer Skill Levels",
+   "Level 13 Grim Ward (30 Charges)"
+  ]
+ },
+ {
+  "name": "Dark Clan Crusher",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Cudgel",
+  "tier": "Exceptional",
+  "lvl": 34,
+  "stats": [
+   "+2 to Druid Skill Levels",
+   "+200% Damage to Demons",
+   "+200 to Attack Rating against Demons",
+   "+195% Enhanced Damage",
+   "20-25% Bonus to Attack Rating",
+   "+15 Life after each Demon Kill"
+  ]
+ },
+ {
+  "name": "Zakarum's Hand",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Rune Scepter",
+  "tier": "Exceptional",
+  "lvl": 37,
+  "stats": [
+   "8% Mana Stolen per Hit",
+   "Ignore Target's Defense",
+   "Regenerate Mana 10%",
+   "Heal Stamina Plus 15%",
+   "6% Chance to Cast Level 5 Blizzard on Striking",
+   "+180-220% Enhanced Damage",
+   "+30% Increased Attack Speed",
+   "+2 to Holy Freeze (Paladin Only)",
+   "+2 to Holy Shock (Paladin Only)"
+  ]
+ },
+ {
+  "name": "The Fetid Sprinkler",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Holy Water Sprinkler",
+  "tier": "Exceptional",
+  "lvl": 38,
+  "stats": [
+   "+2 to Paladin Skill Levels",
+   "5% Chance to Cast Level 1 Decrepify on Striking",
+   "10% Chance to Cast Level 1 Confuse on Striking",
+   "Adds 160-160 Poison Damage over 4 Seconds",
+   "+160-190% Enhanced Damage",
+   "+150-200 to Attack Rating",
+   "+15-25 to Minimum Damage"
+  ]
+ },
+ {
+  "name": "Hand of Blessed Light",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Divine Scepter",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "+2 to Paladin Skill Levels",
+   "+130-160% Enhanced Damage",
+   "100% Bonus to Attack Rating",
+   "+50 Defense",
+   "Regenerate Mana 15%",
+   "+4 to Light Radius",
+   "+20-45 to Minimum Damage",
+   "+4 to Holy Bolt (Paladin Only)",
+   "+2 to Fist of the Heavens (Paladin Only)",
+   "5% Chance to Cast Level 4 Fist of the Heavens on Striking"
+  ]
+ },
+ {
+  "name": "Fleshrender",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Barbed Club",
+  "tier": "Exceptional",
+  "lvl": 38,
+  "stats": [
+   "25% Chance of Open Wounds",
+   "Prevent Monster Heal",
+   "20% Chance of Crushing Blow",
+   "20% Deadly Strike",
+   "+35-50 to Minimum Damage",
+   "+130-200% Enhanced Damage",
+   "+1 to Druid Skill Levels",
+   "+2 to Shape Shifting (Druid Only)",
+   "Increase Maximum Durability 20%"
+  ]
+ },
+ {
+  "name": "Sureshrill Frost",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Flanged Mace",
+  "tier": "Exceptional",
+  "lvl": 39,
+  "stats": [
+   "Adds 63-112 Cold Damage",
+   "Cannot Be Frozen",
+   "+150-180% Enhanced Damage",
+   "+5-10 to Minimum Damage",
+   "Freezes target",
+   "Level 9 Frozen Orb (50 Charges)"
+  ]
+ },
+ {
+  "name": "Moonfall",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Jagged Star",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "5% Chance to Cast Level 6 Meteor on Striking",
+   "Adds 55-115 Fire Damage",
+   "Magic Damage Reduced by 9-12",
+   "+120-150% Enhanced Damage",
+   "+2 to Light Radius",
+   "Level 11 Meteor (60 Charges)",
+   "+10-15 to Minimum Damage"
+  ]
+ },
+ {
+  "name": "Baezil's Vortex",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Knout",
+  "tier": "Exceptional",
+  "lvl": 45,
+  "stats": [
+   "5% Chance to Cast Level 8 Nova on Striking",
+   "Adds 1-150 Lightning Damage",
+   "+100 to Mana",
+   "Lightning Resist +25%",
+   "+160-200% Enhanced Damage",
+   "+20% Increased Attack Speed",
+   "Level 15 Nova (80 Charges)"
+  ]
+ },
+ {
+  "name": "Earthshaker",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Battle Hammer",
+  "tier": "Exceptional",
+  "lvl": 43,
+  "stats": [
+   "5% Chance to Cast Level 7 Eruption on Striking",
+   "Knockback",
+   "+30% Increased Attack Speed",
+   "+180% Enhanced Damage",
+   "Hit Blinds Target",
+   "+3 to Elemental (Druid Only)",
+   "Increase Maximum Durability 50%"
+  ]
+ },
+ {
+  "name": "Bloodtree Stump",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "War Club",
+  "tier": "Exceptional",
+  "lvl": 48,
+  "stats": [
+   "50% Chance of Crushing Blow",
+   "+180-220% Enhanced Damage",
+   "All Resistances +20%",
+   "+25 to Strength",
+   "+2 to Combat Masteries (Barbarian Only)",
+   "+3 to Mace Mastery (Barbarian Only)",
+   "Increase Maximum Durability 40%"
+  ]
+ },
+ {
+  "name": "The Gavel of Pain",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Martel de Fer",
+  "tier": "Exceptional",
+  "lvl": 45,
+  "stats": [
+   "5% Chance to Cast Level 1 Amplify Damage on Striking",
+   "5% Chance to Cast Level 1 Iron Maiden When Struck",
+   "Attacker Takes Damage of 26",
+   "Indestructible",
+   "+12-30 to Minimum Damage",
+   "+130-160% Enhanced Damage",
+   "Level 8 Amplify Damage (3 Charges)"
+  ]
+ },
+ {
+  "name": "Bloodletter",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Gladius",
+  "tier": "Exceptional",
+  "lvl": 30,
+  "stats": [
+   "+12-45 to Minimum Damage",
+   "+90 to Attack Rating",
+   "8% Life Stolen per Hit",
+   "10% Slower Stamina Drain",
+   "+20% Increased Attack Speed",
+   "+140% Enhanced Damage",
+   "+2-4 to Blade Mastery (Barbarian Only)",
+   "+1-3 to Whirlwind (Barbarian Only)",
+   "Increase Maximum Durability 30%"
+  ]
+ },
+ {
+  "name": "Coldsteel Eye",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Cutlass",
+  "tier": "Exceptional",
+  "lvl": 31,
+  "stats": [
+   "Hit Blinds Target",
+   "Slows Target by 30%",
+   "50% Deadly Strike",
+   "Increase Maximum Durability 50%",
+   "+200-250% Enhanced Damage",
+   "+20% Increased Attack Speed",
+   "6% Mana Stolen per Hit"
+  ]
+ },
+ {
+  "name": "Hexfire",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Shamshir",
+  "tier": "Exceptional",
+  "lvl": 33,
+  "stats": [
+   "Level 6 Hydra (36 Charges)",
+   "Ignore Target's Defense",
+   "Fire Resist +25%",
+   "+10% to Maximum Fire Resist",
+   "+35-40 to Minimum Damage",
+   "+140-160% Enhanced Damage",
+   "+3 to Fire Skills"
+  ]
+ },
+ {
+  "name": "Blade of Ali Baba",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Tulwar",
+  "tier": "Exceptional",
+  "lvl": 35,
+  "stats": [
+   "Socketed (0)",
+   "+2-247% Extra Gold from Monsters (by character level)",
+   "+1-99% Better Chance of Getting Magic Items (by character level)",
+   "+15 to Mana",
+   "+60-120% Enhanced Damage",
+   "+5-15 to Dexterity"
+  ]
+ },
+ {
+  "name": "Ginther's Rift",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Dimensional Blade",
+  "tier": "Exceptional",
+  "lvl": 37,
+  "stats": [
+   "Magic Damage Reduced by 7-12",
+   "+30% Increased Attack Speed",
+   "Repairs 0 durability per second",
+   "Increase Maximum Durability 40%",
+   "Adds 50-120 Magic Damage",
+   "+100-150% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Headstriker",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Battle Sword",
+  "tier": "Exceptional",
+  "lvl": 39,
+  "stats": [
+   "Prevent Monster Heal",
+   "+15 to Strength",
+   "+1-148% Deadly Strike (by character level)",
+   "+1-99 to Maximum Damage (by character level)",
+   "+150% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Plague Bearer",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Rune Sword",
+  "tier": "Exceptional",
+  "lvl": 41,
+  "stats": [
+   "5% Chance to Cast Level 4 Poison Nova on Striking",
+   "Adds 300-300 Poison Damage over 8 Seconds",
+   "+10-45 to Minimum Damage",
+   "+150% Enhanced Damage",
+   "Poison Resist +45%",
+   "+5 to Rabies (Druid Only)"
+  ]
+ },
+ {
+  "name": "The Atlantean",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ancient Sword",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "Increase Maximum Durability 100%",
+   "+75 Defense",
+   "+16 to Strength",
+   "+12 to Dexterity",
+   "+8 to Vitality",
+   "+200-250% Enhanced Damage",
+   "+2 to Paladin Skill Levels",
+   "50% Bonus to Attack Rating"
+  ]
+ },
+ {
+  "name": "Crainte Vomir",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Espadon",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "Slows Target by 35%",
+   "-70 to Monster Defense Per Hit",
+   "+20% Faster Run/Walk",
+   "Damage Reduced by 10%",
+   "+160-200% Enhanced Damage",
+   "+50% Increased Attack Speed"
+  ]
+ },
+ {
+  "name": "Bing Sz Wang",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Dacian Falx",
+  "tier": "Exceptional",
+  "lvl": 43,
+  "stats": [
+   "Requirements -30%",
+   "Adds 50-140 Cold Damage",
+   "+20 to Strength",
+   "Freezes target",
+   "5% Chance to Cast Level 3 Frozen Orb on Striking",
+   "+130-160% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "The Vile Husk",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Tusk Sword",
+  "tier": "Exceptional",
+  "lvl": 44,
+  "stats": [
+   "6% Chance to Cast Level 1 Amplify Damage on Striking",
+   "+7-742% Damage to Undead (by character level)",
+   "Poison Resist +50%",
+   "Adds 250-250 Poison Damage over 6 Seconds",
+   "+150-200% Enhanced Damage",
+   "+2-247 to Attack Rating against Undead (by character level)"
+  ]
+ },
+ {
+  "name": "Cloudcrack",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Gothic Sword",
+  "tier": "Exceptional",
+  "lvl": 45,
+  "stats": [
+   "6% Chance to Cast Level 7 Fist of the Heavens on Striking",
+   "Adds 1-240 Lightning Damage",
+   "+30 Defense",
+   "+2 to Light Radius",
+   "+10% to Maximum Lightning Resist",
+   "+150-200% Enhanced Damage",
+   "Attacker Takes Lightning Damage of 15",
+   "+2 to Offensive Auras (Paladin Only)",
+   "+2 to Defensive Auras (Paladin Only)"
+  ]
+ },
+ {
+  "name": "Todesfaelle Flamme",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Zweihander",
+  "tier": "Exceptional",
+  "lvl": 46,
+  "stats": [
+   "Adds 50-200 Fire Damage",
+   "Fire Resist +40%",
+   "+10 Fire Absorb",
+   "10-6% Chance to cast level 10-6 %s on attack",
+   "+120-160% Enhanced Damage",
+   "Level 10 Enchant (45 Charges)",
+   "Level 10 Fire Wall (20 Charges)"
+  ]
+ },
+ {
+  "name": "Swordguard",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Executioner Sword",
+  "tier": "Exceptional",
+  "lvl": 48,
+  "stats": [
+   "Requirements -50%",
+   "5-495 Defense (by character level)",
+   "All Resistances +10-20%",
+   "+100 Defense vs. Missile",
+   "+30% Damage Taken Goes To Mana",
+   "+170-180% Enhanced Damage",
+   "+200 Defense vs. Melee",
+   "+20% Faster Hit Recovery",
+   "20% Increased Chance of Blocking"
+  ]
+ },
+ {
+  "name": "Spineripper",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Poignard",
+  "tier": "Exceptional",
+  "lvl": 32,
+  "stats": [
+   "Ignore Target's Defense",
+   "8% Life Stolen per Hit",
+   "Prevent Monster Heal",
+   "+15% Increased Attack Speed",
+   "+10 to Dexterity",
+   "+200-240% Enhanced Damage",
+   "+15-27 to Minimum Damage",
+   "+1 to Necromancer Skill Levels"
+  ]
+ },
+ {
+  "name": "Heart Carver",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Rondel",
+  "tier": "Exceptional",
+  "lvl": 36,
+  "stats": [
+   "35% Deadly Strike",
+   "Ignore Target's Defense",
+   "+15-35 to Minimum Damage",
+   "+190-240% Enhanced Damage",
+   "+4 to Find Potion (Barbarian Only)",
+   "+4 to Find Item (Barbarian Only)",
+   "+4 to Grim Ward (Barbarian Only)"
+  ]
+ },
+ {
+  "name": "Blackbog's Sharp",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Cinquedeas",
+  "tier": "Exceptional",
+  "lvl": 38,
+  "stats": [
+   "Slows Target by 50%",
+   "+50 Defense",
+   "+15-45 to Minimum Damage",
+   "+30% Increased Attack Speed",
+   "Adds 488-488 Poison Damage over 10 Seconds",
+   "+5 to Poison Dagger (Necromancer Only)",
+   "+4 to Poison Explosion (Necromancer Only)",
+   "+4 to Poison Nova (Necromancer Only)"
+  ]
+ },
+ {
+  "name": "Stormspike",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Stilleto",
+  "tier": "Exceptional",
+  "lvl": 41,
+  "stats": [
+   "Adds 1-120 Lightning Damage",
+   "Attacker Takes Lightning Damage of 20",
+   "25% Chance to Cast Level 3 Charged Bolt When Struck",
+   "+150% Enhanced Damage",
+   "1-99 Lightning Resist % (by character level)"
+  ]
+ },
+ {
+  "name": "The Impaler",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "War Spear",
+  "tier": "Exceptional",
+  "lvl": 31,
+  "stats": [
+   "Ignore Target's Defense",
+   "+150 to Attack Rating",
+   "+20% Increased Attack Speed",
+   "40% Chance of Open Wounds",
+   "Prevent Monster Heal",
+   "+140-170% Enhanced Damage",
+   "+5 to Impale (Amazon Only)",
+   "+3 to Power Strike (Amazon Only)"
+  ]
+ },
+ {
+  "name": "Kelpie Snare",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Fuscina",
+  "tier": "Exceptional",
+  "lvl": 33,
+  "stats": [
+   "Slows Target by 75%",
+   "Fire Resist +50%",
+   "+1-123 to Life (by character level)",
+   "+30-50 to Minimum Damage",
+   "+10 to Strength",
+   "+140-180% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Soulfeast Tine",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "War Fork",
+  "tier": "Exceptional",
+  "lvl": 35,
+  "stats": [
+   "Requirements -20%",
+   "7% Life Stolen per Hit",
+   "7% Mana Stolen per Hit",
+   "20% Slower Stamina Drain",
+   "+150-190% Enhanced Damage",
+   "+150-250 to Attack Rating",
+   "Increase Maximum Durability 15%"
+  ]
+ },
+ {
+  "name": "Hone Sundan",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Yari",
+  "tier": "Exceptional",
+  "lvl": 37,
+  "stats": [
+   "Socketed (0)",
+   "+20-40 to Minimum Damage",
+   "45% Chance of Crushing Blow",
+   "Repairs 0 durability per second",
+   "+160-200% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Spire of Honor",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Lance",
+  "tier": "Exceptional",
+  "lvl": 39,
+  "stats": [
+   "25% Bonus to Attack Rating",
+   "+3 to Light Radius",
+   "Replenish Life +20",
+   "+20% Faster Hit Recovery",
+   "+20-40 to Minimum Damage",
+   "+1-148% Damage to Demons (by character level)",
+   "+150-200% Enhanced Damage",
+   "+3 to Combat Skills (Paladin Only)",
+   "+25% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "The Meat Scraper",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Lochaber Axe",
+  "tier": "Exceptional",
+  "lvl": 41,
+  "stats": [
+   "+150-200% Enhanced Damage",
+   "+30% Increased Attack Speed",
+   "10% Life Stolen per Hit",
+   "50% Chance of Open Wounds",
+   "25% Better Chance of Getting Magic Items",
+   "+3 to Combat Masteries (Barbarian Only)"
+  ]
+ },
+ {
+  "name": "Blackleach Blade",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Bill",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "Requirements -25%",
+   "5% Chance to Cast Level 5 Weaken on Striking",
+   "-2 to Light Radius",
+   "8% Life Stolen per Hit",
+   "+1-123 to Maximum Damage (by character level)",
+   "+100-140% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Athena's Wrath",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Battle Scythe",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "+1-3 to Druid Skill Levels",
+   "+15 to Dexterity",
+   "+30% Increased Attack Speed",
+   "+1-99 to Life (by character level)",
+   "+1-99 to Maximum Damage (by character level)",
+   "+150-180% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Pierre Tombale Couant",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Partizan",
+  "tier": "Exceptional",
+  "lvl": 43,
+  "stats": [
+   "55% Deadly Strike",
+   "+3 to Barbarian Skill Levels",
+   "+30% Faster Hit Recovery",
+   "6% Mana Stolen per Hit",
+   "+12-20 to Minimum Damage",
+   "+160-220% Enhanced Damage",
+   "+100-200 to Attack Rating"
+  ]
+ },
+ {
+  "name": "Husoldal Evo",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Bec-de-Corbin",
+  "tier": "Exceptional",
+  "lvl": 44,
+  "stats": [
+   "Replenish Life +20",
+   "+200-250 to Attack Rating",
+   "Prevent Monster Heal",
+   "+20-32 to Minimum Damage",
+   "+160-200% Enhanced Damage",
+   "+20% Increased Attack Speed"
+  ]
+ },
+ {
+  "name": "Grim's Burning Dead",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Grim Scythe",
+  "tier": "Exceptional",
+  "lvl": 45,
+  "stats": [
+   "Adds 131-232 Fire Damage",
+   "Fire Resist +45%",
+   "+140-180% Enhanced Damage",
+   "Attacker Takes Damage of 8",
+   "Requirements -50%",
+   "+3 to Necromancer Skill Levels",
+   "-50% Target Defense",
+   "+20% Enhanced Defense",
+   "+200-250 to Attack Rating"
+  ]
+ },
+ {
+  "name": "Razorswitch",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Jo Stalf",
+  "tier": "Exceptional",
+  "lvl": 28,
+  "stats": [
+   "+30% Faster Cast Rate",
+   "Attacker Takes Damage of 15",
+   "+175 to Mana",
+   "+80 to Life",
+   "Magic Damage Reduced by 15",
+   "All Resistances +50%",
+   "+1 to All Skills"
+  ]
+ },
+ {
+  "name": "Ribcracker",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Quarterstaff",
+  "tier": "Exceptional",
+  "lvl": 31,
+  "stats": [
+   "+30-65 to Minimum Damage",
+   "+200-300% Enhanced Damage",
+   "50% Chance of Crushing Blow",
+   "+15 to Dexterity",
+   "+100 Defense",
+   "+100% Enhanced Defense",
+   "+50% Faster Hit Recovery",
+   "+50% Increased Attack Speed",
+   "Increase Maximum Durability 100%"
+  ]
+ },
+ {
+  "name": "Chromatic Ire",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Cedar Staff",
+  "tier": "Exceptional",
+  "lvl": 35,
+  "stats": [
+   "+3 to Sorceress Skill Levels",
+   "All Resistances +20-40%",
+   "+20% Faster Cast Rate",
+   "Attacker Takes Lightning Damage of 20",
+   "Increase Maximum Life 20-25%",
+   "+1 to Fire Mastery (Sorceress Only)",
+   "+1 to Lightning Mastery (Sorceress Only)",
+   "+1 to Cold Mastery (Sorceress Only)"
+  ]
+ },
+ {
+  "name": "Warpspear",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Gothic Staff",
+  "tier": "Exceptional",
+  "lvl": 39,
+  "stats": [
+   "+3 to Sorceress Skill Levels",
+   "Ignore Target's Defense",
+   "+3 to Teleport (Sorceress Only)",
+   "+3 to Telekinesis (Sorceress Only)",
+   "+3 to Energy Shield (Sorceress Only)",
+   "+250 Defense vs. Missile"
+  ]
+ },
+ {
+  "name": "Skull Collector",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Rune Staff",
+  "tier": "Exceptional",
+  "lvl": 41,
+  "stats": [
+   "Increase Maximum Mana 20%",
+   "+20 to Mana after each Kill",
+   "+2 to All Skills",
+   "+1-99% Better Chance of Getting Magic Items (by character level)"
+  ]
+ },
+ {
+  "name": "Skystrike",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Edge Bow",
+  "tier": "Exceptional",
+  "lvl": 28,
+  "stats": [
+   "Adds 1-250 Lightning Damage",
+   "+100 to Attack Rating",
+   "+10 to Energy",
+   "+30% Increased Attack Speed",
+   "+150-200% Enhanced Damage",
+   "2% Chance to Cast Level 6 Meteor on Striking",
+   "+1 to Amazon Skill Levels"
+  ]
+ },
+ {
+  "name": "Riphook",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Razor Bow",
+  "tier": "Exceptional",
+  "lvl": 31,
+  "stats": [
+   "30% Chance of Open Wounds",
+   "+180-220% Enhanced Damage",
+   "Slows Target by 30%",
+   "+35 to Mana",
+   "+30% Increased Attack Speed",
+   "7-10% Life Stolen per Hit"
+  ]
+ },
+ {
+  "name": "Kuko Shakaku",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "CedarBow",
+  "tier": "Exceptional",
+  "lvl": 33,
+  "stats": [
+   "+3 to Immolation Arrow (Amazon Only)",
+   "Fires Explosive Arrows or Bolts",
+   "+150-180% Enhanced Damage",
+   "Piercing Attack 50%",
+   "Adds 40-180 Fire Damage",
+   "+3 to Bow and Crossbow (Amazon Only)"
+  ]
+ },
+ {
+  "name": "Endlesshail",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Double Bow",
+  "tier": "Exceptional",
+  "lvl": 36,
+  "stats": [
+   "Cold Resist +35%",
+   "+40 to Mana",
+   "+50 Defense vs. Missile",
+   "+3-5 to Strafe (Amazon Only)",
+   "+180-220% Enhanced Damage",
+   "Adds 15-30 Cold Damage"
+  ]
+ },
+ {
+  "name": "Witchwild String",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Short Siege Bow",
+  "tier": "Exceptional",
+  "lvl": 39,
+  "stats": [
+   "2% Chance to Cast Level 5 Amplify Damage on Striking",
+   "All Resistances +40%",
+   "+1-99% Deadly Strike (by character level)",
+   "+150-170% Enhanced Damage",
+   "Fires Magic Arrows",
+   "Socketed (0)"
+  ]
+ },
+ {
+  "name": "Cliffkiller",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Long Siege Bow",
+  "tier": "Exceptional",
+  "lvl": 41,
+  "stats": [
+   "+2 to Amazon Skill Levels",
+   "+190-230% Enhanced Damage",
+   "+80 Defense vs. Missile",
+   "Knockback",
+   "+50 to Life",
+   "+5-10 to Minimum Damage",
+   "+20-30 to Maximum Damage"
+  ]
+ },
+ {
+  "name": "Magewrath",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Rune Bow",
+  "tier": "Exceptional",
+  "lvl": 43,
+  "stats": [
+   "15% Mana Stolen per Hit",
+   "Magic Damage Reduced by 9-13",
+   "+3 to Guided Arrow (Amazon Only)",
+   "+200-250 to Attack Rating",
+   "+10 to Dexterity",
+   "Hit Blinds Target",
+   "+25-50 to Minimum Damage",
+   "+120-150% Enhanced Damage",
+   "+1 to Amazon Skill Levels"
+  ]
+ },
+ {
+  "name": "Goldstrike Arch",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Gothic Bow",
+  "tier": "Exceptional",
+  "lvl": 46,
+  "stats": [
+   "+200-250% Enhanced Damage",
+   "100-150% Bonus to Attack Rating",
+   "+100-200% Damage to Undead",
+   "+100-200% Damage to Demons",
+   "5% Chance to Cast Level 7 Fist of the Heavens on Striking",
+   "+50% Increased Attack Speed",
+   "Replenish Life +12"
+  ]
+ },
+ {
+  "name": "Langer Briser",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Arbalest",
+  "tier": "Exceptional",
+  "lvl": 32,
+  "stats": [
+   "Knockback",
+   "+170-200% Enhanced Damage",
+   "30-60% Better Chance of Getting Magic Items",
+   "+30 to Life",
+   "+10-30 to Maximum Damage",
+   "33% Chance of Open Wounds",
+   "Adds 1-212 Lightning Damage"
+  ]
+ },
+ {
+  "name": "Pus Spitter",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Siege Crossbow",
+  "tier": "Exceptional",
+  "lvl": 36,
+  "stats": [
+   "Adds 150-150 Poison Damage over 8 Seconds",
+   "4% Chance to Cast Level 1 Lower Resist on Striking",
+   "+2 to Necromancer Skill Levels",
+   "Requirements -60%",
+   "9% Chance to Cast Level 6 Poison Nova When Struck",
+   "+10% Increased Attack Speed",
+   "+150-220% Enhanced Damage",
+   "+1-123 to Attack Rating (by character level)"
+  ]
+ },
+ {
+  "name": "Buriza-Do Kyanon",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Balista",
+  "tier": "Exceptional",
+  "lvl": 41,
+  "stats": [
+   "Piercing Attack 100%",
+   "+35 to Dexterity",
+   "+75-150 Defense",
+   "+2-247 to Maximum Damage (by character level)",
+   "+80% Increased Attack Speed",
+   "+150-200% Enhanced Damage",
+   "Freezes target",
+   "Adds 32-196 Cold Damage"
+  ]
+ },
+ {
+  "name": "Demon Machine",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Chu-Ko-Nu",
+  "tier": "Exceptional",
+  "lvl": 49,
+  "stats": [
+   "+321 Defense",
+   "+36 to Mana",
+   "Piercing Attack 66%",
+   "Fires Explosive Arrows or Bolts",
+   "+66 to Maximum Damage",
+   "+123% Enhanced Damage",
+   "+632 to Attack Rating"
+  ]
+ },
+ {
+  "name": "Peasant Crown",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "War Hat",
+  "tier": "Exceptional",
+  "lvl": 28,
+  "stats": [
+   "+20 to Energy",
+   "+20 to Vitality",
+   "+1 to All Skills",
+   "+15% Faster Run/Walk",
+   "Replenish Life +6-12",
+   "+100% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Rockstopper",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Sallet",
+  "tier": "Exceptional",
+  "lvl": 31,
+  "stats": [
+   "Lightning Resist +20-40%",
+   "Damage Reduced by 10%",
+   "+30% Faster Hit Recovery",
+   "+160-220% Enhanced Defense",
+   "Fire Resist +20-50%",
+   "Cold Resist +20-40%",
+   "+15 to Vitality"
+  ]
+ },
+ {
+  "name": "Stealskull",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Casque",
+  "tier": "Exceptional",
+  "lvl": 35,
+  "stats": [
+   "5% Mana Stolen per Hit",
+   "5% Life Stolen per Hit",
+   "+10% Faster Hit Recovery",
+   "+10% Increased Attack Speed",
+   "+200-240% Enhanced Defense",
+   "30-50% Better Chance of Getting Magic Items"
+  ]
+ },
+ {
+  "name": "Darksight Helm",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Basinet",
+  "tier": "Exceptional",
+  "lvl": 38,
+  "stats": [
+   "-4 to Light Radius",
+   "2-198 Defense (by character level)",
+   "Cannot Be Frozen",
+   "5% Mana Stolen per Hit",
+   "6% Chance to Cast Level 3 Dim Vision When Struck",
+   "Level 5 Cloak of Shadows (30 Charges)",
+   "Fire Resist +20-40%"
+  ]
+ },
+ {
+  "name": "Valkyrie Wing",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Winged Helm",
+  "tier": "Exceptional",
+  "lvl": 44,
+  "stats": [
+   "+150-200% Enhanced Defense",
+   "+20% Faster Run/Walk",
+   "+20% Faster Hit Recovery",
+   "+1-2 to Amazon Skill Levels",
+   "+2-4 to Mana after each Kill"
+  ]
+ },
+ {
+  "name": "Crown of Thieves",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Grand Crown",
+  "tier": "Exceptional",
+  "lvl": 49,
+  "stats": [
+   "+25 to Dexterity",
+   "9-12% Life Stolen per Hit",
+   "+50 to Life",
+   "+35 to Mana",
+   "Fire Resist +33%",
+   "+160-200% Enhanced Defense",
+   "80-100% Extra Gold from Monsters"
+  ]
+ },
+ {
+  "name": "Blackhorn's Face",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Death Mask",
+  "tier": "Exceptional",
+  "lvl": 41,
+  "stats": [
+   "Attacker Takes Lightning Damage of 25",
+   "Slows Target by 20%",
+   "Prevent Monster Heal",
+   "+20 Lightning Absorb",
+   "Lightning Resist +15%",
+   "+180-220% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Vampire Gaze",
+  "alias": [
+   "VGaze",
+   "Vamp"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Grim Helm",
+  "tier": "Exceptional",
+  "lvl": 41,
+  "stats": [
+   "6-8% Mana Stolen per Hit",
+   "6-8% Life Stolen per Hit",
+   "15% Slower Stamina Drain",
+   "Damage Reduced by 15-20%",
+   "Magic Damage Reduced by 10-15",
+   "+100% Enhanced Defense",
+   "Adds 6-22 Cold Damage"
+  ]
+ },
+ {
+  "name": "The Spirit Shroud",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ghost Armor",
+  "tier": "Exceptional",
+  "lvl": 28,
+  "stats": [
+   "Cannot Be Frozen",
+   "+1 to All Skills",
+   "Magic Damage Reduced by 7-11",
+   "Replenish Life +10",
+   "+150% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Skin of the Vipermagi",
+  "alias": [
+   "Vipermagi",
+   "Viper"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "SerpentSkin Armor",
+  "tier": "Exceptional",
+  "lvl": 29,
+  "stats": [
+   "+120% Enhanced Defense",
+   "All Resistances +20-35%",
+   "+30% Faster Cast Rate",
+   "Magic Damage Reduced by 9-13",
+   "+1 to All Skills"
+  ]
+ },
+ {
+  "name": "Skin of the Flayed One",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Demonhide Armor",
+  "tier": "Exceptional",
+  "lvl": 31,
+  "stats": [
+   "Repairs 0 durability per second",
+   "Replenish Life +15-25",
+   "Increase Maximum Durability 30%",
+   "5-7% Life Stolen per Hit",
+   "+150-190% Enhanced Defense",
+   "Attacker Takes Damage of 15"
+  ]
+ },
+ {
+  "name": "Iron Pelt",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Tresllised Armor",
+  "tier": "Exceptional",
+  "lvl": 33,
+  "stats": [
+   "Increase Maximum Durability 125%",
+   "+25 to Life",
+   "Magic Damage Reduced by 10-16",
+   "Damage Reduced by 15-20",
+   "3-297 Defense (by character level)",
+   "+50-100% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Spirit Forge",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Linked Mail",
+  "tier": "Exceptional",
+  "lvl": 35,
+  "stats": [
+   "+4 to Light Radius",
+   "+1-123 to Life (by character level)",
+   "Adds 20-65 Fire Damage",
+   "Fire Resist +5%",
+   "+120-160% Enhanced Defense",
+   "+15 to Strength",
+   "Socketed (0)"
+  ]
+ },
+ {
+  "name": "Crow Caw",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Tigulated Mail",
+  "tier": "Exceptional",
+  "lvl": 37,
+  "stats": [
+   "35% Chance of Open Wounds",
+   "+150-180% Enhanced Defense",
+   "+15 to Dexterity",
+   "+15% Faster Hit Recovery",
+   "+15% Increased Attack Speed"
+  ]
+ },
+ {
+  "name": "Shaftstop",
+  "alias": [
+   "Shaft"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Mesh Armor",
+  "tier": "Exceptional",
+  "lvl": 38,
+  "stats": [
+   "+250 Defense vs. Missile",
+   "Damage Reduced by 30%",
+   "+60 to Life",
+   "+180-220% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Duriel's Shell",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Cuirass",
+  "tier": "Exceptional",
+  "lvl": 41,
+  "stats": [
+   "+15 to Strength",
+   "1-123 Defense (by character level)",
+   "+1-99 to Life (by character level)",
+   "+160-200% Enhanced Defense",
+   "Fire Resist +20%",
+   "Lightning Resist +20%",
+   "Poison Resist +20%",
+   "Cold Resist +50%",
+   "Cannot Be Frozen",
+   "Increase Maximum Durability 100%"
+  ]
+ },
+ {
+  "name": "Skullder's Ire",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Russet Armor",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "+1 to All Skills",
+   "+1-123% Better Chance of Getting Magic Items (by character level)",
+   "+160-200% Enhanced Defense",
+   "Increase Maximum Durability 60%",
+   "Magic Damage Reduced by 10",
+   "Repairs 0 durability per second"
+  ]
+ },
+ {
+  "name": "Guardian Angel",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Templar Coat",
+  "tier": "Exceptional",
+  "lvl": 45,
+  "stats": [
+   "+4 to Light Radius",
+   "+1 to Paladin Skill Levels",
+   "+180-200% Enhanced Defense",
+   "30% Faster Block Rate",
+   "All Maximum Resistances +15%",
+   "+0-61 to Attack Rating against Demons (by character level)",
+   "20% Increased Chance of Blocking"
+  ]
+ },
+ {
+  "name": "Toothrow",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Sharktooth Armor",
+  "tier": "Exceptional",
+  "lvl": 48,
+  "stats": [
+   "Attacker Takes Damage of 20-40",
+   "+40-60 Defense",
+   "+10 to Strength",
+   "40% Chance of Open Wounds",
+   "Fire Resist +15%",
+   "+160-220% Enhanced Defense",
+   "Increase Maximum Durability 15%"
+  ]
+ },
+ {
+  "name": "Atma's Wail",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Embossed Plate",
+  "tier": "Exceptional",
+  "lvl": 51,
+  "stats": [
+   "+15 to Dexterity",
+   "Replenish Life +10",
+   "Increase Maximum Mana 15%",
+   "+30% Faster Hit Recovery",
+   "2-198 Defense (by character level)",
+   "Increase Maximum Durability 50%",
+   "+120-160% Enhanced Defense",
+   "20% Better Chance of Getting Magic Items"
+  ]
+ },
+ {
+  "name": "Black Hades",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Chaos Armor",
+  "tier": "Exceptional",
+  "lvl": 53,
+  "stats": [
+   "-2 to Light Radius",
+   "+200-250 to Attack Rating against Demons",
+   "Half Freeze Duration",
+   "Socketed (0)",
+   "+140-200% Enhanced Defense",
+   "+30-60% Damage to Demons"
+  ]
+ },
+ {
+  "name": "Corpsemourn",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ornate Armor",
+  "tier": "Exceptional",
+  "lvl": 55,
+  "stats": [
+   "+8 to Strength",
+   "+10 to Vitality",
+   "Cold Resist +35%",
+   "6% Chance to Cast Level 2 Iron Maiden When Struck",
+   "+150-180% Enhanced Defense",
+   "Adds 12-36 Fire Damage",
+   "Level 5 Corpse Explosion (40 Charges)"
+  ]
+ },
+ {
+  "name": "Que-Hegan's Wisdom",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Mage Plate",
+  "tier": "Exceptional",
+  "lvl": 51,
+  "stats": [
+   "+20% Faster Cast Rate",
+   "+3 to Mana after each Kill",
+   "Magic Damage Reduced by 6-10",
+   "+15 to Energy",
+   "+20% Faster Hit Recovery",
+   "+140-160% Enhanced Defense",
+   "+1 to All Skills"
+  ]
+ },
+ {
+  "name": "Visceratuant",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Defender",
+  "tier": "Exceptional",
+  "lvl": 28,
+  "stats": [
+   "+1 to Sorceress Skill Levels",
+   "30% Faster Block Rate",
+   "30% Increased Chance of Blocking",
+   "+100-150% Enhanced Defense",
+   "Attacker Takes Lightning Damage of 10"
+  ]
+ },
+ {
+  "name": "Moser's Blessed Circle",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Round Shield",
+  "tier": "Exceptional",
+  "lvl": 31,
+  "stats": [
+   "All Resistances +25%",
+   "25% Increased Chance of Blocking",
+   "Socketed (0)",
+   "+180-220% Enhanced Defense",
+   "30% Faster Block Rate"
+  ]
+ },
+ {
+  "name": "Stormchaser",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Scutum",
+  "tier": "Exceptional",
+  "lvl": 35,
+  "stats": [
+   "Adds 1-60 Lightning Damage",
+   "20% Increased Chance of Blocking",
+   "Half Freeze Duration",
+   "Lightning Resist +50%",
+   "+150 to Attack Rating",
+   "+160-220% Enhanced Defense",
+   "10% Faster Block Rate",
+   "4% Chance to Cast Level 6 Blizzard When Struck",
+   "4% Chance to Cast Level 5 Tornado When Struck"
+  ]
+ },
+ {
+  "name": "Tiamat's Rebuke",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Dragon Shield",
+  "tier": "Exceptional",
+  "lvl": 38,
+  "stats": [
+   "Adds 27-53 Cold Damage",
+   "Adds 35-95 Fire Damage",
+   "Adds 1-120 Lightning Damage",
+   "All Resistances +25-35%",
+   "+140-200% Enhanced Defense",
+   "5% Chance to Cast Level 9 Frost Nova When Struck",
+   "5% Chance to Cast Level 7 Nova When Struck",
+   "3% Chance to Cast Level 6 Hydra When Struck",
+   "Increase Maximum Durability 40%"
+  ]
+ },
+ {
+  "name": "Gerke's Sanctuary",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Pavise",
+  "tier": "Exceptional",
+  "lvl": 44,
+  "stats": [
+   "Damage Reduced by 11-16",
+   "Magic Damage Reduced by 14-18",
+   "Replenish Life +15",
+   "+180-240% Enhanced Defense",
+   "Increase Maximum Durability 100%",
+   "30% Increased Chance of Blocking",
+   "All Resistances +20-30%"
+  ]
+ },
+ {
+  "name": "Radament's Sphere",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ancient Shield",
+  "tier": "Exceptional",
+  "lvl": 50,
+  "stats": [
+   "Adds 80-80 Poison Damage over 4 Seconds",
+   "5% Chance to Cast Level 5 Poison Nova When Struck",
+   "Poison Resist +75%",
+   "+160-200% Enhanced Defense",
+   "20% Increased Chance of Blocking",
+   "20% Faster Block Rate",
+   "Level 6 Poison Explosion (40 Charges)",
+   "Increase Maximum Durability 20%"
+  ]
+ },
+ {
+  "name": "Lidless Wall",
+  "alias": [
+   "Lidless"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Grim Shield",
+  "tier": "Exceptional",
+  "lvl": 41,
+  "stats": [
+   "+1 to Light Radius",
+   "+1 to All Skills",
+   "+20% Faster Cast Rate",
+   "+3-5 to Mana after each Kill",
+   "+80-130% Enhanced Defense",
+   "+10 to Energy",
+   "Increase Maximum Mana 10%"
+  ]
+ },
+ {
+  "name": "Lance Guard",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Barbed Shield",
+  "tier": "Exceptional",
+  "lvl": 35,
+  "stats": [
+   "+50 to Life",
+   "+30% Faster Hit Recovery",
+   "+15% Damage Taken Goes To Mana",
+   "Attacker Takes Damage of 47",
+   "+70-120% Enhanced Defense",
+   "20% Deadly Strike"
+  ]
+ },
+ {
+  "name": "Venom Grip",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Demonhide Gloves",
+  "tier": "Exceptional",
+  "lvl": 29,
+  "stats": [
+   "Poison Resist +30%",
+   "+5% to Maximum Poison Resist",
+   "Adds 60-60 Poison Damage over 4 Seconds",
+   "5% Chance of Crushing Blow",
+   "5% Life Stolen per Hit",
+   "+15-25 Defense",
+   "+130-160% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Gravepalm",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Sharkskin Gloves",
+  "tier": "Exceptional",
+  "lvl": 32,
+  "stats": [
+   "+10 to Energy",
+   "+10 to Strength",
+   "+100-200% Damage to Undead",
+   "+100-200 to Attack Rating against Undead",
+   "+140-180% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Ghoulhide",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Heavy Bracers",
+  "tier": "Exceptional",
+  "lvl": 36,
+  "stats": [
+   "+2-198 to Attack Rating against Undead (by character level)",
+   "+2-198% Damage to Undead (by character level)",
+   "4-5% Mana Stolen per Hit",
+   "+20 to Life",
+   "+150-190% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Lava Gout",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Battle Guantlets",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "Fire Resist +24%",
+   "Half Freeze Duration",
+   "2% Chance to Cast Level 10 Enchant on Striking",
+   "+20% Increased Attack Speed",
+   "+150-200% Enhanced Defense",
+   "Adds 13-46 Fire Damage",
+   "Increase Maximum Durability 20%"
+  ]
+ },
+ {
+  "name": "Hellmouth",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "War Gauntlets",
+  "tier": "Exceptional",
+  "lvl": 47,
+  "stats": [
+   "Adds 15-72 Fire Damage",
+   "+15 Fire Absorb",
+   "+150-200% Enhanced Defense",
+   "Increase Maximum Durability 15%",
+   "2% Chance to Cast Level 4 Meteor on Striking",
+   "4% Chance to Cast Level 12 Firestorm on Striking"
+  ]
+ },
+ {
+  "name": "Infernostride",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Demonhide Boots",
+  "tier": "Exceptional",
+  "lvl": 29,
+  "stats": [
+   "Adds 12-33 Fire Damage",
+   "+20% Faster Run/Walk",
+   "+10% to Maximum Fire Resist",
+   "Fire Resist +30%",
+   "+2 to Light Radius",
+   "+120-150% Enhanced Defense",
+   "40-70% Extra Gold from Monsters",
+   "+15 Defense",
+   "5% Chance to Cast Level 8 Blaze When Struck"
+  ]
+ },
+ {
+  "name": "Waterwalk",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Sharkskin Boots",
+  "tier": "Exceptional",
+  "lvl": 32,
+  "stats": [
+   "+100 Defense vs. Missile",
+   "+20% Faster Run/Walk",
+   "+15 to Dexterity",
+   "+180-210% Enhanced Defense",
+   "+45-65 to Life",
+   "+40 Maximum Stamina",
+   "+5% to Maximum Fire Resist",
+   "Heal Stamina Plus 50%"
+  ]
+ },
+ {
+  "name": "Silkweave",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Mesh Boots",
+  "tier": "Exceptional",
+  "lvl": 36,
+  "stats": [
+   "+150-190% Enhanced Defense",
+   "+5 to Mana after each Kill",
+   "+200 Defense vs. Missile",
+   "Increase Maximum Mana 10%",
+   "+30% Faster Run/Walk"
+  ]
+ },
+ {
+  "name": "War Traveler",
+  "alias": [
+   "WTs",
+   "Warts"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Battle Boots",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "+10 to Vitality",
+   "+10 to Strength",
+   "30-50% Better Chance of Getting Magic Items",
+   "Increase Maximum Durability 30%",
+   "+25% Faster Run/Walk",
+   "+150-190% Enhanced Defense",
+   "+15-25 to Minimum Damage",
+   "Attacker Takes Damage of 5-10",
+   "40% Slower Stamina Drain"
+  ]
+ },
+ {
+  "name": "Gore Rider",
+  "alias": [
+   "Gores"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "War Boots",
+  "tier": "Exceptional",
+  "lvl": 47,
+  "stats": [
+   "Requirements -25%",
+   "15% Deadly Strike",
+   "+30% Faster Run/Walk",
+   "15% Chance of Crushing Blow",
+   "10% Chance of Open Wounds",
+   "+160-200% Enhanced Defense",
+   "Increase Maximum Durability 10%",
+   "+20 Maximum Stamina"
+  ]
+ },
+ {
+  "name": "String of Ears",
+  "alias": [
+   "SoE",
+   "Ears"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Demonhide Sash",
+  "tier": "Exceptional",
+  "lvl": 29,
+  "stats": [
+   "Magic Damage Reduced by 10-15",
+   "Damage Reduced by 10-15%",
+   "6-8% Life Stolen per Hit",
+   "+150-180% Enhanced Defense",
+   "+15 Defense",
+   "Increase Maximum Durability 10%"
+  ]
+ },
+ {
+  "name": "Razortail",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Sharkskin Belt",
+  "tier": "Exceptional",
+  "lvl": 32,
+  "stats": [
+   "1-99 Attacker Takes Damage of (by character level)",
+   "+15 to Dexterity",
+   "Piercing Attack 33%",
+   "+15 Defense",
+   "+120-150% Enhanced Defense",
+   "+10 to Maximum Damage"
+  ]
+ },
+ {
+  "name": "Gloom's Trap",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Mesh Belt",
+  "tier": "Exceptional",
+  "lvl": 36,
+  "stats": [
+   "-3 to Light Radius",
+   "Increase Maximum Mana 15%",
+   "5% Mana Stolen per Hit",
+   "+120-150% Enhanced Defense",
+   "+15 to Vitality",
+   "Regenerate Mana 15%"
+  ]
+ },
+ {
+  "name": "Snowclash",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Battle Belt",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "5% Chance to Cast Level 0 Blizzard When Struck",
+   "+15 Cold Absorb",
+   "+15% to Maximum Cold Resist",
+   "Adds 13-21 Cold Damage",
+   "+130-170% Enhanced Defense",
+   "+2 to Blizzard (Sorceress Only)",
+   "+3 to Glacial Spike (Sorceress Only)",
+   "+2 to Chilling Armor (Sorceress Only)"
+  ]
+ },
+ {
+  "name": "Thundergod's Vigor",
+  "alias": [
+   "Tgods"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "War Belt",
+  "tier": "Exceptional",
+  "lvl": 47,
+  "stats": [
+   "5% Chance to Cast Level 7 Fist of the Heavens When Struck",
+   "Adds 1-50 Lightning Damage",
+   "+10% to Maximum Lightning Resist",
+   "+20 Lightning Absorb",
+   "+160-200% Enhanced Defense",
+   "+20 to Vitality",
+   "+20 to Strength",
+   "+3 to Lightning Strike (Amazon Only)",
+   "+3 to Lightning Fury (Amazon Only)"
+  ]
+ },
+ {
+  "name": "Harlequin Crest",
+  "alias": [
+   "Shako"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Shako",
+  "tier": "Elite",
+  "lvl": 62,
+  "stats": [
+   "+2 to All Skills",
+   "+1-148 to Life (by character level)",
+   "+1-148 to Mana (by character level)",
+   "50% Better Chance of Getting Magic Items",
+   "Damage Reduced by 10%",
+   "+2 to All Attributes"
+  ]
+ },
+ {
+  "name": "Veil of Steel",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Spired Helm",
+  "tier": "Elite",
+  "lvl": 73,
+  "stats": [
+   "All Resistances +50%",
+   "+60% Enhanced Defense",
+   "+15 to Strength",
+   "+15 to Vitality",
+   "-4 to Light Radius",
+   "Increase Maximum Durability 20%",
+   "+140 Defense"
+  ]
+ },
+ {
+  "name": "The Gladiator's Bane",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Wire Fleece",
+  "tier": "Elite",
+  "lvl": 85,
+  "stats": [
+   "+150-200% Enhanced Defense",
+   "Magic Damage Reduced by 15-20",
+   "Damage Reduced by 15-20",
+   "Attacker Takes Damage of 20",
+   "Poison Length Reduced by 50%",
+   "Increase Maximum Durability 103%",
+   "+30% Faster Hit Recovery",
+   "+50 Defense",
+   "Cannot Be Frozen"
+  ]
+ },
+ {
+  "name": "Arkaine's Valor",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Balrog Skin",
+  "tier": "Elite",
+  "lvl": 85,
+  "stats": [
+   "+150-180% Enhanced Defense",
+   "+30% Faster Hit Recovery",
+   "+1-2 to All Skills",
+   "Damage Reduced by 10-15",
+   "+0-49 to Vitality (by character level)"
+  ]
+ },
+ {
+  "name": "Blackoak Shield",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Luna",
+  "tier": "Elite",
+  "lvl": 61,
+  "stats": [
+   "+0-49 to Dexterity (by character level)",
+   "+160-200% Enhanced Defense",
+   "0-61 Cold Absorb (by character level)",
+   "4% Chance to Cast Level 5 Weaken When Struck",
+   "Increase Maximum Durability 45%",
+   "+1-123 to Life (by character level)",
+   "50% Faster Block Rate",
+   "Half Freeze Duration"
+  ]
+ },
+ {
+  "name": "Stormshield",
+  "alias": [
+   "SS",
+   "Storm"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Monarch",
+  "tier": "Elite",
+  "lvl": 73,
+  "stats": [
+   "3-371 Defense (by character level)",
+   "Damage Reduced by 35%",
+   "+30 to Strength",
+   "Indestructible",
+   "35% Faster Block Rate",
+   "Lightning Resist +25%",
+   "25% Increased Chance of Blocking",
+   "Cold Resist +60%",
+   "Attacker Takes Lightning Damage of 10"
+  ]
+ },
+ {
+  "name": "Hellslayer",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Decapitator",
+  "tier": "Elite",
+  "lvl": 66,
+  "stats": [
+   "+0-49 to Strength (by character level)",
+   "+0-49 to Vitality (by character level)",
+   "+3-297% Enhanced Maximum Damage (by character level)",
+   "Adds 150-250 Fire Damage",
+   "+25 to Life",
+   "+100% Enhanced Damage",
+   "10-0% Chance to cast level 10-0 %s on attack"
+  ]
+ },
+ {
+  "name": "Messerschmidt's Reaver",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Champion Axe",
+  "tier": "Elite",
+  "lvl": 70,
+  "stats": [
+   "+2-247% Enhanced Maximum Damage (by character level)",
+   "+200% Enhanced Damage",
+   "+15 to All Attributes",
+   "Adds 20-240 Fire Damage",
+   "Increase Maximum Durability 25%",
+   "100% Bonus to Attack Rating"
+  ]
+ },
+ {
+  "name": "Baranar's Star",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Devil Star",
+  "tier": "Elite",
+  "lvl": 65,
+  "stats": [
+   "200% Bonus to Attack Rating",
+   "+200% Enhanced Damage",
+   "+15 to Dexterity",
+   "+15 to Strength",
+   "+50% Increased Attack Speed",
+   "Increase Maximum Durability 100%",
+   "Adds 1-200 Lightning Damage",
+   "Adds 1-200 Fire Damage",
+   "Adds 1-200 Cold Damage"
+  ]
+ },
+ {
+  "name": "Schaefer's Hammer",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Legendary Mallet",
+  "tier": "Elite",
+  "lvl": 79,
+  "stats": [
+   "20% Chance to Cast Level 10 Static Field on Striking",
+   "+50 to Life",
+   "+2-198 to Attack Rating (by character level)",
+   "Lightning Resist +75%",
+   "+20% Increased Attack Speed",
+   "+2-198 to Maximum Damage (by character level)",
+   "Indestructible",
+   "+100-130% Enhanced Damage",
+   "+1 to Light Radius",
+   "Adds 50-200 Lightning Damage"
+  ]
+ },
+ {
+  "name": "The Cranium Basher",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Thunder Maul",
+  "tier": "Elite",
+  "lvl": 87,
+  "stats": [
+   "+20% Increased Attack Speed",
+   "Indestructible",
+   "+25 to Strength",
+   "All Resistances +25%",
+   "75% Chance of Crushing Blow",
+   "+20 to Minimum Damage",
+   "+200-240% Enhanced Damage",
+   "4% Chance to Cast Level 1 Amplify Damage on Striking"
+  ]
+ },
+ {
+  "name": "Lightsabre",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Phase Blade",
+  "tier": "Elite",
+  "lvl": 58,
+  "stats": [
+   "+7 to Light Radius",
+   "5-0% Chance to cast level 5-0 %s on attack",
+   "Ignore Target's Defense",
+   "Lightning Absorb +25%",
+   "+20% Increased Attack Speed",
+   "Adds 60-120 Magic Damage",
+   "Adds 1-200 Lightning Damage",
+   "5-7% Mana Stolen per Hit",
+   "+150-200% Enhanced Damage",
+   "+10-30 to Minimum Damage"
+  ]
+ },
+ {
+  "name": "Doombringer",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Champion Sword",
+  "tier": "Elite",
+  "lvl": 69,
+  "stats": [
+   "Increase Maximum Life 20%",
+   "+180-250% Enhanced Damage",
+   "40% Bonus to Attack Rating",
+   "Indestructible",
+   "+30-100 to Minimum Damage",
+   "8% Chance to Cast Level 3 Weaken on Striking",
+   "5-7% Life Stolen per Hit"
+  ]
+ },
+ {
+  "name": "The Grandfather",
+  "alias": [
+   "GF"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Colossus Blade",
+  "tier": "Elite",
+  "lvl": 81,
+  "stats": [
+   "+20 to All Attributes",
+   "50% Bonus to Attack Rating",
+   "+80 to Life",
+   "+2-247 to Maximum Damage (by character level)",
+   "Indestructible",
+   "+150-250% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Wizardspike",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Bone Knife",
+  "tier": "Elite",
+  "lvl": 61,
+  "stats": [
+   "+2-198 to Mana (by character level)",
+   "Regenerate Mana 15%",
+   "Increase Maximum Mana 15%",
+   "All Resistances +75%",
+   "Indestructible",
+   "+50% Faster Cast Rate"
+  ]
+ },
+ {
+  "name": "Constricting Ring",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ring",
+  "tier": "",
+  "lvl": 95,
+  "stats": [
+   "All Resistances +100%",
+   "Replenish Life -30",
+   "100% Better Chance of Getting Magic Items",
+   "All Maximum Resistances +15%"
+  ]
+ },
+ {
+  "name": "Stormspire",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Giant Thresher",
+  "tier": "Elite",
+  "lvl": 70,
+  "stats": [
+   "Lightning Resist +50%",
+   "5% Chance to Cast Level 5 Chain Lightning When Struck",
+   "+150-250% Enhanced Damage",
+   "+10 to Strength",
+   "2% Chance to Cast Level 0 Charged Bolt When Struck",
+   "+30% Increased Attack Speed",
+   "Indestructible",
+   "Adds 1-237 Lightning Damage",
+   "Attacker Takes Lightning Damage of 27"
+  ]
+ },
+ {
+  "name": "Eaglehorn",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Crusader Bow",
+  "tier": "Elite",
+  "lvl": 69,
+  "stats": [
+   "Ignore Target's Defense",
+   "+1-148 to Attack Rating (by character level)",
+   "+2-198% Enhanced Maximum Damage (by character level)",
+   "+200% Enhanced Damage",
+   "+1 to Amazon Skill Levels",
+   "+25 to Dexterity"
+  ]
+ },
+ {
+  "name": "Windforce",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Hydra Bow",
+  "tier": "Elite",
+  "lvl": 73,
+  "stats": [
+   "+5 to Dexterity",
+   "+3-309 to Maximum Damage (by character level)",
+   "Heal Stamina Plus 30%",
+   "6-8% Mana Stolen per Hit",
+   "Knockback",
+   "+250% Enhanced Damage",
+   "+20% Increased Attack Speed",
+   "+10 to Strength"
+  ]
+ },
+ {
+  "name": "Bul-Kathos' Wedding Band",
+  "alias": [
+   "BKWB",
+   "BK"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Ring",
+  "tier": "",
+  "lvl": 58,
+  "stats": [
+   "+0-49 to Life (by character level)",
+   "+1 to All Skills",
+   "3-5% Life Stolen per Hit",
+   "+50 Maximum Stamina"
+  ]
+ },
+ {
+  "name": "The Cat's Eye",
+  "alias": [
+   "Cats Eye"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 50,
+  "stats": [
+   "+30% Faster Run/Walk",
+   "+20% Increased Attack Speed",
+   "+100 Defense",
+   "+100 Defense vs. Missile",
+   "+25 to Dexterity"
+  ]
+ },
+ {
+  "name": "The Rising Sun",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 65,
+  "stats": [
+   "0-74 Fire Absorb (by character level)",
+   "+4 to Light Radius",
+   "2% Chance to Cast Level 0 Meteor When Struck",
+   "Adds 24-48 Fire Damage",
+   "+2 to Fire Skills",
+   "Replenish Life +10"
+  ]
+ },
+ {
+  "name": "Crescent Moon",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 50,
+  "stats": [
+   "11-15% Mana Stolen per Hit",
+   "Magic Damage Reduced by 10",
+   "+10% Damage Taken Goes To Mana",
+   "-2 to Light Radius",
+   "+45 to Mana",
+   "3-6% Life Stolen per Hit"
+  ]
+ },
+ {
+  "name": "Mara's Kaleidoscope",
+  "alias": [
+   "Mara's",
+   "Mara"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 67,
+  "stats": [
+   "+2 to All Skills",
+   "All Resistances +20-30%",
+   "+5 to All Attributes"
+  ]
+ },
+ {
+  "name": "Atma's Scarab",
+  "alias": [
+   "Atmas"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 60,
+  "stats": [
+   "Adds 40-40 Poison Damage over 4 Seconds",
+   "Poison Resist +75%",
+   "+3 to Light Radius",
+   "Attacker Takes Damage of 5",
+   "5% Chance to Cast Level 2 Amplify Damage on Striking",
+   "20% Bonus to Attack Rating"
+  ]
+ },
+ {
+  "name": "Dwarf Star",
+  "alias": [
+   "Dwarf"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Ring",
+  "tier": "",
+  "lvl": 45,
+  "stats": [
+   "100% Extra Gold from Monsters",
+   "+40 Maximum Stamina",
+   "Heal Stamina Plus 15%",
+   "+40 to Life",
+   "Magic Damage Reduced by 12-15",
+   "Fire Absorb +15%"
+  ]
+ },
+ {
+  "name": "Raven Frost",
+  "alias": [
+   "Raven",
+   "RF"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Ring",
+  "tier": "",
+  "lvl": 45,
+  "stats": [
+   "Cannot Be Frozen",
+   "Adds 15-45 Cold Damage",
+   "Cold Absorb +20%",
+   "+40 to Mana",
+   "+15-20 to Dexterity",
+   "+150-250 to Attack Rating"
+  ]
+ },
+ {
+  "name": "Highlord's Wrath",
+  "alias": [
+   "Highlords"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 65,
+  "stats": [
+   "Lightning Resist +35%",
+   "Adds 1-30 Lightning Damage",
+   "+20% Increased Attack Speed",
+   "+1 to All Skills",
+   "+0-37% Deadly Strike (by character level)",
+   "Attacker Takes Lightning Damage of 15"
+  ]
+ },
+ {
+  "name": "Saracen's Chance",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 47,
+  "stats": [
+   "All Resistances +15-25%",
+   "10% Chance to Cast Level 2 Iron Maiden When Struck",
+   "+12 to All Attributes"
+  ]
+ },
+ {
+  "name": "Arreat's Face",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Slayer Guard",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "+2 to Barbarian Skill Levels",
+   "+2 to Combat Skills (Barbarian Only)",
+   "+150-200% Enhanced Defense",
+   "+30% Faster Hit Recovery",
+   "20% Bonus to Attack Rating",
+   "+20 to Strength",
+   "+20 to Dexterity",
+   "3-6% Life Stolen per Hit",
+   "All Resistances +30%"
+  ]
+ },
+ {
+  "name": "Homunculus",
+  "alias": [
+   "Homun"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Heirophant Trophy",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "+2 to Necromancer Skill Levels",
+   "+2 to Curses (Necromancer Only)",
+   "+150-200% Enhanced Defense",
+   "30% Faster Block Rate",
+   "40% Increased Chance of Blocking",
+   "+20 to Energy",
+   "Regenerate Mana 33%",
+   "+5 to Mana after each Kill",
+   "All Resistances +40%"
+  ]
+ },
+ {
+  "name": "Titan's Revenge",
+  "alias": [
+   "Titans"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Ceremonial Javelin",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "+2 to Amazon Skill Levels",
+   "+2 to Javelin and Spear (Amazon Only)",
+   "+150-200% Enhanced Damage",
+   "+30% Faster Run/Walk",
+   "Replenishes quantity",
+   "+20 to Strength",
+   "+20 to Dexterity",
+   "5-9% Life Stolen per Hit",
+   "+25-50 to Minimum Damage",
+   "Increased Stack Size"
+  ]
+ },
+ {
+  "name": "Lycander's Aim",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ceremonial Bow",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "+2 to Amazon Skill Levels",
+   "+2 to Bow and Crossbow (Amazon Only)",
+   "+150-200% Enhanced Damage",
+   "+20% Increased Attack Speed",
+   "+20% Enhanced Defense",
+   "+20 to Dexterity",
+   "+20 to Energy",
+   "5-8% Mana Stolen per Hit",
+   "+25-50 to Minimum Damage"
+  ]
+ },
+ {
+  "name": "Lycander's Flank",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ceremonial Pike",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "+2 to Amazon Skill Levels",
+   "+2 to Javelin and Spear (Amazon Only)",
+   "+150-200% Enhanced Damage",
+   "+30% Increased Attack Speed",
+   "+20% Enhanced Defense",
+   "+20 to Strength",
+   "+20 to Vitality",
+   "5-9% Life Stolen per Hit",
+   "+25-50 to Minimum Damage"
+  ]
+ },
+ {
+  "name": "The Oculus",
+  "alias": [
+   "Occy",
+   "Occ"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Swirling Crystal",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "+3 to Sorceress Skill Levels",
+   "25% Chance to Cast Level 1 Teleport When Struck",
+   "All Resistances +20%",
+   "+30% Faster Cast Rate",
+   "+20% Enhanced Defense",
+   "+20 to Vitality",
+   "+20 to Energy",
+   "+5 to Mana after each Kill",
+   "50% Better Chance of Getting Magic Items"
+  ]
+ },
+ {
+  "name": "Herald of Zakarum",
+  "alias": [
+   "HoZ",
+   "Herald"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Aerin Shield",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "+2 to Paladin Skill Levels",
+   "+2 to Combat Skills (Paladin Only)",
+   "+150-200% Enhanced Defense",
+   "30% Faster Block Rate",
+   "30% Increased Chance of Blocking",
+   "+20 to Strength",
+   "+20 to Vitality",
+   "20% Bonus to Attack Rating",
+   "All Resistances +50%"
+  ]
+ },
+ {
+  "name": "Bartuc's Cut-Throat",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Runic Talons",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "+2 to Assassin Skill Levels",
+   "+1 to Martial Arts (Assassin Only)",
+   "+150-200% Enhanced Damage",
+   "+30% Faster Hit Recovery",
+   "20% Bonus to Attack Rating",
+   "+20 to Strength",
+   "+20 to Dexterity",
+   "5-9% Life Stolen per Hit",
+   "+25-50 to Minimum Damage"
+  ]
+ },
+ {
+  "name": "Jalal's Mane",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Dream Spirit",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "+2 to Druid Skill Levels",
+   "+2 to Shape Shifting (Druid Only)",
+   "+150-200% Enhanced Defense",
+   "+30% Faster Hit Recovery",
+   "20% Bonus to Attack Rating",
+   "+20 to Strength",
+   "+20 to Energy",
+   "+5 to Mana after each Kill",
+   "All Resistances +30%"
+  ]
+ },
+ {
+  "name": "The Scalper",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Francisca",
+  "tier": "Exceptional",
+  "lvl": 57,
+  "stats": [
+   "Replenishes quantity",
+   "+150-200% Enhanced Damage",
+   "25% Bonus to Attack Rating",
+   "+20% Increased Attack Speed",
+   "33% Chance of Open Wounds",
+   "4-6% Life Stolen per Hit",
+   "+4 to Mana after each Kill"
+  ]
+ },
+ {
+  "name": "Bloodmoon",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Elegant Blade",
+  "tier": "Elite",
+  "lvl": 61,
+  "stats": [
+   "+210-260% Enhanced Damage",
+   "10-15% Life Stolen per Hit",
+   "Level 15 BloodGolem (9 Charges)",
+   "+7-13 Life after each Kill",
+   "50% Chance of Open Wounds"
+  ]
+ },
+ {
+  "name": "Djinn Slayer",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ataghan",
+  "tier": "Elite",
+  "lvl": 65,
+  "stats": [
+   "+190-240% Enhanced Damage",
+   "Adds 250-500 Fire Damage",
+   "+100-150% Damage to Demons",
+   "+200-300 to Attack Rating against Demons",
+   "+3-7 Lightning Absorb",
+   "3-6% Mana Stolen per Hit",
+   "Socketed (1-2)"
+  ]
+ },
+ {
+  "name": "Deathbit",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Battle Dart",
+  "tier": "Exceptional",
+  "lvl": 44,
+  "stats": [
+   "40% Deadly Strike",
+   "+130-180% Enhanced Damage",
+   "+200-450 to Attack Rating",
+   "7-9% Life Stolen per Hit",
+   "4-6% Mana Stolen per Hit",
+   "Replenishes quantity"
+  ]
+ },
+ {
+  "name": "Warshrike",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Winged Knife",
+  "tier": "Elite",
+  "lvl": 75,
+  "stats": [
+   "+200-250% Enhanced Damage",
+   "Piercing Attack 50%",
+   "+30% Increased Attack Speed",
+   "50% Deadly Strike",
+   "Replenishes quantity",
+   "25% Chance to Cast Level 9 Nova on Striking"
+  ]
+ },
+ {
+  "name": "Gut Siphon",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Demon Crossbow",
+  "tier": "Elite",
+  "lvl": 71,
+  "stats": [
+   "+160-220% Enhanced Damage",
+   "Piercing Attack 33%",
+   "12-18% Life Stolen per Hit",
+   "Slows Target by 25%",
+   "33% Chance of Open Wounds"
+  ]
+ },
+ {
+  "name": "Razor's Edge",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Tomahawk",
+  "tier": "Elite",
+  "lvl": 67,
+  "stats": [
+   "+175-225% Enhanced Damage",
+   "+40% Increased Attack Speed",
+   "-33% Target Defense",
+   "50% Deadly Strike",
+   "50% Chance of Open Wounds"
+  ]
+ },
+ {
+  "name": "Demon Limb",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Tyrant Club",
+  "tier": "Elite",
+  "lvl": 63,
+  "stats": [
+   "+180-230% Enhanced Damage",
+   "Adds 222-333 Fire Damage",
+   "7-13% Life Stolen per Hit",
+   "Level 23 Enchant (20 Charges)",
+   "Repairs 0 durability per second",
+   "+123% Damage to Demons",
+   "Fire Resist +15-20%"
+  ]
+ },
+ {
+  "name": "Steel Shade",
+  "alias": [
+   "SShade"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Armet",
+  "tier": "Elite",
+  "lvl": 62,
+  "stats": [
+   "+100-130% Enhanced Defense",
+   "+5-11 Fire Absorb",
+   "4-8% Mana Stolen per Hit",
+   "Replenish Life +10-18"
+  ]
+ },
+ {
+  "name": "Tomb Reaver",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Cryptic Axe",
+  "tier": "Elite",
+  "lvl": 84,
+  "stats": [
+   "+60% Increased Attack Speed",
+   "+4 to Light Radius",
+   "+200-280% Enhanced Damage",
+   "+150-230% Damage to Undead",
+   "50-80% Better Chance of Getting Magic Items",
+   "All Resistances +30-50%",
+   "+250-350 to Attack Rating against Undead",
+   "10% Chance to Reanimate Target",
+   "+10-14 Life after each Kill",
+   "Socketed (1-3)"
+  ]
+ },
+ {
+  "name": "Death's Web",
+  "alias": [
+   "DWeb"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Unearthed Wand",
+  "tier": "Elite",
+  "lvl": 66,
+  "stats": [
+   "+2 to All Skills",
+   "-40-50% to Enemy Poison Resistance",
+   "+7-12 Life after each Kill",
+   "+7-12 to Mana after each Kill",
+   "+1-2 to Poison and Bone (Necromancer Only)"
+  ]
+ },
+ {
+  "name": "Nature's Peace",
+  "alias": [
+   "npeace",
+   "Peace"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Ring",
+  "tier": "",
+  "lvl": 69,
+  "stats": [
+   "Prevent Monster Heal",
+   "Slain Monsters Rest in Peace",
+   "Damage Reduced by 7-11",
+   "Poison Resist +20-30%",
+   "Level 5 Oak Sage (27 Charges)"
+  ]
+ },
+ {
+  "name": "Azurewrath",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Phase Blade",
+  "tier": "Elite",
+  "lvl": 85,
+  "stats": [
+   "Adds 250-500 Magic Damage",
+   "+230-270% Enhanced Damage",
+   "Level 10-13 Sanctuary Aura When Equipped",
+   "Adds 250-500 Cold Damage",
+   "+30% Increased Attack Speed",
+   "+5-10 to Strength",
+   "+3 to Light Radius",
+   "+1 to All Skills"
+  ]
+ },
+ {
+  "name": "Seraph's Hymn",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 65,
+  "stats": [
+   "+2 to All Skills",
+   "+1-2 to Defensive Auras (Paladin Only)",
+   "+25-50% Damage to Demons",
+   "+25-50% Damage to Undead",
+   "+150-250 to Attack Rating against Demons",
+   "+150-250 to Attack Rating against Undead",
+   "+2 to Light Radius"
+  ]
+ },
+ {
+  "name": "Fleshripper",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Fanged Knife",
+  "tier": "Elite",
+  "lvl": 68,
+  "stats": [
+   "+200-300% Enhanced Damage",
+   "-50% Target Defense",
+   "Prevent Monster Heal",
+   "25% Chance of Crushing Blow",
+   "50% Chance of Open Wounds",
+   "33% Deadly Strike",
+   "Slows Target by 20%"
+  ]
+ },
+ {
+  "name": "Horizon's Tornado",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Scourge",
+  "tier": "Elite",
+  "lvl": 64,
+  "stats": [
+   "+230-280% Enhanced Damage",
+   "+50% Increased Attack Speed",
+   "Slows Target by 20%",
+   "20% Chance to Cast Level 15 Tornado on Striking",
+   "Requirements -20%"
+  ]
+ },
+ {
+  "name": "Stone Crusher",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Legendary Mallet",
+  "tier": "Elite",
+  "lvl": 68,
+  "stats": [
+   "+280-320% Enhanced Damage",
+   "+20-30 to Strength",
+   "40% Chance of Crushing Blow",
+   "-25% Target Defense",
+   "-100 to Monster Defense Per Hit",
+   "Adds 10-30 Damage"
+  ]
+ },
+ {
+  "name": "Jade Talon",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Wrist Sword",
+  "tier": "Elite",
+  "lvl": 66,
+  "stats": [
+   "+190-240% Enhanced Damage",
+   "10-15% Mana Stolen per Hit",
+   "All Resistances +40-50%",
+   "+30% Faster Hit Recovery",
+   "+1-2 to Shadow Disciplines (Assassin Only)",
+   "+1-2 to Martial Arts (Assassin Only)"
+  ]
+ },
+ {
+  "name": "Shadow Dancer",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Myrmidon Greaves",
+  "tier": "Elite",
+  "lvl": 71,
+  "stats": [
+   "+70-100% Enhanced Defense",
+   "+30% Faster Run/Walk",
+   "+30% Faster Hit Recovery",
+   "+15-25 to Dexterity",
+   "+1-2 to Shadow Disciplines (Assassin Only)",
+   "Requirements -20%"
+  ]
+ },
+ {
+  "name": "Cerebus' Bite",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Blood Spirit",
+  "tier": "Elite",
+  "lvl": 63,
+  "stats": [
+   "+130-140% Enhanced Defense",
+   "+2-4 to Shape Shifting (Druid Only)",
+   "7-10% Life Stolen per Hit",
+   "60-120% Bonus to Attack Rating",
+   "33% Chance of Open Wounds",
+   "+1-2 to feral rage (Druid Only)"
+  ]
+ },
+ {
+  "name": "Tyrael's Might",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Sacred Armor",
+  "tier": "Elite",
+  "lvl": 84,
+  "stats": [
+   "Requirements -100%",
+   "Indestructible",
+   "+120-150% Enhanced Defense",
+   "Slain Monsters Rest in Peace",
+   "+50-100% Damage to Demons",
+   "Cannot Be Frozen",
+   "+20% Faster Run/Walk",
+   "All Resistances +20-30%",
+   "+20-30 to Strength"
+  ]
+ },
+ {
+  "name": "Soul Drainer",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Vambraces",
+  "tier": "Elite",
+  "lvl": 74,
+  "stats": [
+   "+90-120% Enhanced Defense",
+   "4-7% Mana Stolen per Hit",
+   "4-7% Life Stolen per Hit",
+   "8% Chance to Cast Level 3 Weaken on Striking",
+   "-50 to Monster Defense Per Hit"
+  ]
+ },
+ {
+  "name": "Rune Master",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ettin Axe",
+  "tier": "Elite",
+  "lvl": 72,
+  "stats": [
+   "+220-270% Enhanced Damage",
+   "Socketed (3-5)",
+   "+5% to Maximum Cold Resist",
+   "Cannot Be Frozen"
+  ]
+ },
+ {
+  "name": "Death Cleaver",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Berserker Axe",
+  "tier": "Elite",
+  "lvl": 70,
+  "stats": [
+   "+230-280% Enhanced Damage",
+   "66% Deadly Strike",
+   "-33% Target Defense",
+   "+40% Increased Attack Speed",
+   "+6-9 Life after each Kill"
+  ]
+ },
+ {
+  "name": "Executioner's Justice",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Glorious Axe",
+  "tier": "Elite",
+  "lvl": 75,
+  "stats": [
+   "+240-290% Enhanced Damage",
+   "25% Chance of Crushing Blow",
+   "-33% Target Defense",
+   "50% Chance to Cast Level 6 Decrepify on Kill",
+   "+30% Increased Attack Speed"
+  ]
+ },
+ {
+  "name": "Stoneraven",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Matriarchal Spear",
+  "tier": "Elite",
+  "lvl": 64,
+  "stats": [
+   "+230-280% Enhanced Damage",
+   "Adds 101-187 Magic Damage",
+   "All Resistances +30-50%",
+   "+400-600 Defense",
+   "+1-3 to Javelin and Spear (Amazon Only)"
+  ]
+ },
+ {
+  "name": "Leviathan",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Kraken Shell",
+  "tier": "Elite",
+  "lvl": 65,
+  "stats": [
+   "+170-200% Enhanced Defense",
+   "+100-150 Defense",
+   "Damage Reduced by 15-25%",
+   "+40-50 to Strength",
+   "Indestructible"
+  ]
+ },
+ {
+  "name": "Wisp Projector",
+  "alias": [
+   "Wisp"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Ring",
+  "tier": "",
+  "lvl": 76,
+  "stats": [
+   "Lightning Absorb +10-20%",
+   "10% Chance to Cast Level 16 Lightning on Striking",
+   "10-20% Better Chance of Getting Magic Items",
+   "Level 2 Oak Sage (15 Charges)",
+   "Level 5 Heart of Wolverine (13 Charges)",
+   "Level 7 Spirit of Barbs (11 Charges)"
+  ]
+ },
+ {
+  "name": "Gargoyle's Bite",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Winged Harpoon",
+  "tier": "Elite",
+  "lvl": 70,
+  "stats": [
+   "+180-230% Enhanced Damage",
+   "Replenishes quantity",
+   "Adds 293-293 Poison Damage over 10 Seconds",
+   "9-15% Life Stolen per Hit",
+   "Level 11 Plague Javelin (60 Charges)"
+  ]
+ },
+ {
+  "name": "Lacerator",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Winged Axe",
+  "tier": "Elite",
+  "lvl": 68,
+  "stats": [
+   "+150-210% Enhanced Damage",
+   "Replenishes quantity",
+   "+30% Increased Attack Speed",
+   "Prevent Monster Heal",
+   "33% Chance of Open Wounds",
+   "Hit Causes Monster to Flee +64%",
+   "33% Chance to Cast Level 3 Amplify Damage on Striking"
+  ]
+ },
+ {
+  "name": "Mang Song's Lesson",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Archon Staff",
+  "tier": "Elite",
+  "lvl": 82,
+  "stats": [
+   "+5 to All Skills",
+   "-7-15% to Enemy Fire Resistance",
+   "-7-15% to Enemy Lightning Resistance",
+   "-7-15% to Enemy Cold Resistance",
+   "Regenerate Mana 10%",
+   "+30% Faster Cast Rate"
+  ]
+ },
+ {
+  "name": "Viperfork",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "War Fork",
+  "tier": "Elite",
+  "lvl": 71,
+  "stats": [
+   "+190-240% Enhanced Damage",
+   "Adds 325-325 Poison Damage over 10 Seconds",
+   "+50% Increased Attack Speed",
+   "+200-250 to Attack Rating",
+   "15% Chance to Cast Level 9 Poison Explosion on Striking",
+   "Poison Resist +30-50%"
+  ]
+ },
+ {
+  "name": "Ethereal Edge",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Silver-Edged Axe",
+  "tier": "Elite",
+  "lvl": 74,
+  "stats": [
+   "+150-180% Enhanced Damage",
+   "+25% Increased Attack Speed",
+   "+10-12 Fire Absorb",
+   "+150-200% Damage to Demons",
+   "+5-10 Life after each Demon Kill",
+   "+270-350 to Attack Rating",
+   "Ethereal (Cannot be Repaired)",
+   "Indestructible"
+  ]
+ },
+ {
+  "name": "Demonhorn's Edge",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Destroyer Helm",
+  "tier": "Elite",
+  "lvl": 61,
+  "stats": [
+   "+120-160% Enhanced Defense",
+   "+10% Increased Attack Speed",
+   "3-6% Life Stolen per Hit",
+   "Attacker Takes Damage of 55-77",
+   "+1-3 to Combat Skills (Barbarian Only)",
+   "+1-3 to Combat Masteries (Barbarian Only)",
+   "+1-3 to Warcries (Barbarian Only)"
+  ]
+ },
+ {
+  "name": "The Reaper's Toll",
+  "alias": [
+   "Reapers"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Thresher",
+  "tier": "Elite",
+  "lvl": 75,
+  "stats": [
+   "+190-240% Enhanced Damage",
+   "33% Chance to Cast Level 1 Decrepify on Striking",
+   "Ignore Target's Defense",
+   "11-15% Life Stolen per Hit",
+   "Requirements -25%",
+   "33% Deadly Strike",
+   "Adds 4-44 Cold Damage"
+  ]
+ },
+ {
+  "name": "Spirit Keeper",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Earth Spirit",
+  "tier": "Elite",
+  "lvl": 67,
+  "stats": [
+   "+170-190% Enhanced Defense",
+   "+20% Faster Hit Recovery",
+   "+9-14 Lightning Absorb",
+   "Fire Resist +30-40%",
+   "Cold Absorb +15-25%",
+   "+10% to Maximum Poison Resist",
+   "+1-2 to Druid Skill Levels"
+  ]
+ },
+ {
+  "name": "Hellrack",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Colossus Crossbow",
+  "tier": "Elite",
+  "lvl": 76,
+  "stats": [
+   "+180-230% Enhanced Damage",
+   "+63-324 to Minimum Fire Damage",
+   "+20% Increased Attack Speed",
+   "100-150% Bonus to Attack Rating",
+   "Socketed (2)",
+   "Level 18 Immolation Arrow (150 Charges)"
+  ]
+ },
+ {
+  "name": "Alma Negra",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Sacred Rondache",
+  "tier": "Elite",
+  "lvl": 77,
+  "stats": [
+   "+180-210% Enhanced Defense",
+   "30% Faster Block Rate",
+   "+1-2 to Paladin Skill Levels",
+   "20% Increased Chance of Blocking",
+   "Magic Damage Reduced by 5-9",
+   "40-75% Bonus to Attack Rating",
+   "+40-75% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Darkforce Spawn",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Bloodlord Skull",
+  "tier": "Elite",
+  "lvl": 64,
+  "stats": [
+   "+140-180% Enhanced Defense",
+   "+30% Faster Cast Rate",
+   "Increase Maximum Mana 10%",
+   "+1-3 to Curses (Necromancer Only)",
+   "+1-3 to Poison and Bone (Necromancer Only)",
+   "+1-3 to Summoning (Necromancer Only)"
+  ]
+ },
+ {
+  "name": "Widowmaker",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ward Bow",
+  "tier": "Elite",
+  "lvl": 65,
+  "stats": [
+   "+150-200% Enhanced Damage",
+   "33% Deadly Strike",
+   "Ignore Target's Defense",
+   "Fires Magic Arrows",
+   "+3-5 to Guided Arrow"
+  ]
+ },
+ {
+  "name": "Blood Raven's Charge",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Matriarchal Bow",
+  "tier": "Elite",
+  "lvl": 71,
+  "stats": [
+   "+180-230% Enhanced Damage",
+   "200-300% Bonus to Attack Rating",
+   "Fires Explosive Arrows or Bolts",
+   "+2-4 to Bow and Crossbow (Amazon Only)",
+   "Level 5 Revive (30 Charges)"
+  ]
+ },
+ {
+  "name": "Ghostflame",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Legend Spike",
+  "tier": "Elite",
+  "lvl": 62,
+  "stats": [
+   "+190-240% Enhanced Damage",
+   "Ignore Target's Defense",
+   "Adds 108-108 Magic Damage",
+   "10-15% Mana Stolen per Hit",
+   "Ethereal (Cannot be Repaired)",
+   "Indestructible",
+   "+2 to Light Radius"
+  ]
+ },
+ {
+  "name": "Shadow Killer",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Battle Cestus",
+  "tier": "Elite",
+  "lvl": 78,
+  "stats": [
+   "+170-220% Enhanced Damage",
+   "-25% Target Defense",
+   "Freezes target",
+   "+10-15 to Mana after each Kill",
+   "33% Chance to Cast Level 8 Frost Nova on Striking",
+   "Ethereal (Cannot be Repaired)",
+   "Indestructible"
+  ]
+ },
+ {
+  "name": "Gimmershred",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Flying Axe",
+  "tier": "Elite",
+  "lvl": 70,
+  "stats": [
+   "+160-210% Enhanced Damage",
+   "Adds 218-483 Fire Damage",
+   "Adds 176-397 Cold Damage",
+   "Adds 29-501 Lightning Damage",
+   "Increased Stack Size",
+   "+30% Increased Attack Speed"
+  ]
+ },
+ {
+  "name": "Griffon's Eye",
+  "alias": [
+   "Griffon's",
+   "Griff"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Diadem",
+  "tier": "Elite",
+  "lvl": 76,
+  "stats": [
+   "+100-200 Defense",
+   "+25% Faster Cast Rate",
+   "+1 to All Skills",
+   "+10-15% to Lightning Skill Damage",
+   "-15-20% to Enemy Lightning Resistance"
+  ]
+ },
+ {
+  "name": "Windhammer",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ogre Maul",
+  "tier": "Elite",
+  "lvl": 68,
+  "stats": [
+   "+180-230% Enhanced Damage",
+   "50% Chance of Crushing Blow",
+   "+60% Increased Attack Speed",
+   "33% Chance to Cast Level 22 Twister on Striking"
+  ]
+ },
+ {
+  "name": "Thunderstroke",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Matriarchal Javelin",
+  "tier": "Elite",
+  "lvl": 69,
+  "stats": [
+   "+150-200% Enhanced Damage",
+   "Adds 1-511 Lightning Damage",
+   "20% Chance to Cast Level 14 Lightning on Striking",
+   "+15% Increased Attack Speed",
+   "-15% to Enemy Lightning Resistance",
+   "+3 to Lightning Bolt (Amazon Only)",
+   "+2-4 to Javelin and Spear (Amazon Only)"
+  ]
+ },
+ {
+  "name": "Demon's Arch",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Balrog Spear",
+  "tier": "Elite",
+  "lvl": 68,
+  "stats": [
+   "+160-210% Enhanced Damage",
+   "Adds 232-323 Fire Damage",
+   "6-12% Life Stolen per Hit",
+   "Replenishes quantity",
+   "+30% Increased Attack Speed",
+   "Adds 23-333 Lightning Damage"
+  ]
+ },
+ {
+  "name": "Boneflame",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Succubae Skull",
+  "tier": "Elite",
+  "lvl": 72,
+  "stats": [
+   "+120-150% Enhanced Defense",
+   "+20% Faster Run/Walk",
+   "15% Chance to Cast Level 3 Terror When Struck",
+   "+2-3 to Necromancer Skill Levels",
+   "All Resistances +20-30%"
+  ]
+ },
+ {
+  "name": "Steel Pillar",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "War Pike",
+  "tier": "Elite",
+  "lvl": 69,
+  "stats": [
+   "+210-260% Enhanced Damage",
+   "+25% Increased Attack Speed",
+   "-20% Target Defense",
+   "+50-80% Enhanced Defense",
+   "Indestructible",
+   "25% Chance of Crushing Blow"
+  ]
+ },
+ {
+  "name": "Nightwing's Veil",
+  "alias": [
+   "Nightwing",
+   "NWing"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Spired Helm",
+  "tier": "Elite",
+  "lvl": 67,
+  "stats": [
+   "+90-120% Enhanced Defense",
+   "+2 to All Skills",
+   "+10-20 to Dexterity",
+   "+5-9 Cold Absorb",
+   "Half Freeze Duration",
+   "+8-15% to Cold Skill Damage",
+   "Requirements -50%"
+  ]
+ },
+ {
+  "name": "Crown of Ages",
+  "alias": [
+   "CoA"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Corona",
+  "tier": "Elite",
+  "lvl": 82,
+  "stats": [
+   "+30% Faster Hit Recovery",
+   "All Resistances +20-30%",
+   "+1 to All Skills",
+   "+100-150 Defense",
+   "Indestructible",
+   "Damage Reduced by 10-15%",
+   "+50% Enhanced Defense",
+   "Socketed (1-2)"
+  ]
+ },
+ {
+  "name": "Andariel's Visage",
+  "alias": [
+   "Andy's",
+   "Andy"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Demonhead",
+  "tier": "Elite",
+  "lvl": 83,
+  "stats": [
+   "+100-150% Enhanced Defense",
+   "Poison Resist +70%",
+   "+2 to All Skills",
+   "+10% to Maximum Poison Resist",
+   "+20% Increased Attack Speed",
+   "+25-30 to Strength",
+   "15% Chance to Cast Level 15 Poison Nova When Struck",
+   "Level 3 Venom (20 Charges)",
+   "8-10% Life Stolen per Hit",
+   "Fire Resist -30%"
+  ]
+ },
+ {
+  "name": "Dragonscale",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Zakarum Shield",
+  "tier": "Elite",
+  "lvl": 80,
+  "stats": [
+   "+170-200% Enhanced Defense",
+   "Fire Absorb +10-20%",
+   "+5% to Maximum Fire Resist",
+   "+15-25 to Strength",
+   "Adds 211-371 Fire Damage",
+   "+10 to Hydra",
+   "+15% to Fire Skill Damage"
+  ]
+ },
+ {
+  "name": "Steel Carapace",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Shadow Plate",
+  "tier": "Elite",
+  "lvl": 66,
+  "stats": [
+   "+190-220% Enhanced Defense",
+   "+20% Faster Hit Recovery",
+   "Damage Reduced by 9-14",
+   "Cold Resist +40-60%",
+   "Regenerate Mana 10-15%",
+   "Repairs 0 durability per second",
+   "8% Chance to Cast Level 6 Iron Maiden When Struck"
+  ]
+ },
+ {
+  "name": "Medusa's Gaze",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Aegis",
+  "tier": "Elite",
+  "lvl": 76,
+  "stats": [
+   "+150-180% Enhanced Defense",
+   "Slows Target by 20%",
+   "10% Chance to Cast Level 7 Lower Resist When Struck",
+   "5-9% Life Stolen per Hit",
+   "100% Chance to Cast Level 44 Nova on Death",
+   "Cold Resist +40-80%"
+  ]
+ },
+ {
+  "name": "Ravenlore",
+  "alias": [
+   "Raven's"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Sky Spirit",
+  "tier": "Elite",
+  "lvl": 74,
+  "stats": [
+   "+120-150% Enhanced Defense",
+   "All Resistances +15-25%",
+   "+3 to Elemental (Druid Only)",
+   "+20-30 to Energy",
+   "-10-20% to Enemy Fire Resistance",
+   "+7 to Raven (Druid Only)"
+  ]
+ },
+ {
+  "name": "Boneshade",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Lich Wand",
+  "tier": "Elite",
+  "lvl": 79,
+  "stats": [
+   "+2 to Necromancer Skill Levels",
+   "+25% Faster Cast Rate",
+   "+4-5 to Teeth (Necromancer Only)",
+   "+4-5 to Bone Armor (Necromancer Only)",
+   "+2-3 to Bone Spear (Necromancer Only)",
+   "+1-2 to Bone Spirit (Necromancer Only)",
+   "+2-3 to Bone Wall (Necromancer Only)"
+  ]
+ },
+ {
+  "name": "Flamebellow",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Balrog Blade",
+  "tier": "Elite",
+  "lvl": 71,
+  "stats": [
+   "+170-240% Enhanced Damage",
+   "Adds 233-482 Fire Damage",
+   "+3 to Fire Skills",
+   "Fire Absorb +20-30%",
+   "12% Chance to Cast Level 16 Firestorm on Striking",
+   "+10-20 to Strength",
+   "+5-10 to Vitality",
+   "+12-18 to Inferno"
+  ]
+ },
+ {
+  "name": "Death's Fathom",
+  "alias": [
+   "Fathom"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Dimensional Shard",
+  "tier": "Elite",
+  "lvl": 73,
+  "stats": [
+   "+3 to Sorceress Skill Levels",
+   "+15-30% to Cold Skill Damage",
+   "+20% Faster Cast Rate",
+   "Fire Resist +25-40%",
+   "Lightning Resist +25-40%"
+  ]
+ },
+ {
+  "name": "Wolfhowl",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Fury Visor",
+  "tier": "Elite",
+  "lvl": 79,
+  "stats": [
+   "+120-150% Enhanced Defense",
+   "+2-3 to Warcries (Barbarian Only)",
+   "+8-15 to Strength",
+   "+8-15 to Dexterity",
+   "+8-15 to Vitality",
+   "+3-6 to Wearwolf",
+   "Level 15 Summon Fenris (18 Charges)",
+   "+3-6 to Shape Shifting",
+   "+3-6 to Feral Rage"
+  ]
+ },
+ {
+  "name": "Spirit Ward",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ward",
+  "tier": "Elite",
+  "lvl": 68,
+  "stats": [
+   "+130-180% Enhanced Defense",
+   "+6-11 Cold Absorb",
+   "All Resistances +30-40%",
+   "20-30% Increased Chance of Blocking",
+   "25% Faster Block Rate",
+   "5% Chance to Cast Level 8 Fade When Struck"
+  ]
+ },
+ {
+  "name": "Kira's Guardian",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Tiara",
+  "tier": "Exceptional",
+  "lvl": 77,
+  "stats": [
+   "+50-120 Defense",
+   "All Resistances +50-70%",
+   "Cannot Be Frozen",
+   "+20% Faster Hit Recovery"
+  ]
+ },
+ {
+  "name": "Ormus' Robes",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Dusk Shroud",
+  "tier": "Elite",
+  "lvl": 75,
+  "stats": [
+   "+10-20 Defense",
+   "+20% Faster Cast Rate",
+   "+10-15% to Fire Skill Damage",
+   "+10-15% to Cold Skill Damage",
+   "+10-15% to Lightning Skill Damage",
+   "Regenerate Mana 10-15%",
+   "+36-60 to Unsummon"
+  ]
+ },
+ {
+  "name": "Gheed's Fortune",
+  "alias": [
+   "Gheeds"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Charms",
+  "tier": "",
+  "lvl": 62,
+  "stats": [
+   "20-40% Better Chance of Getting Magic Items",
+   "80-160% Extra Gold from Monsters",
+   "10-15% Reduced Vendor Prices"
+  ]
+ },
+ {
+  "name": "Stormlash",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Scourge",
+  "tier": "Elite",
+  "lvl": 82,
+  "stats": [
+   "+240-300% Enhanced Damage",
+   "+30% Increased Attack Speed",
+   "15% Chance to Cast Level 10 Static Field on Striking",
+   "20% Chance to Cast Level 18 Tornado on Striking",
+   "Adds 1-473 Lightning Damage",
+   "Attacker Takes Lightning Damage of 30",
+   "33% Chance of Crushing Blow",
+   "+3-9 Lightning Absorb"
+  ]
+ },
+ {
+  "name": "Halaberd's Reign",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Conqueror Crown",
+  "tier": "Elite",
+  "lvl": 77,
+  "stats": [
+   "+140-170% Enhanced Defense",
+   "+1 to Combat Masteries (Barbarian Only)",
+   "+2 to Barbarian Skill Levels",
+   "+20% Faster Hit Recovery",
+   "Replenish Life +15-23",
+   "+1-2 to Battle Orders (Barbarian Only)",
+   "+1-2 to Battle Command (Barbarian Only)"
+  ]
+ },
+ {
+  "name": "Spike Thorn",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Blade Barrier",
+  "tier": "Elite",
+  "lvl": 70,
+  "stats": [
+   "+120-150% Enhanced Defense",
+   "1-136 Attacker Takes Damage of (by character level)",
+   "Increase Maximum Durability 250%",
+   "+30% Faster Hit Recovery",
+   "Damage Reduced by 15-20%",
+   "Socketed (1)"
+  ]
+ },
+ {
+  "name": "Dracul's Grasp",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Vampirebone Gloves",
+  "tier": "Elite",
+  "lvl": 76,
+  "stats": [
+   "+90-120% Enhanced Defense",
+   "7-10% Life Stolen per Hit",
+   "25% Chance of Open Wounds",
+   "5% Chance to Cast Level 10 Life Tap on Striking",
+   "+5-10 Life after each Kill",
+   "+10-15 to Strength"
+  ]
+ },
+ {
+  "name": "Frostwind",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Cryptic Sword",
+  "tier": "Elite",
+  "lvl": 70,
+  "stats": [
+   "+180-230% Enhanced Damage",
+   "Freezes target",
+   "Half Freeze Duration",
+   "Adds 237-486 Cold Damage",
+   "+25% Increased Attack Speed",
+   "Cold Absorb +7-15%",
+   "+7-14 to Arctic Blast"
+  ]
+ },
+ {
+  "name": "Templar's Might",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Sacred Armor",
+  "tier": "Elite",
+  "lvl": 74,
+  "stats": [
+   "+170-220% Enhanced Defense",
+   "+20% Faster Hit Recovery",
+   "+250-300 Defense vs. Missile",
+   "+40-50 Maximum Stamina",
+   "+10-15 to Strength",
+   "+10-15 to Vitality",
+   "+1-2 to Offensive Auras (Paladin Only)"
+  ]
+ },
+ {
+  "name": "Eschuta's Temper",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Eldritch Orb",
+  "tier": "Elite",
+  "lvl": 72,
+  "stats": [
+   "+1-3 to Sorceress Skill Levels",
+   "+40% Faster Cast Rate",
+   "+10-20% to Fire Skill Damage",
+   "+10-20% to Lightning Skill Damage",
+   "+20-30 to Energy"
+  ]
+ },
+ {
+  "name": "Firelizard's Talons",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Feral Claws",
+  "tier": "Elite",
+  "lvl": 67,
+  "stats": [
+   "+200-270% Enhanced Damage",
+   "+15% Increased Attack Speed",
+   "+1-3 to Martial Arts (Assassin Only)",
+   "Adds 236-480 Fire Damage",
+   "Fire Resist +40-70%",
+   "+1-2 to Wake of Fire Sentry (Assassin Only)",
+   "+1-2 to Inferno Sentry (Assassin Only)"
+  ]
+ },
+ {
+  "name": "Sandstorm Trek",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Scarabshell Boots",
+  "tier": "Elite",
+  "lvl": 64,
+  "stats": [
+   "+140-170% Enhanced Defense",
+   "+20% Faster Run/Walk",
+   "+20% Faster Hit Recovery",
+   "+1-99 to Stamina (by character level)",
+   "50% Slower Stamina Drain",
+   "Poison Resist +40-70%",
+   "Repairs 0 durability per second",
+   "+10-15 to Strength",
+   "+10-15 to Vitality"
+  ]
+ },
+ {
+  "name": "Marrowwalk",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Boneweave Boots",
+  "tier": "Elite",
+  "lvl": 66,
+  "stats": [
+   "+170-200% Enhanced Defense",
+   "+20% Faster Run/Walk",
+   "Level 33 Bone Prison (13 Charges)",
+   "Level 12 Life Tap (10 Charges)",
+   "Heal Stamina Plus 10%",
+   "Regenerate Mana 10%",
+   "Half Freeze Duration",
+   "+10-20 to Strength",
+   "+17 to Dexterity",
+   "+1-2 to Skeleton Mastery (Necromancer Only)"
+  ]
+ },
+ {
+  "name": "Heaven's Light",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Mighty Scepter",
+  "tier": "Elite",
+  "lvl": 61,
+  "stats": [
+   "+250-300% Enhanced Damage",
+   "+20% Increased Attack Speed",
+   "-33% Target Defense",
+   "+3 to Light Radius",
+   "+15-20 Life after each Demon Kill",
+   "33% Chance of Crushing Blow",
+   "Socketed (1-3)",
+   "+2-3 to Paladin Skill Levels"
+  ]
+ },
+ {
+  "name": "Arachnid Mesh",
+  "alias": [
+   "Spider",
+   "Arach"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Spiderweb Sash",
+  "tier": "Elite",
+  "lvl": 80,
+  "stats": [
+   "+90-120% Enhanced Defense",
+   "+20% Faster Cast Rate",
+   "Level 3 Venom (11 Charges)",
+   "+1 to All Skills",
+   "Slows Target by 10%",
+   "Increase Maximum Mana 5%"
+  ]
+ },
+ {
+  "name": "Nosferatu's Coil",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Vampirefang Belt",
+  "tier": "Elite",
+  "lvl": 51,
+  "stats": [
+   "+15 to Strength",
+   "+2 to Mana after each Kill",
+   "Slows Target by 10%",
+   "5-7% Life Stolen per Hit",
+   "+10% Increased Attack Speed",
+   "-3 to Light Radius"
+  ]
+ },
+ {
+  "name": "Metalgrid",
+  "alias": [
+   "Metal"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 81,
+  "stats": [
+   "+300-350 Defense",
+   "All Resistances +25-35%",
+   "+400-450 to Attack Rating",
+   "Level 22 IronGolem (11 Charges)",
+   "Level 12 Iron Maiden (20 Charges)"
+  ]
+ },
+ {
+  "name": "Verdungo's Hearty Cord",
+  "alias": [
+   "Verdungo",
+   "Verd"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Mithril Coil",
+  "tier": "Elite",
+  "lvl": 63,
+  "stats": [
+   "+90-140% Enhanced Defense",
+   "+30-40 to Vitality",
+   "+100-120 Maximum Stamina",
+   "+10% Faster Hit Recovery",
+   "Damage Reduced by 10-15%",
+   "Replenish Life +10-13"
+  ]
+ },
+ {
+  "name": "Carrion Wind",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ring",
+  "tier": "",
+  "lvl": 60,
+  "stats": [
+   "+100-160 Defense vs. Missile",
+   "6-9% Life Stolen per Hit",
+   "Poison Resist +55%",
+   "10% Chance to Cast Level 10 Poison Nova When Struck",
+   "Level 21 Plague Poppy (15 Charges)",
+   "8% Chance to Cast Level 13 Twister on Striking",
+   "+10% Damage Taken Goes To Mana"
+  ]
+ },
+ {
+  "name": "Giant Skull",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Bone Visage",
+  "tier": "Elite",
+  "lvl": 65,
+  "stats": [
+   "+250-320 Defense",
+   "+25-35 to Strength",
+   "10% Chance of Crushing Blow",
+   "Socketed (1-2)",
+   "Knockback"
+  ]
+ },
+ {
+  "name": "Astreon's Iron Ward",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Caduceus",
+  "tier": "Elite",
+  "lvl": 60,
+  "stats": [
+   "+240-290% Enhanced Damage",
+   "Slows Target by 25%",
+   "150-200% Bonus to Attack Rating",
+   "+10% Increased Attack Speed",
+   "Adds 80-240 Magic Damage",
+   "Damage Reduced by 4-7",
+   "Adds 40-85 Damage",
+   "+2-4 to Combat Skills (Paladin Only)",
+   "33% Chance of Crushing Blow"
+  ]
+ },
+ {
+  "name": "Annihilus",
+  "alias": [
+   "Anni"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Charms",
+  "tier": "",
+  "lvl": 70,
+  "stats": [
+   "+1 to All Skills",
+   "+10-20 to Strength",
+   "All Resistances +10-20%",
+   "+5-10% to Experience Gained"
+  ]
+ },
+ {
+  "name": "Arioc's Needle",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Hyperion Spear",
+  "tier": "Elite",
+  "lvl": 81,
+  "stats": [
+   "+180-230% Enhanced Damage",
+   "Adds 394-394 Poison Damage over 10 Seconds",
+   "50% Deadly Strike",
+   "Ignore Target's Defense",
+   "+2-4 to All Skills",
+   "+30% Increased Attack Speed"
+  ]
+ },
+ {
+  "name": "Cranebeak",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "War Spike",
+  "tier": "Elite",
+  "lvl": 63,
+  "stats": [
+   "+240-300% Enhanced Damage",
+   "Adds 1-305 Lightning Damage",
+   "+40% Increased Attack Speed",
+   "-25% Target Defense",
+   "20-50% Better Chance of Getting Magic Items",
+   "Level 8 Raven (15 Charges)"
+  ]
+ },
+ {
+  "name": "Nord's Tenderizer",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Truncheon",
+  "tier": "Elite",
+  "lvl": 68,
+  "stats": [
+   "+270-330% Enhanced Damage",
+   "Freezes target",
+   "+25% Increased Attack Speed",
+   "Level 16 Blizzard (12 Charges)",
+   "150-180% Bonus to Attack Rating",
+   "Cold Absorb +5-15%",
+   "Adds 205-455 Cold Damage"
+  ]
+ },
+ {
+  "name": "Earth Shifter",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Thunder Maul",
+  "tier": "Elite",
+  "lvl": 69,
+  "stats": [
+   "+250-300% Enhanced Damage",
+   "25% Chance to Cast Level 14 Eruption on Striking",
+   "33% Chance of Crushing Blow",
+   "+10% Increased Attack Speed",
+   "Level 14 Volcano (30 Charges)",
+   "+7 to Elemental (Druid Only)",
+   "+10% Faster Cast Rate"
+  ]
+ },
+ {
+  "name": "Wraith Flight",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ghost Glaive",
+  "tier": "Elite",
+  "lvl": 76,
+  "stats": [
+   "+150-190% Enhanced Damage",
+   "Replenishes quantity",
+   "9-13% Life Stolen per Hit",
+   "+15 to Mana after each Kill",
+   "Ethereal (Cannot be Repaired)"
+  ]
+ },
+ {
+  "name": "Bonehew",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ogre Axe",
+  "tier": "Elite",
+  "lvl": 64,
+  "stats": [
+   "+270-320% Enhanced Damage",
+   "+30% Increased Attack Speed",
+   "Level 14 Corpse Explosion (30 Charges)",
+   "50% Chance to Cast Level 16 Bone Spear on Striking",
+   "Prevent Monster Heal",
+   "Socketed (2)"
+  ]
+ },
+ {
+  "name": "Ondal's Wisdom",
+  "alias": [
+   "Ondals"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Elder Staff",
+  "tier": "Elite",
+  "lvl": 66,
+  "stats": [
+   "+45% Faster Cast Rate",
+   "+40-50 to Energy",
+   "+2-4 to All Skills",
+   "+450-550 Defense",
+   "+5% to Experience Gained",
+   "Magic Damage Reduced by 5-8"
+  ]
+ },
+ {
+  "name": "The Redeemer",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Mighty Scepter",
+  "tier": "Elite",
+  "lvl": 72,
+  "stats": [
+   "+250-300% Enhanced Damage",
+   "+200-250% Damage to Demons",
+   "+2 to Paladin Skill Levels",
+   "Requirements -60%",
+   "+2-4 to Redemption (Paladin Only)",
+   "+2-4 to Holy Bolt (Paladin Only)",
+   "+3 to Light Radius",
+   "-33% Target Defense",
+   "Adds 60-120 Damage"
+  ]
+ },
+ {
+  "name": "Head Hunter's Glory",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Troll Nest",
+  "tier": "Elite",
+  "lvl": 75,
+  "stats": [
+   "+320-420 Defense",
+   "+300-350 Defense vs. Missile",
+   "Poison Resist +30-40%",
+   "Socketed (1-3)",
+   "Fire Resist +20-30%",
+   "+5-7 Life after each Kill"
+  ]
+ },
+ {
+  "name": "Steelrend",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ogre Gauntlets",
+  "tier": "Elite",
+  "lvl": 70,
+  "stats": [
+   "+170-210 Defense",
+   "+15-20 to Strength",
+   "+30-60% Enhanced Damage",
+   "10% Chance of Crushing Blow"
+  ]
+ },
+ {
+  "name": "Rainbow Facet",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Jewels",
+  "tier": "",
+  "lvl": 49,
+  "stats": [
+   "Adds 1-74 Lightning Damage",
+   "-3-5% to Enemy Lightning Resistance",
+   "+3-5% to Lightning Skill Damage",
+   "100% Chance to Cast Level 47 Chain Lightning on Death"
+  ]
+ },
+ {
+  "name": "Rainbow Facet",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Jewels",
+  "tier": "",
+  "lvl": 49,
+  "stats": [
+   "Adds 24-38 Cold Damage",
+   "-3-5% to Enemy Cold Resistance",
+   "+3-5% to Cold Skill Damage",
+   "100% Chance to Cast Level 37 Blizzard on Death"
+  ]
+ },
+ {
+  "name": "Rainbow Facet",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Jewels",
+  "tier": "",
+  "lvl": 49,
+  "stats": [
+   "Adds 17-45 Fire Damage",
+   "-3-5% to Enemy Fire Resistance",
+   "+3-5% to Fire Skill Damage",
+   "100% Chance to Cast Level 31 Meteor on Death"
+  ]
+ },
+ {
+  "name": "Rainbow Facet",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Jewels",
+  "tier": "",
+  "lvl": 49,
+  "stats": [
+   "Adds 37-37 Poison Damage over 2 Seconds",
+   "-3-5% to Enemy Poison Resistance",
+   "+3-5% to Poison Skill Damage",
+   "100% Chance to Cast Level 51 Poison Nova on Death"
+  ]
+ },
+ {
+  "name": "Rainbow Facet",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Jewels",
+  "tier": "",
+  "lvl": 49,
+  "stats": [
+   "Adds 1-74 Lightning Damage",
+   "-3-5% to Enemy Lightning Resistance",
+   "+3-5% to Lightning Skill Damage",
+   "100% Chance to Cast Level 41 Nova on Level-Up"
+  ]
+ },
+ {
+  "name": "Rainbow Facet",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Jewels",
+  "tier": "",
+  "lvl": 49,
+  "stats": [
+   "Adds 24-38 Cold Damage",
+   "-3-5% to Enemy Cold Resistance",
+   "+3-5% to Cold Skill Damage",
+   "100% Chance to Cast Level 43 Frost Nova on Level-Up"
+  ]
+ },
+ {
+  "name": "Rainbow Facet",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Jewels",
+  "tier": "",
+  "lvl": 49,
+  "stats": [
+   "Adds 17-45 Fire Damage",
+   "-3-5% to Enemy Fire Resistance",
+   "+3-5% to Fire Skill Damage",
+   "100% Chance to Cast Level 29 Blaze on Level-Up"
+  ]
+ },
+ {
+  "name": "Rainbow Facet",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Jewels",
+  "tier": "",
+  "lvl": 49,
+  "stats": [
+   "Adds 37-37 Poison Damage over 2 Seconds",
+   "-3-5% to Enemy Poison Resistance",
+   "+3-5% to Poison Skill Damage",
+   "100% Chance to Cast Level 23 Venom on Level-Up"
+  ]
+ },
+ {
+  "name": "Hellfire Torch",
+  "alias": [
+   "Torch"
+  ],
+  "q": "u",
+  "set": "",
+  "type": "Charms",
+  "tier": "",
+  "lvl": 75,
+  "stats": [
+   "+0-7 to Random Class Skills",
+   "+10-20 to Strength",
+   "All Resistances +10-20%",
+   "+8 to Light Radius",
+   "5% Chance to Cast Level 10 DiabWall on Striking",
+   "Level 30 Hydra (10 Charges)"
+  ]
+ },
+ {
+  "name": "Cold Rupture",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Charms",
+  "tier": "",
+  "lvl": 75,
+  "stats": [
+   "Monster Cold Immunity is Sundered",
+   "Cold Resist -90-70%"
+  ]
+ },
+ {
+  "name": "Flame Rift",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Charms",
+  "tier": "",
+  "lvl": 75,
+  "stats": [
+   "Monster Fire Immunity is Sundered",
+   "Fire Resist -90-70%"
+  ]
+ },
+ {
+  "name": "Crack of the Heavens",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Charms",
+  "tier": "",
+  "lvl": 75,
+  "stats": [
+   "Monster Lightning Immunity is Sundered",
+   "Lightning Resist -90-70%"
+  ]
+ },
+ {
+  "name": "Rotting Fissure",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Charms",
+  "tier": "",
+  "lvl": 75,
+  "stats": [
+   "Monster Poison Immunity is Sundered",
+   "Poison Resist -90-70%"
+  ]
+ },
+ {
+  "name": "Bone Break",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Charms",
+  "tier": "",
+  "lvl": 75,
+  "stats": [
+   "Monster Physical Immunity is Sundered",
+   "Damage Reduced by -20--10%"
+  ]
+ },
+ {
+  "name": "Black Cleft",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Charms",
+  "tier": "",
+  "lvl": 75,
+  "stats": [
+   "Monster Magic Immunity is Sundered",
+   "Magic Resist -65-45%"
+  ]
+ },
+ {
+  "name": "Ars Al'Diabolos",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Blasphemous Grimoire",
+  "tier": "",
+  "lvl": 80,
+  "stats": [
+   "+2 to Skill Tab 23",
+   "15% Chance to Cast Level 1 Terror When Struck",
+   "+25% Faster Cast Rate",
+   "+170-200% Enhanced Defense",
+   "+15-25% to Fire Skill Damage",
+   "+5-10 to Light Radius",
+   "+5-10 to Mana after each Kill",
+   "Fire Resist +20-30%",
+   "+3-5 to Apocalypse (War Only)"
+  ]
+ },
+ {
+  "name": "Ars Tor'Baalos",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Blasphemous Compendium",
+  "tier": "",
+  "lvl": 73,
+  "stats": [
+   "+2 to Skill Tab 21",
+   "15% Chance to Cast Level 1 Decrepify When Struck",
+   "+2-3 to Demonic Mastery (War Only)",
+   "+2-4 to Blood Boil (War Only)",
+   "+2-3 to Engorge (War Only)",
+   "+2-3 to Consume (War Only)",
+   "+120-150% Enhanced Defense",
+   "+1-148 to Life (by character level)",
+   "Damage Reduced by 5-10%"
+  ]
+ },
+ {
+  "name": "Ars Dul'Mephistos",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Occult Tome",
+  "tier": "",
+  "lvl": 78,
+  "stats": [
+   "+2 to War Skill Levels",
+   "15% Chance to Cast Level 28 Blizzard When Struck",
+   "+20-30% Faster Cast Rate",
+   "+30% Faster Hit Recovery",
+   "+70-115% Enhanced Damage",
+   "50-70% Bonus to Attack Rating",
+   "+140-170% Enhanced Defense",
+   "-10-20% to Enemy Magic Resistance",
+   "10-25% Better Chance of Getting Magic Items"
+  ]
+ },
+ {
+  "name": "Measured Wrath",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Burnt Text",
+  "tier": "",
+  "lvl": 52,
+  "stats": [
+   "+1 to War Skill Levels",
+   "5% Chance to Cast Level 25 Ring of Fire When Struck",
+   "+25% Faster Cast Rate",
+   "+130-180% Enhanced Defense",
+   "+1-3 to Summon Tainted (War Only)",
+   "+1-3 to Ring of Fire (War Only)",
+   "+1-3 to Flame Wave (War Only)",
+   "+10-20 to Vitality",
+   "+3-5 Life after each Kill",
+   "All Resistances +20-30%"
+  ]
+ },
+ {
+  "name": "Dreadfang",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Legend Sword",
+  "tier": "Elite",
+  "lvl": 61,
+  "stats": [
+   "33% Chance to Cast Level 3 Amplify Damage on Striking",
+   "+33% Increased Attack Speed",
+   "+133-166% Enhanced Damage",
+   "3-6% Mana Stolen per Hit",
+   "33% Deadly Strike",
+   "+3 to Mirrored Blades (War Only)",
+   "33% Bonus to Attack Rating",
+   "Requirements -33%"
+  ]
+ },
+ {
+  "name": "Wraithstep",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Mirrored Boots",
+  "tier": "Elite",
+  "lvl": 67,
+  "stats": [
+   "+30% Faster Run/Walk",
+   "+20% Faster Hit Recovery",
+   "+40-60 Defense",
+   "+10-15 to Dexterity",
+   "+10-15 to Energy"
+  ]
+ },
+ {
+  "name": "Bloodpact Shard",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Mithril Point",
+  "tier": "Elite",
+  "lvl": 67,
+  "stats": [
+   "+1 to All Skills",
+   "+30% Faster Cast Rate",
+   "Increase Maximum Life 10-15%",
+   "+2-3 to Blood Oath (War Only)",
+   "+2-3 to Blood Boil (War Only)",
+   "+1-3 to Bind Demon (War Only)",
+   "20-35% Better Chance of Getting Magic Items",
+   "Slows Target by 25%"
+  ]
+ },
+ {
+  "name": "Sling",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ring",
+  "tier": "",
+  "lvl": 50,
+  "stats": [
+   "+1 to Townportal O Skill",
+   "+10% Faster Cast Rate",
+   "-3-5% to Enemy Magic Resistance",
+   "+10-15 to Energy",
+   "Slows Target by 15%",
+   "10-20% Better Chance of Getting Magic Items"
+  ]
+ },
+ {
+  "name": "Opalvein",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Ring",
+  "tier": "",
+  "lvl": 50,
+  "stats": [
+   "2-15% Chance to cast level 2-15 %s on attack",
+   "+10% Faster Cast Rate",
+   "All Resistances +6-8%",
+   "+1-3 Life after each Kill",
+   "+1-3 to Mana after each Kill"
+  ]
+ },
+ {
+  "name": "Entropy Locket",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 54,
+  "stats": [
+   "4% Chance to Cast Level 19 Miasma Chains on Striking",
+   "+5-10% to Magic Skill Damage",
+   "+5-10% Faster Cast Rate",
+   "Lightning Resist +25-40%",
+   "Increase Maximum Mana 10-15%",
+   "Magic Damage Reduced by 8-12"
+  ]
+ },
+ {
+  "name": "Gheed's Wager",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Troll Belt",
+  "tier": "Elite",
+  "lvl": 71,
+  "stats": [
+   "+10-20% Faster Cast Rate",
+   "+10-20% Faster Hit Recovery",
+   "+10-20% Faster Run/Walk",
+   "+90-150% Enhanced Defense",
+   "-3-7% to Enemy Magic Resistance",
+   "All Resistances +5-15%",
+   "44-75% Extra Gold from Monsters"
+  ]
+ },
+ {
+  "name": "Hellwarden's Will",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Death Mask",
+  "tier": "Exceptional",
+  "lvl": 50,
+  "stats": [
+   "+1 to All Skills",
+   "-5-8% to Enemy Fire Resistance",
+   "-5-8% to Enemy Magic Resistance",
+   "+20% Faster Cast Rate",
+   "+20% Increased Attack Speed",
+   "+150-215% Enhanced Defense",
+   "+4-6 to Mana after each Kill"
+  ]
+ },
+ {
+  "name": "Defender's Bile",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Jewels",
+  "tier": "",
+  "lvl": 75,
+  "stats": [
+   "1% Chance to Cast Level 25 Bone Armor When Struck",
+   "+5-10% to Poison Skill Damage",
+   "Adds 95-95 Poison Damage over 1 Seconds",
+   "-5-10% to Enemy Poison Resistance",
+   "+3-5% to Experience Gained",
+   "15-35% Better Chance of Getting Magic Items",
+   "25-50% Extra Gold from Monsters"
+  ]
+ },
+ {
+  "name": "Guardian's Thunder",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Jewels",
+  "tier": "",
+  "lvl": 75,
+  "stats": [
+   "1% Chance to Cast Level 25 Cyclone Armor When Struck",
+   "+5-10% to Lightning Skill Damage",
+   "Adds 1-75 Lightning Damage",
+   "-5-10% to Enemy Lightning Resistance",
+   "+3-5% to Experience Gained",
+   "15-35% Better Chance of Getting Magic Items",
+   "25-50% Extra Gold from Monsters"
+  ]
+ },
+ {
+  "name": "Protector's Frost",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Jewels",
+  "tier": "",
+  "lvl": 75,
+  "stats": [
+   "1% Chance to Cast Level 25 Frozen Armor When Struck",
+   "+5-10% to Cold Skill Damage",
+   "Adds 10-30 Cold Damage",
+   "-5-10% to Enemy Cold Resistance",
+   "+3-5% to Experience Gained",
+   "15-35% Better Chance of Getting Magic Items",
+   "25-50% Extra Gold from Monsters"
+  ]
+ },
+ {
+  "name": "Defender's Fire",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Jewels",
+  "tier": "",
+  "lvl": 75,
+  "stats": [
+   "1% Chance to Cast Level 25 Blaze When Struck",
+   "+5-10% to Fire Skill Damage",
+   "Adds 20-60 Fire Damage",
+   "-5-10% to Enemy Fire Resistance",
+   "+3-5% to Experience Gained",
+   "15-35% Better Chance of Getting Magic Items",
+   "25-50% Extra Gold from Monsters"
+  ]
+ },
+ {
+  "name": "Protector's Stone",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Jewels",
+  "tier": "",
+  "lvl": 75,
+  "stats": [
+   "1% Chance to Cast Level 15 Fade When Struck",
+   "+30-50% Enhanced Damage",
+   "+10-30 to Minimum Damage",
+   "-5-10% to Enemy Physical Damage Resistance",
+   "+3-5% to Experience Gained",
+   "15-35% Better Chance of Getting Magic Items",
+   "25-50% Extra Gold from Monsters"
+  ]
+ },
+ {
+  "name": "Guardian's Light",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Jewels",
+  "tier": "",
+  "lvl": 75,
+  "stats": [
+   "1% Chance to Cast Level 25 Psychic Ward When Struck",
+   "+5-10% to Magic Skill Damage",
+   "Adds 15-35 Magic Damage",
+   "-5-10% to Enemy Magic Resistance",
+   "+3-5% to Experience Gained",
+   "15-35% Better Chance of Getting Magic Items",
+   "25-50% Extra Gold from Monsters"
+  ]
+ },
+ {
+  "name": "Latent Cold Rupture",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Charms",
+  "tier": "",
+  "lvl": 75,
+  "stats": [
+   "Monster Cold Immunity is Sundered",
+   "Cold Resist -90-70%"
+  ]
+ },
+ {
+  "name": "Latent Flame Rift",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Charms",
+  "tier": "",
+  "lvl": 75,
+  "stats": [
+   "Monster Fire Immunity is Sundered",
+   "Fire Resist -90-70%"
+  ]
+ },
+ {
+  "name": "Latent Crack of the Heavens",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Charms",
+  "tier": "",
+  "lvl": 75,
+  "stats": [
+   "Monster Lightning Immunity is Sundered",
+   "Lightning Resist -90-70%"
+  ]
+ },
+ {
+  "name": "Latent Rotting Fissure",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Charms",
+  "tier": "",
+  "lvl": 75,
+  "stats": [
+   "Monster Poison Immunity is Sundered",
+   "Poison Resist -90-70%"
+  ]
+ },
+ {
+  "name": "Latent Bone Break",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Charms",
+  "tier": "",
+  "lvl": 75,
+  "stats": [
+   "Monster Physical Immunity is Sundered",
+   "Damage Reduced by -20--10%"
+  ]
+ },
+ {
+  "name": "Latent Black Cleft",
+  "alias": [],
+  "q": "u",
+  "set": "",
+  "type": "Charms",
+  "tier": "",
+  "lvl": 75,
+  "stats": [
+   "Monster Magic Immunity is Sundered",
+   "Magic Resist -65-45%"
+  ]
+ },
+ {
+  "name": "Aldur's Advance",
+  "alias": [],
+  "q": "s",
+  "set": "Aldur's Watchtower",
+  "type": "Battle Boots",
+  "tier": "Exceptional",
+  "lvl": 45,
+  "stats": [
+   "Indestructible",
+   "Heal Stamina Plus 32%",
+   "+50 to Life",
+   "+10% Damage Taken Goes To Mana",
+   "+40% Faster Run/Walk",
+   "+180 Maximum Stamina",
+   "Fire Resist +40-50%"
+  ]
+ },
+ {
+  "name": "Aldur's Deception",
+  "alias": [],
+  "q": "s",
+  "set": "Aldur's Watchtower",
+  "type": "Shadow Plate",
+  "tier": "Elite",
+  "lvl": 76,
+  "stats": [
+   "+300 Defense",
+   "+1 to Shape Shifting (Druid Only)",
+   "+20 to Strength",
+   "+15 to Dexterity",
+   "Lightning Resist +40-50%",
+   "Requirements -50%",
+   "+1 to Elemental (Druid Only)"
+  ]
+ },
+ {
+  "name": "Aldur's Rhythm",
+  "alias": [],
+  "q": "s",
+  "set": "Aldur's Watchtower",
+  "type": "Jagged Star",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "+40-62 to Minimum Damage",
+   "Adds 50-75 Lightning Damage",
+   "10% Life Stolen per Hit",
+   "+30% Increased Attack Speed",
+   "+200% Damage to Demons",
+   "5% Mana Stolen per Hit",
+   "Socketed (2-5)"
+  ]
+ },
+ {
+  "name": "Aldur's Stony Gaze",
+  "alias": [],
+  "q": "s",
+  "set": "Aldur's Watchtower",
+  "type": "Hunter's Guise",
+  "tier": "Exceptional",
+  "lvl": 36,
+  "stats": [
+   "+90 Defense",
+   "Regenerate Mana 17%",
+   "+5 to Light Radius",
+   "+25% Faster Hit Recovery",
+   "Cold Resist +40-50%",
+   "Socketed (2)"
+  ]
+ },
+ {
+  "name": "Angelic Halo",
+  "alias": [],
+  "q": "s",
+  "set": "Angelic Raiment",
+  "type": "Ring",
+  "tier": "",
+  "lvl": 12,
+  "stats": [
+   "Replenish Life +6",
+   "+20 to Life"
+  ]
+ },
+ {
+  "name": "Angelic Mantle",
+  "alias": [],
+  "q": "s",
+  "set": "Angelic Raiment",
+  "type": "Ring Mail",
+  "tier": "Normal",
+  "lvl": 12,
+  "stats": [
+   "Damage Reduced by 3",
+   "+40% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Angelic Sickle",
+  "alias": [],
+  "q": "s",
+  "set": "Angelic Raiment",
+  "type": "Sabre",
+  "tier": "Normal",
+  "lvl": 12,
+  "stats": [
+   "+75 to Attack Rating",
+   "+250% Damage to Undead"
+  ]
+ },
+ {
+  "name": "Angelic Wings",
+  "alias": [],
+  "q": "s",
+  "set": "Angelic Raiment",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 12,
+  "stats": [
+   "+3 to Light Radius",
+   "+20% Damage Taken Goes To Mana"
+  ]
+ },
+ {
+  "name": "Arcanna's Deathwand",
+  "alias": [],
+  "q": "s",
+  "set": "Arcanna's Tricks",
+  "type": "War Staff",
+  "tier": "Normal",
+  "lvl": 15,
+  "stats": [
+   "+1 to Sorceress Skill Levels",
+   "25% Deadly Strike"
+  ]
+ },
+ {
+  "name": "Arcanna's Flesh",
+  "alias": [],
+  "q": "s",
+  "set": "Arcanna's Tricks",
+  "type": "Light Plate",
+  "tier": "Normal",
+  "lvl": 15,
+  "stats": [
+   "+2 to Light Radius",
+   "Damage Reduced by 3"
+  ]
+ },
+ {
+  "name": "Arcanna's Head",
+  "alias": [],
+  "q": "s",
+  "set": "Arcanna's Tricks",
+  "type": "Skull Cap",
+  "tier": "Normal",
+  "lvl": 15,
+  "stats": [
+   "Replenish Life +4",
+   "Attacker Takes Damage of 2"
+  ]
+ },
+ {
+  "name": "Arcanna's Sign",
+  "alias": [],
+  "q": "s",
+  "set": "Arcanna's Tricks",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 15,
+  "stats": [
+   "+15 to Mana",
+   "Regenerate Mana 20%"
+  ]
+ },
+ {
+  "name": "Arctic Binding",
+  "alias": [],
+  "q": "s",
+  "set": "Arctic Gear",
+  "type": "Light Belt",
+  "tier": "Normal",
+  "lvl": 2,
+  "stats": [
+   "Cold Resist +40%",
+   "+30 Defense"
+  ]
+ },
+ {
+  "name": "Arctic Furs",
+  "alias": [],
+  "q": "s",
+  "set": "Arctic Gear",
+  "type": "Quilted Armor",
+  "tier": "Normal",
+  "lvl": 2,
+  "stats": [
+   "+275-325% Enhanced Defense",
+   "All Resistances +10%"
+  ]
+ },
+ {
+  "name": "Arctic Horn",
+  "alias": [],
+  "q": "s",
+  "set": "Arctic Gear",
+  "type": "Short War Bow",
+  "tier": "Normal",
+  "lvl": 2,
+  "stats": [
+   "20% Bonus to Attack Rating",
+   "+50% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Arctic Mitts",
+  "alias": [],
+  "q": "s",
+  "set": "Arctic Gear",
+  "type": "Light Gauntlets",
+  "tier": "Normal",
+  "lvl": 2,
+  "stats": [
+   "+20 to Life",
+   "+10% Increased Attack Speed"
+  ]
+ },
+ {
+  "name": "Bane's Authority",
+  "alias": [],
+  "q": "s",
+  "set": "Bane's Garments",
+  "type": "Light Belt",
+  "tier": "Normal",
+  "lvl": 8,
+  "stats": [
+   "+10% Faster Cast Rate",
+   "+20 to Life"
+  ]
+ },
+ {
+  "name": "Bane's Oathmaker",
+  "alias": [],
+  "q": "s",
+  "set": "Bane's Garments",
+  "type": "Kriss",
+  "tier": "Normal",
+  "lvl": 8,
+  "stats": [
+   "+20% Faster Run/Walk",
+   "+1-99 to Maximum Damage (by character level)"
+  ]
+ },
+ {
+  "name": "Bane's Wraithskin",
+  "alias": [],
+  "q": "s",
+  "set": "Bane's Garments",
+  "type": "Hard Leather Armor",
+  "tier": "Normal",
+  "lvl": 8,
+  "stats": [
+   "+50 Defense",
+   "Magic Resist +30%"
+  ]
+ },
+ {
+  "name": "Berserker's Hatchet",
+  "alias": [],
+  "q": "s",
+  "set": "Berserker's Arsenal",
+  "type": "Double Axe",
+  "tier": "Normal",
+  "lvl": 3,
+  "stats": [
+   "30% Bonus to Attack Rating",
+   "5% Mana Stolen per Hit"
+  ]
+ },
+ {
+  "name": "Berserker's Hauberk",
+  "alias": [],
+  "q": "s",
+  "set": "Berserker's Arsenal",
+  "type": "Splint Mail",
+  "tier": "Normal",
+  "lvl": 3,
+  "stats": [
+   "Magic Damage Reduced by 2",
+   "+1 to Barbarian Skill Levels"
+  ]
+ },
+ {
+  "name": "Berserker's Headgear",
+  "alias": [],
+  "q": "s",
+  "set": "Berserker's Arsenal",
+  "type": "Helm",
+  "tier": "Normal",
+  "lvl": 3,
+  "stats": [
+   "+15 Defense",
+   "Fire Resist +25%"
+  ]
+ },
+ {
+  "name": "Bul-Kathos' Sacred Charge",
+  "alias": [],
+  "q": "s",
+  "set": "Bul-Kathos' Children",
+  "type": "Colossus Blade",
+  "tier": "Elite",
+  "lvl": 61,
+  "stats": [
+   "35% Chance of Crushing Blow",
+   "All Resistances +20%",
+   "+20% Increased Attack Speed",
+   "+200% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Bul-Kathos' Tribal Guardian",
+  "alias": [],
+  "q": "s",
+  "set": "Bul-Kathos' Children",
+  "type": "Mythical Sword",
+  "tier": "Elite",
+  "lvl": 54,
+  "stats": [
+   "Fire Resist +50%",
+   "Adds 50-50 Poison Damage over 2 Seconds",
+   "+20% Increased Attack Speed",
+   "+20 to Strength",
+   "+200% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Cathan's Mesh",
+  "alias": [],
+  "q": "s",
+  "set": "Cathan's Traps",
+  "type": "Chain Mail",
+  "tier": "Normal",
+  "lvl": 11,
+  "stats": [
+   "+15 Defense",
+   "Requirements -50%"
+  ]
+ },
+ {
+  "name": "Cathan's Rule",
+  "alias": [],
+  "q": "s",
+  "set": "Cathan's Traps",
+  "type": "Battle Staff",
+  "tier": "Normal",
+  "lvl": 11,
+  "stats": [
+   "+1 to Fire Skills",
+   "+10 to Maximum Fire Damage"
+  ]
+ },
+ {
+  "name": "Cathan's Seal",
+  "alias": [],
+  "q": "s",
+  "set": "Cathan's Traps",
+  "type": "Ring",
+  "tier": "",
+  "lvl": 11,
+  "stats": [
+   "6% Life Stolen per Hit",
+   "Damage Reduced by 2"
+  ]
+ },
+ {
+  "name": "Cathan's Sigil",
+  "alias": [],
+  "q": "s",
+  "set": "Cathan's Traps",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 11,
+  "stats": [
+   "+10% Faster Hit Recovery",
+   "Attacker Takes Lightning Damage of 5"
+  ]
+ },
+ {
+  "name": "Cathan's Visage",
+  "alias": [],
+  "q": "s",
+  "set": "Cathan's Traps",
+  "type": "Mask",
+  "tier": "Normal",
+  "lvl": 11,
+  "stats": [
+   "+20 to Mana",
+   "Cold Resist +25%"
+  ]
+ },
+ {
+  "name": "Civerb's Cudgel",
+  "alias": [],
+  "q": "s",
+  "set": "Civerb's Vestments",
+  "type": "Grand Scepter",
+  "tier": "Normal",
+  "lvl": 9,
+  "stats": [
+   "+75 to Attack Rating",
+   "+17-23 to Maximum Damage"
+  ]
+ },
+ {
+  "name": "Civerb's Icon",
+  "alias": [],
+  "q": "s",
+  "set": "Civerb's Vestments",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 9,
+  "stats": [
+   "Regenerate Mana 40%",
+   "Replenish Life +4"
+  ]
+ },
+ {
+  "name": "Civerb's Ward",
+  "alias": [],
+  "q": "s",
+  "set": "Civerb's Vestments",
+  "type": "Large Shield",
+  "tier": "Normal",
+  "lvl": 9,
+  "stats": [
+   "+15 Defense",
+   "15% Increased Chance of Blocking"
+  ]
+ },
+ {
+  "name": "Cleglaw's Claw",
+  "alias": [],
+  "q": "s",
+  "set": "Cleglaw's Brace",
+  "type": "Small Shield",
+  "tier": "Normal",
+  "lvl": 4,
+  "stats": [
+   "+17 Defense",
+   "Poison Length Reduced by 75%"
+  ]
+ },
+ {
+  "name": "Cleglaw's Pincers",
+  "alias": [],
+  "q": "s",
+  "set": "Cleglaw's Brace",
+  "type": "Chain Gloves",
+  "tier": "Normal",
+  "lvl": 4,
+  "stats": [
+   "Knockback",
+   "Slows Target by 25%"
+  ]
+ },
+ {
+  "name": "Cleglaw's Tooth",
+  "alias": [],
+  "q": "s",
+  "set": "Cleglaw's Brace",
+  "type": "Long Sword",
+  "tier": "Normal",
+  "lvl": 4,
+  "stats": [
+   "30% Bonus to Attack Rating",
+   "50% Deadly Strike"
+  ]
+ },
+ {
+  "name": "Cow King's Hide",
+  "alias": [],
+  "q": "s",
+  "set": "Cow King's Leathers",
+  "type": "Studded Leather",
+  "tier": "Normal",
+  "lvl": 18,
+  "stats": [
+   "All Resistances +18%",
+   "+60% Enhanced Defense",
+   "+30 to Life",
+   "18% Chance to Cast Level 5 Chain Lightning When Struck"
+  ]
+ },
+ {
+  "name": "Cow King's Hooves",
+  "alias": [],
+  "q": "s",
+  "set": "Cow King's Leathers",
+  "type": "Heavy Boots",
+  "tier": "Normal",
+  "lvl": 13,
+  "stats": [
+   "+25-35 Defense",
+   "+30% Faster Run/Walk",
+   "25% Better Chance of Getting Magic Items",
+   "+20 to Dexterity",
+   "Adds 25-35 Fire Damage"
+  ]
+ },
+ {
+  "name": "Cow King's Horns",
+  "alias": [],
+  "q": "s",
+  "set": "Cow King's Leathers",
+  "type": "War Hat",
+  "tier": "Exceptional",
+  "lvl": 25,
+  "stats": [
+   "+75 Defense",
+   "Half Freeze Duration",
+   "+35% Damage Taken Goes To Mana",
+   "Attacker Takes Damage of 10"
+  ]
+ },
+ {
+  "name": "Credendum",
+  "alias": [],
+  "q": "s",
+  "set": "The Disciple",
+  "type": "Mithril Coil",
+  "tier": "Elite",
+  "lvl": 65,
+  "stats": [
+   "+50 Defense",
+   "+10 to Strength",
+   "+10 to Dexterity",
+   "All Resistances +15%"
+  ]
+ },
+ {
+  "name": "Dangoon's Teaching",
+  "alias": [],
+  "q": "s",
+  "set": "Heaven's Brethren",
+  "type": "Reinforced Mace",
+  "tier": "Elite",
+  "lvl": 68,
+  "stats": [
+   "+1-148 to Maximum Damage (by character level)",
+   "+40% Increased Attack Speed",
+   "10% Chance to Cast Level 3 Frost Nova on Striking",
+   "Adds 20-30 Fire Damage"
+  ]
+ },
+ {
+  "name": "Death's Guard",
+  "alias": [],
+  "q": "s",
+  "set": "Death's Disguise",
+  "type": "Sash",
+  "tier": "Normal",
+  "lvl": 6,
+  "stats": [
+   "+20 Defense",
+   "Cannot Be Frozen"
+  ]
+ },
+ {
+  "name": "Death's Hand",
+  "alias": [],
+  "q": "s",
+  "set": "Death's Disguise",
+  "type": "Leather Gloves",
+  "tier": "Normal",
+  "lvl": 6,
+  "stats": [
+   "Poison Resist +50%",
+   "Poison Length Reduced by 75%"
+  ]
+ },
+ {
+  "name": "Death's Touch",
+  "alias": [],
+  "q": "s",
+  "set": "Death's Disguise",
+  "type": "War Sword",
+  "tier": "Normal",
+  "lvl": 6,
+  "stats": [
+   "+25% Enhanced Damage",
+   "4% Life Stolen per Hit"
+  ]
+ },
+ {
+  "name": "Griswold's Heart",
+  "alias": [],
+  "q": "s",
+  "set": "Griswold's Legacy",
+  "type": "Ornate Plate",
+  "tier": "Exceptional",
+  "lvl": 45,
+  "stats": [
+   "+500 Defense",
+   "+2 to Defensive Auras (Paladin Only)",
+   "Socketed (3)",
+   "+20 to Strength",
+   "Requirements -40%"
+  ]
+ },
+ {
+  "name": "Griswold's Honor",
+  "alias": [],
+  "q": "s",
+  "set": "Griswold's Legacy",
+  "type": "Vortex Shield",
+  "tier": "Elite",
+  "lvl": 68,
+  "stats": [
+   "+108 Defense",
+   "Socketed (0)",
+   "65% Faster Block Rate",
+   "20% Increased Chance of Blocking",
+   "All Resistances +45%"
+  ]
+ },
+ {
+  "name": "Griswold's Valor",
+  "alias": [],
+  "q": "s",
+  "set": "Griswold's Legacy",
+  "type": "Corona",
+  "tier": "Elite",
+  "lvl": 69,
+  "stats": [
+   "+50-75% Enhanced Defense",
+   "0-24 Cold Absorb (by character level)",
+   "Socketed (2)",
+   "Requirements -40%",
+   "20-30% Better Chance of Getting Magic Items",
+   "All Resistances +5%"
+  ]
+ },
+ {
+  "name": "Griswold's Redemption",
+  "alias": [],
+  "q": "s",
+  "set": "Griswold's Legacy",
+  "type": "Caduceus",
+  "tier": "Elite",
+  "lvl": 53,
+  "stats": [
+   "+200-240% Enhanced Damage",
+   "+40% Increased Attack Speed",
+   "+200% Damage to Undead",
+   "Requirements -20%",
+   "Socketed (3-4)"
+  ]
+ },
+ {
+  "name": "Guillaume's Face",
+  "alias": [],
+  "q": "s",
+  "set": "Orphan's Call",
+  "type": "Winged Helm",
+  "tier": "Exceptional",
+  "lvl": 34,
+  "stats": [
+   "+120% Enhanced Defense",
+   "+30% Faster Hit Recovery",
+   "35% Chance of Crushing Blow",
+   "15% Deadly Strike",
+   "+15 to Strength"
+  ]
+ },
+ {
+  "name": "Haemosu's Adamant",
+  "alias": [],
+  "q": "s",
+  "set": "Heaven's Brethren",
+  "type": "Cuirass",
+  "tier": "Exceptional",
+  "lvl": 44,
+  "stats": [
+   "+500 Defense",
+   "+35 Defense vs. Missile",
+   "+75 to Life",
+   "+40 Defense vs. Melee",
+   "Requirements -20%"
+  ]
+ },
+ {
+  "name": "Taebaek's Glory",
+  "alias": [],
+  "q": "s",
+  "set": "Heaven's Brethren",
+  "type": "Ward",
+  "tier": "Elite",
+  "lvl": 81,
+  "stats": [
+   "+50 Defense",
+   "+100 to Mana",
+   "Lightning Resist +30%",
+   "Attacker Takes Damage of 30",
+   "Indestructible",
+   "25% Increased Chance of Blocking",
+   "+30% Faster Block Rate"
+  ]
+ },
+ {
+  "name": "Horazon's Countenance",
+  "alias": [],
+  "q": "s",
+  "set": "Horazon's Splendor",
+  "type": "Demonhead",
+  "tier": "Elite",
+  "lvl": 62,
+  "stats": [
+   "+0-24% Attack Rating (by character level)",
+   "+1 to War Skill Levels",
+   "+10-20 to Strength",
+   "Magic Damage Reduced by 7-10"
+  ]
+ },
+ {
+  "name": "Horazon's Dominion",
+  "alias": [],
+  "q": "s",
+  "set": "Horazon's Splendor",
+  "type": "Russet Armor",
+  "tier": "Exceptional",
+  "lvl": 55,
+  "stats": [
+   "+2 to Skill Tab 21",
+   "+75-100% Enhanced Defense",
+   "+75-100 to Mana",
+   "Cold Resist +15-25%",
+   "Fire Resist +15-25%",
+   "Lightning Resist +15-25%"
+  ]
+ },
+ {
+  "name": "Horazon's Hold",
+  "alias": [],
+  "q": "s",
+  "set": "Horazon's Splendor",
+  "type": "Demonhide Gloves",
+  "tier": "Exceptional",
+  "lvl": 48,
+  "stats": [
+   "10% Chance of Crushing Blow",
+   "+95-150 to Attack Rating",
+   "+10-15 to Dexterity",
+   "Adds 140-270 Fire Damage",
+   "+30-40 to Life"
+  ]
+ },
+ {
+  "name": "Horazon's Legacy",
+  "alias": [],
+  "q": "s",
+  "set": "Horazon's Splendor",
+  "type": "Mirrored Boots",
+  "tier": "Elite",
+  "lvl": 67,
+  "stats": [
+   "+30% Faster Run/Walk",
+   "+10-15 to Strength",
+   "+10-15 to Dexterity",
+   "Magic Resist +20-30%",
+   "Cannot Be Frozen",
+   "Requirements -30%"
+  ]
+ },
+ {
+  "name": "Horazon's Secrets",
+  "alias": [],
+  "q": "s",
+  "set": "Horazon's Splendor",
+  "type": "Occult Codex",
+  "tier": "",
+  "lvl": 57,
+  "stats": [
+   "+2 to Skill Tab 22",
+   "+30% Faster Hit Recovery",
+   "20% Increased Chance of Blocking",
+   "+20-30 to Vitality",
+   "+30-50 to Life"
+  ]
+ },
+ {
+  "name": "Hsarus' Iron Fist",
+  "alias": [],
+  "q": "s",
+  "set": "Hsarus' Defense",
+  "type": "Buckler",
+  "tier": "Normal",
+  "lvl": 3,
+  "stats": [
+   "Damage Reduced by 2",
+   "+10 to Strength"
+  ]
+ },
+ {
+  "name": "Hsarus' Iron Heel",
+  "alias": [],
+  "q": "s",
+  "set": "Hsarus' Defense",
+  "type": "Chain Boots",
+  "tier": "Normal",
+  "lvl": 3,
+  "stats": [
+   "Fire Resist +25%",
+   "+20% Faster Run/Walk"
+  ]
+ },
+ {
+  "name": "Hsarus' Iron Stay",
+  "alias": [],
+  "q": "s",
+  "set": "Hsarus' Defense",
+  "type": "Belt",
+  "tier": "Normal",
+  "lvl": 3,
+  "stats": [
+   "Cold Resist +20%",
+   "+20 to Life"
+  ]
+ },
+ {
+  "name": "Hwanin's Justice",
+  "alias": [],
+  "q": "s",
+  "set": "Hwanin's Majesty",
+  "type": "Bill",
+  "tier": "Exceptional",
+  "lvl": 28,
+  "stats": [
+   "+330 to Attack Rating",
+   "Indestructible",
+   "10% Chance to Cast Level 3 Ice Blast on Striking",
+   "+40% Increased Attack Speed",
+   "+200% Enhanced Damage",
+   "Adds 5-25 Lightning Damage"
+  ]
+ },
+ {
+  "name": "Hwanin's Refuge",
+  "alias": [],
+  "q": "s",
+  "set": "Hwanin's Majesty",
+  "type": "Tigulated Mail",
+  "tier": "Exceptional",
+  "lvl": 30,
+  "stats": [
+   "+200 Defense",
+   "Poison Resist +27%",
+   "+100 to Life",
+   "10% Chance to Cast Level 3 Static Field When Struck"
+  ]
+ },
+ {
+  "name": "Hwanin's Blessing",
+  "alias": [],
+  "q": "s",
+  "set": "Hwanin's Majesty",
+  "type": "Belt",
+  "tier": "Normal",
+  "lvl": 35,
+  "stats": [
+   "Adds 3-33 Lightning Damage",
+   "Prevent Monster Heal",
+   "1-148 Defense (by character level)",
+   "+12% Damage Taken Goes To Mana"
+  ]
+ },
+ {
+  "name": "Hwanin's Splendor",
+  "alias": [],
+  "q": "s",
+  "set": "Hwanin's Majesty",
+  "type": "Grand Crown",
+  "tier": "Exceptional",
+  "lvl": 45,
+  "stats": [
+   "Replenish Life +20",
+   "Magic Damage Reduced by 10",
+   "Cold Resist +37%",
+   "+100% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Immortal King's Detail",
+  "alias": [],
+  "q": "s",
+  "set": "Immortal King",
+  "type": "War Belt",
+  "tier": "Exceptional",
+  "lvl": 29,
+  "stats": [
+   "+36 Defense",
+   "Fire Resist +28%",
+   "Lightning Resist +31%",
+   "+25 to Strength"
+  ]
+ },
+ {
+  "name": "Immortal King's Forge",
+  "alias": [],
+  "q": "s",
+  "set": "Immortal King",
+  "type": "War Gauntlets",
+  "tier": "Exceptional",
+  "lvl": 30,
+  "stats": [
+   "+65 Defense",
+   "+20 to Strength",
+   "+20 to Dexterity",
+   "12% Chance to Cast Level 4 Charged Bolt When Struck"
+  ]
+ },
+ {
+  "name": "Immortal King's Pillar",
+  "alias": [],
+  "q": "s",
+  "set": "Immortal King",
+  "type": "War Boots",
+  "tier": "Exceptional",
+  "lvl": 31,
+  "stats": [
+   "+75 Defense",
+   "+40% Faster Run/Walk",
+   "+110 to Attack Rating",
+   "+44 to Life"
+  ]
+ },
+ {
+  "name": "Immortal King's Soul Cage",
+  "alias": [],
+  "q": "s",
+  "set": "Immortal King",
+  "type": "Sacred Armor",
+  "tier": "Elite",
+  "lvl": 76,
+  "stats": [
+   "+400 Defense",
+   "5% Chance to Cast Level 5 Enchant When Struck",
+   "+2 to Combat Skills (Barbarian Only)",
+   "Poison Resist +50%"
+  ]
+ },
+ {
+  "name": "Immortal King's Stone Crusher",
+  "alias": [],
+  "q": "s",
+  "set": "Immortal King",
+  "type": "Ogre Maul",
+  "tier": "Elite",
+  "lvl": 76,
+  "stats": [
+   "Indestructible",
+   "+40% Increased Attack Speed",
+   "+200% Damage to Demons",
+   "+200% Damage to Undead",
+   "35-40% Chance of Crushing Blow",
+   "+200% Enhanced Damage",
+   "Socketed (2)"
+  ]
+ },
+ {
+  "name": "Immortal King's Will",
+  "alias": [],
+  "q": "s",
+  "set": "Immortal King",
+  "type": "Avenger Guard",
+  "tier": "Normal",
+  "lvl": 47,
+  "stats": [
+   "+125 Defense",
+   "37% Extra Gold from Monsters",
+   "+2 to Warcries (Barbarian Only)",
+   "+4 to Light Radius",
+   "25-40% Better Chance of Getting Magic Items",
+   "Socketed (2)"
+  ]
+ },
+ {
+  "name": "Infernal Cranium",
+  "alias": [],
+  "q": "s",
+  "set": "Infernal Tools",
+  "type": "Cap",
+  "tier": "Normal",
+  "lvl": 5,
+  "stats": [
+   "All Resistances +10%",
+   "+20% Damage Taken Goes To Mana"
+  ]
+ },
+ {
+  "name": "Infernal Sign",
+  "alias": [],
+  "q": "s",
+  "set": "Infernal Tools",
+  "type": "Heavy Belt",
+  "tier": "Normal",
+  "lvl": 5,
+  "stats": [
+   "+25 Defense",
+   "+20 to Life"
+  ]
+ },
+ {
+  "name": "Infernal Torch",
+  "alias": [],
+  "q": "s",
+  "set": "Infernal Tools",
+  "type": "Grim Wand",
+  "tier": "Normal",
+  "lvl": 5,
+  "stats": [
+   "+8 to Minimum Damage",
+   "+1 to Necromancer Skill Levels"
+  ]
+ },
+ {
+  "name": "Iratha's Coil",
+  "alias": [],
+  "q": "s",
+  "set": "Iratha's Finery",
+  "type": "Crown",
+  "tier": "Normal",
+  "lvl": 15,
+  "stats": [
+   "Fire Resist +30%",
+   "Lightning Resist +30%"
+  ]
+ },
+ {
+  "name": "Iratha's Collar",
+  "alias": [],
+  "q": "s",
+  "set": "Iratha's Finery",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 15,
+  "stats": [
+   "Poison Resist +30%",
+   "Poison Length Reduced by 75%"
+  ]
+ },
+ {
+  "name": "Iratha's Cord",
+  "alias": [],
+  "q": "s",
+  "set": "Iratha's Finery",
+  "type": "Heavy Belt",
+  "tier": "Normal",
+  "lvl": 15,
+  "stats": [
+   "+25 Defense",
+   "+5 to Minimum Damage"
+  ]
+ },
+ {
+  "name": "Iratha's Cuff",
+  "alias": [],
+  "q": "s",
+  "set": "Iratha's Finery",
+  "type": "Light Gauntlets",
+  "tier": "Normal",
+  "lvl": 15,
+  "stats": [
+   "Cold Resist +30%",
+   "Half Freeze Duration"
+  ]
+ },
+ {
+  "name": "Isenhart's Case",
+  "alias": [],
+  "q": "s",
+  "set": "Isenhart's Armory",
+  "type": "Breast Plate",
+  "tier": "Normal",
+  "lvl": 8,
+  "stats": [
+   "+40 Defense",
+   "Magic Damage Reduced by 2"
+  ]
+ },
+ {
+  "name": "Isenhart's Horns",
+  "alias": [],
+  "q": "s",
+  "set": "Isenhart's Armory",
+  "type": "Full Helm",
+  "tier": "Normal",
+  "lvl": 8,
+  "stats": [
+   "+6 to Dexterity",
+   "Damage Reduced by 2"
+  ]
+ },
+ {
+  "name": "Isenhart's Lightbrand",
+  "alias": [],
+  "q": "s",
+  "set": "Isenhart's Armory",
+  "type": "Broad Sword",
+  "tier": "Normal",
+  "lvl": 8,
+  "stats": [
+   "+10 to Minimum Damage",
+   "+20% Increased Attack Speed"
+  ]
+ },
+ {
+  "name": "Isenhart's Parry",
+  "alias": [],
+  "q": "s",
+  "set": "Isenhart's Armory",
+  "type": "Gothic Shield",
+  "tier": "Normal",
+  "lvl": 8,
+  "stats": [
+   "+40 Defense",
+   "Attacker Takes Lightning Damage of 4"
+  ]
+ },
+ {
+  "name": "Laying of Hands",
+  "alias": [],
+  "q": "s",
+  "set": "The Disciple",
+  "type": "Bramble Mitts",
+  "tier": "Elite",
+  "lvl": 63,
+  "stats": [
+   "+25 Defense",
+   "+20% Increased Attack Speed",
+   "Fire Resist +50%",
+   "+350% Damage to Demons",
+   "10% Chance to Cast Level 3 Holy Bolt on Striking"
+  ]
+ },
+ {
+  "name": "M'avina's Caster",
+  "alias": [],
+  "q": "s",
+  "set": "M'avina's Battle Hymn",
+  "type": "Grand Matron Bow",
+  "tier": "Elite",
+  "lvl": 70,
+  "stats": [
+   "+188% Enhanced Damage",
+   "+40% Increased Attack Speed",
+   "Fires Magic Arrows",
+   "+50 to Attack Rating"
+  ]
+ },
+ {
+  "name": "M'avina's Embrace",
+  "alias": [],
+  "q": "s",
+  "set": "M'avina's Battle Hymn",
+  "type": "Kraken Shell",
+  "tier": "Elite",
+  "lvl": 70,
+  "stats": [
+   "10% Chance to Cast Level 3 Glacial Spike When Struck",
+   "Requirements -30%",
+   "Magic Damage Reduced by 5-12",
+   "+2 to Passive and Magic (Amazon Only)",
+   "4-396 Defense (by character level)",
+   "+350 Defense"
+  ]
+ },
+ {
+  "name": "M'avina's Icy Clutch",
+  "alias": [],
+  "q": "s",
+  "set": "M'avina's Battle Hymn",
+  "type": "Battle Gauntlets",
+  "tier": "Exceptional",
+  "lvl": 32,
+  "stats": [
+   "+45-50 Defense",
+   "Adds 6-18 Cold Damage",
+   "Half Freeze Duration",
+   "56% Extra Gold from Monsters",
+   "+10 to Strength",
+   "+15 to Dexterity"
+  ]
+ },
+ {
+  "name": "M'avina's Tenet",
+  "alias": [],
+  "q": "s",
+  "set": "M'avina's Battle Hymn",
+  "type": "Sharkskin Belt",
+  "tier": "Exceptional",
+  "lvl": 45,
+  "stats": [
+   "+50 Defense",
+   "+20% Faster Run/Walk",
+   "5% Mana Stolen per Hit",
+   "+5 to Light Radius"
+  ]
+ },
+ {
+  "name": "M'avina's True Sight",
+  "alias": [],
+  "q": "s",
+  "set": "M'avina's Battle Hymn",
+  "type": "Diadem",
+  "tier": "Elite",
+  "lvl": 59,
+  "stats": [
+   "+150 Defense",
+   "Replenish Life +10",
+   "+30% Increased Attack Speed",
+   "+25 to Mana"
+  ]
+ },
+ {
+  "name": "Magnus' Skin",
+  "alias": [],
+  "q": "s",
+  "set": "Orphan's Call",
+  "type": "Sharkskin Gloves",
+  "tier": "Exceptional",
+  "lvl": 37,
+  "stats": [
+   "+50% Enhanced Defense",
+   "Fire Resist +15%",
+   "+20% Increased Attack Speed",
+   "+3 to Light Radius",
+   "+100 to Attack Rating"
+  ]
+ },
+ {
+  "name": "Sander's Paragon",
+  "alias": [],
+  "q": "s",
+  "set": "Sander's Folly",
+  "type": "Cap",
+  "tier": "Normal",
+  "lvl": 25,
+  "stats": [
+   "35% Better Chance of Getting Magic Items",
+   "Attacker Takes Damage of 8",
+   "1-99 Defense (by character level)"
+  ]
+ },
+ {
+  "name": "Sander's Riprap",
+  "alias": [],
+  "q": "s",
+  "set": "Sander's Folly",
+  "type": "Heavy Boots",
+  "tier": "Normal",
+  "lvl": 20,
+  "stats": [
+   "+40% Faster Run/Walk",
+   "+100 to Attack Rating",
+   "+5 to Strength",
+   "+10 to Dexterity"
+  ]
+ },
+ {
+  "name": "Sander's Superstition",
+  "alias": [],
+  "q": "s",
+  "set": "Sander's Folly",
+  "type": "Bone Wand",
+  "tier": "Normal",
+  "lvl": 25,
+  "stats": [
+   "+75% Enhanced Damage",
+   "+25 to Mana",
+   "8% Mana Stolen per Hit",
+   "+20% Faster Cast Rate",
+   "Adds 25-75 Cold Damage"
+  ]
+ },
+ {
+  "name": "Sander's Taboo",
+  "alias": [],
+  "q": "s",
+  "set": "Sander's Folly",
+  "type": "Heavy Gloves",
+  "tier": "Normal",
+  "lvl": 28,
+  "stats": [
+   "+20-25 Defense",
+   "+20% Increased Attack Speed",
+   "+40 to Life",
+   "Adds 9-11 Poison Damage over 3 Seconds"
+  ]
+ },
+ {
+  "name": "Milabrega's Diadem",
+  "alias": [],
+  "q": "s",
+  "set": "Milabrega's Regalia",
+  "type": "Crown",
+  "tier": "Normal",
+  "lvl": 17,
+  "stats": [
+   "+15 to Life",
+   "+15 to Mana"
+  ]
+ },
+ {
+  "name": "Milabrega's Orb",
+  "alias": [],
+  "q": "s",
+  "set": "Milabrega's Regalia",
+  "type": "Kite Shield",
+  "tier": "Normal",
+  "lvl": 17,
+  "stats": [
+   "20% Better Chance of Getting Magic Items",
+   "+25 Defense"
+  ]
+ },
+ {
+  "name": "Milabrega's Robe",
+  "alias": [],
+  "q": "s",
+  "set": "Milabrega's Regalia",
+  "type": "Ancient Armor",
+  "tier": "Normal",
+  "lvl": 17,
+  "stats": [
+   "Attacker Takes Damage of 3",
+   "Damage Reduced by 2"
+  ]
+ },
+ {
+  "name": "Milabrega's Rod",
+  "alias": [],
+  "q": "s",
+  "set": "Milabrega's Regalia",
+  "type": "War Scepter",
+  "tier": "Normal",
+  "lvl": 17,
+  "stats": [
+   "+1 to Paladin Skill Levels",
+   "+50% Enhanced Damage",
+   "+2 to Light Radius"
+  ]
+ },
+ {
+  "name": "Naj's Circlet",
+  "alias": [],
+  "q": "s",
+  "set": "Naj's Ancient Vestige",
+  "type": "Circlet",
+  "tier": "Normal",
+  "lvl": 28,
+  "stats": [
+   "+75 Defense",
+   "Adds 25-35 Fire Damage",
+   "+5 to Light Radius",
+   "+15 to Strength",
+   "12% Chance to Cast Level 5 Chain Lightning When Struck"
+  ]
+ },
+ {
+  "name": "Naj's Light Plate",
+  "alias": [],
+  "q": "s",
+  "set": "Naj's Ancient Vestige",
+  "type": "Hellforge Plate",
+  "tier": "Elite",
+  "lvl": 71,
+  "stats": [
+   "Requirements -60%",
+   "+65 to Life",
+   "All Resistances +25%",
+   "+45% Damage Taken Goes To Mana",
+   "+1 to All Skills",
+   "+300 Defense"
+  ]
+ },
+ {
+  "name": "Naj's Puzzler",
+  "alias": [],
+  "q": "s",
+  "set": "Naj's Ancient Vestige",
+  "type": "Elder Staff",
+  "tier": "Elite",
+  "lvl": 78,
+  "stats": [
+   "+35 to Energy",
+   "+150% Enhanced Damage",
+   "Level 11 Teleport (69 Charges)",
+   "+30% Faster Cast Rate",
+   "Adds 6-45 Lightning Damage",
+   "+70 to Mana",
+   "+1 to All Skills"
+  ]
+ },
+ {
+  "name": "Natalya's Mark",
+  "alias": [],
+  "q": "s",
+  "set": "Natalya's Odium",
+  "type": "Scissors Suwayyah",
+  "tier": "Elite",
+  "lvl": 79,
+  "stats": [
+   "+40% Increased Attack Speed",
+   "+200% Enhanced Damage",
+   "Ignore Target's Defense",
+   "Adds 50-50 Cold Damage",
+   "Adds 12-17 Fire Damage",
+   "+200% Damage to Undead",
+   "+200% Damage to Demons"
+  ]
+ },
+ {
+  "name": "Natalya's Shadow",
+  "alias": [],
+  "q": "s",
+  "set": "Natalya's Odium",
+  "type": "Loricated Mail",
+  "tier": "Elite",
+  "lvl": 73,
+  "stats": [
+   "+150-225 Defense",
+   "+1-99 to Life (by character level)",
+   "+2 to Shadow Disciplines (Assassin Only)",
+   "Poison Length Reduced by 75%",
+   "Poison Resist +25%",
+   "Socketed (1-3)"
+  ]
+ },
+ {
+  "name": "Natalya's Soul",
+  "alias": [],
+  "q": "s",
+  "set": "Natalya's Odium",
+  "type": "Mesh Boots",
+  "tier": "Exceptional",
+  "lvl": 25,
+  "stats": [
+   "+75-125 Defense",
+   "+40% Faster Run/Walk",
+   "0-24 Heal Stamina Plus (by character level)",
+   "Increase Maximum Durability 50%",
+   "Cold Resist +15-25%",
+   "Lightning Resist +15-25%"
+  ]
+ },
+ {
+  "name": "Natalya's Totem",
+  "alias": [],
+  "q": "s",
+  "set": "Natalya's Odium",
+  "type": "Grim Helm",
+  "tier": "Exceptional",
+  "lvl": 59,
+  "stats": [
+   "+135-175 Defense",
+   "+20-30 to Dexterity",
+   "+10-20 to Strength",
+   "All Resistances +10-20%",
+   "Magic Damage Reduced by 3"
+  ]
+ },
+ {
+  "name": "Ondal's Almighty",
+  "alias": [],
+  "q": "s",
+  "set": "Heaven's Brethren",
+  "type": "Spired Helm",
+  "tier": "Elite",
+  "lvl": 69,
+  "stats": [
+   "+50 Defense",
+   "Requirements -40%",
+   "10% Chance to Cast Level 3 Weaken on Striking",
+   "+10 to Strength",
+   "+15 to Dexterity",
+   "+24% Faster Hit Recovery"
+  ]
+ },
+ {
+  "name": "Rite of Passage",
+  "alias": [],
+  "q": "s",
+  "set": "The Disciple",
+  "type": "Demonhide Boots",
+  "tier": "Exceptional",
+  "lvl": 29,
+  "stats": [
+   "+25 Defense",
+   "+30% Faster Run/Walk",
+   "Half Freeze Duration",
+   "+15-25 Maximum Stamina"
+  ]
+ },
+ {
+  "name": "Sazabi's Cobalt Redeemer",
+  "alias": [],
+  "q": "s",
+  "set": "Sazabi's Grand Tribute",
+  "type": "Cryptic Sword",
+  "tier": "Elite",
+  "lvl": 73,
+  "stats": [
+   "+150% Enhanced Damage",
+   "Adds 25-35 Cold Damage",
+   "+40% Increased Attack Speed",
+   "+318% Damage to Demons",
+   "Indestructible",
+   "+15 to Dexterity",
+   "+5 to Strength"
+  ]
+ },
+ {
+  "name": "Sazabi's Ghost Liberator",
+  "alias": [],
+  "q": "s",
+  "set": "Sazabi's Grand Tribute",
+  "type": "Balrog Skin",
+  "tier": "Elite",
+  "lvl": 67,
+  "stats": [
+   "+400 Defense",
+   "+30% Faster Hit Recovery",
+   "+25 to Strength",
+   "+300 to Attack Rating against Demons",
+   "+50-75 to Life"
+  ]
+ },
+ {
+  "name": "Sazabi's Mental Sheath",
+  "alias": [],
+  "q": "s",
+  "set": "Sazabi's Grand Tribute",
+  "type": "Basinet",
+  "tier": "Exceptional",
+  "lvl": 43,
+  "stats": [
+   "+100 Defense",
+   "+1 to All Skills",
+   "Fire Resist +15-20%",
+   "Lightning Resist +15-20%"
+  ]
+ },
+ {
+  "name": "Sigon's Gage",
+  "alias": [],
+  "q": "s",
+  "set": "Sigon's Complete Steel",
+  "type": "Gauntlets",
+  "tier": "Normal",
+  "lvl": 6,
+  "stats": [
+   "+10 to Strength",
+   "+20 to Attack Rating"
+  ]
+ },
+ {
+  "name": "Sigon's Guard",
+  "alias": [],
+  "q": "s",
+  "set": "Sigon's Complete Steel",
+  "type": "Tower Shield",
+  "tier": "Normal",
+  "lvl": 6,
+  "stats": [
+   "+1 to All Skills",
+   "20% Increased Chance of Blocking"
+  ]
+ },
+ {
+  "name": "Sigon's Sabot",
+  "alias": [],
+  "q": "s",
+  "set": "Sigon's Complete Steel",
+  "type": "Greaves",
+  "tier": "Normal",
+  "lvl": 6,
+  "stats": [
+   "+20% Faster Run/Walk",
+   "Cold Resist +40%"
+  ]
+ },
+ {
+  "name": "Sigon's Shelter",
+  "alias": [],
+  "q": "s",
+  "set": "Sigon's Complete Steel",
+  "type": "Gothic Plate",
+  "tier": "Normal",
+  "lvl": 6,
+  "stats": [
+   "+25% Enhanced Defense",
+   "Lightning Resist +30%"
+  ]
+ },
+ {
+  "name": "Sigon's Visor",
+  "alias": [],
+  "q": "s",
+  "set": "Sigon's Complete Steel",
+  "type": "Great Helm",
+  "tier": "Normal",
+  "lvl": 6,
+  "stats": [
+   "+30 to Mana",
+   "+25 Defense"
+  ]
+ },
+ {
+  "name": "Sigon's Wrap",
+  "alias": [],
+  "q": "s",
+  "set": "Sigon's Complete Steel",
+  "type": "Plated Belt",
+  "tier": "Normal",
+  "lvl": 6,
+  "stats": [
+   "Fire Resist +20%",
+   "+20 to Life"
+  ]
+ },
+ {
+  "name": "Dark Adherent",
+  "alias": [],
+  "q": "s",
+  "set": "The Disciple",
+  "type": "Dusk Shroud",
+  "tier": "Elite",
+  "lvl": 43,
+  "stats": [
+   "+305-415 Defense",
+   "Fire Resist +24%",
+   "25% Chance to Cast Level 3 Nova When Struck",
+   "Adds 24-34 Poison Damage over 2 Seconds"
+  ]
+ },
+ {
+  "name": "Tal Rasha's Adjudication",
+  "alias": [],
+  "q": "s",
+  "set": "Tal Rasha's Wrappings",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 67,
+  "stats": [
+   "Lightning Resist +33%",
+   "+2 to Sorceress Skill Levels",
+   "+50 to Life",
+   "Adds 3-32 Lightning Damage",
+   "+42 to Mana"
+  ]
+ },
+ {
+  "name": "Tal Rasha's Fine-Spun Cloth",
+  "alias": [],
+  "q": "s",
+  "set": "Tal Rasha's Wrappings",
+  "type": "Mesh Belt",
+  "tier": "Exceptional",
+  "lvl": 53,
+  "stats": [
+   "Requirements -20%",
+   "+30 to Mana",
+   "+20 to Dexterity",
+   "+37% Damage Taken Goes To Mana",
+   "10-15% Better Chance of Getting Magic Items"
+  ]
+ },
+ {
+  "name": "Tal Rasha's Horadric Crest",
+  "alias": [],
+  "q": "s",
+  "set": "Tal Rasha's Wrappings",
+  "type": "Death Mask",
+  "tier": "Exceptional",
+  "lvl": 66,
+  "stats": [
+   "+30 to Mana",
+   "+60 to Life",
+   "+45 Defense",
+   "All Resistances +15%",
+   "10% Life Stolen per Hit",
+   "10% Mana Stolen per Hit"
+  ]
+ },
+ {
+  "name": "Tal Rasha's Guardianship",
+  "alias": [],
+  "q": "s",
+  "set": "Tal Rasha's Wrappings",
+  "type": "Lacquered Plate",
+  "tier": "Elite",
+  "lvl": 71,
+  "stats": [
+   "Requirements -60%",
+   "Magic Damage Reduced by 15",
+   "88% Better Chance of Getting Magic Items",
+   "Cold Resist +40%",
+   "Fire Resist +40%",
+   "Lightning Resist +40%",
+   "+400 Defense"
+  ]
+ },
+ {
+  "name": "Tal Rasha's Lidless Eye",
+  "alias": [],
+  "q": "s",
+  "set": "Tal Rasha's Wrappings",
+  "type": "Swirling Crystal",
+  "tier": "Exceptional",
+  "lvl": 65,
+  "stats": [
+   "+57 to Life",
+   "+77 to Mana",
+   "+10 to Energy",
+   "+20% Faster Cast Rate",
+   "+1-2 to Fire Mastery (Sorceress Only)",
+   "+1-2 to Lightning Mastery (Sorceress Only)",
+   "+1-2 to Cold Mastery (Sorceress Only)"
+  ]
+ },
+ {
+  "name": "Tancred's Crowbill",
+  "alias": [],
+  "q": "s",
+  "set": "Tancred's Battlegear",
+  "type": "Military Pick",
+  "tier": "Normal",
+  "lvl": 20,
+  "stats": [
+   "+75 to Attack Rating",
+   "+80% Enhanced Damage"
+  ]
+ },
+ {
+  "name": "Tancred's Hobnails",
+  "alias": [],
+  "q": "s",
+  "set": "Tancred's Battlegear",
+  "type": "Boots",
+  "tier": "Normal",
+  "lvl": 20,
+  "stats": [
+   "Heal Stamina Plus 25%",
+   "+10 to Dexterity"
+  ]
+ },
+ {
+  "name": "Tancred's Skull",
+  "alias": [],
+  "q": "s",
+  "set": "Tancred's Battlegear",
+  "type": "Bone Helm",
+  "tier": "Normal",
+  "lvl": 20,
+  "stats": [
+   "+10% Enhanced Damage",
+   "+40 to Attack Rating"
+  ]
+ },
+ {
+  "name": "Tancred's Spine",
+  "alias": [],
+  "q": "s",
+  "set": "Tancred's Battlegear",
+  "type": "Full Plate Mail",
+  "tier": "Normal",
+  "lvl": 20,
+  "stats": [
+   "+40 to Life",
+   "+15 to Strength"
+  ]
+ },
+ {
+  "name": "Tancred's Weird",
+  "alias": [],
+  "q": "s",
+  "set": "Tancred's Battlegear",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 20,
+  "stats": [
+   "Damage Reduced by 2",
+   "Magic Damage Reduced by 1"
+  ]
+ },
+ {
+  "name": "Telling of Beads",
+  "alias": [],
+  "q": "s",
+  "set": "The Disciple",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 30,
+  "stats": [
+   "Poison Resist +35-50%",
+   "+1 to All Skills",
+   "Cold Resist +18%",
+   "Attacker Takes Damage of 8-10"
+  ]
+ },
+ {
+  "name": "Trang-Oul's Claws",
+  "alias": [],
+  "q": "s",
+  "set": "Trang-Oul's Avatar",
+  "type": "Heavy Bracers",
+  "tier": "Exceptional",
+  "lvl": 45,
+  "stats": [
+   "+30 Defense",
+   "+20% Faster Cast Rate",
+   "Cold Resist +30%",
+   "+2 to Curses (Necromancer Only)"
+  ]
+ },
+ {
+  "name": "Trang-Oul's Girth",
+  "alias": [],
+  "q": "s",
+  "set": "Trang-Oul's Avatar",
+  "type": "Troll Belt",
+  "tier": "Elite",
+  "lvl": 47,
+  "stats": [
+   "+75-100 Defense",
+   "+30 Maximum Stamina",
+   "Replenish Life +5",
+   "+66 to Life",
+   "Cannot Be Frozen",
+   "Requirements -40%",
+   "+25-50 to Mana"
+  ]
+ },
+ {
+  "name": "Trang-Oul's Guise",
+  "alias": [],
+  "q": "s",
+  "set": "Trang-Oul's Avatar",
+  "type": "Bone Visage",
+  "tier": "Elite",
+  "lvl": 65,
+  "stats": [
+   "+80-100 Defense",
+   "+25% Faster Hit Recovery",
+   "Attacker Takes Damage of 20",
+   "+150 to Mana",
+   "Replenish Life +5"
+  ]
+ },
+ {
+  "name": "Trang-Oul's Scales",
+  "alias": [],
+  "q": "s",
+  "set": "Trang-Oul's Avatar",
+  "type": "Chaos Armor",
+  "tier": "Exceptional",
+  "lvl": 49,
+  "stats": [
+   "Requirements -40%",
+   "+100 Defense vs. Missile",
+   "Poison Resist +40%",
+   "+2 to Summoning (Necromancer Only)",
+   "+40% Faster Run/Walk",
+   "+150% Enhanced Defense"
+  ]
+ },
+ {
+  "name": "Trang-Oul's Wing",
+  "alias": [],
+  "q": "s",
+  "set": "Trang-Oul's Avatar",
+  "type": "Cantor Trophy",
+  "tier": "Exceptional",
+  "lvl": 54,
+  "stats": [
+   "+125 Defense",
+   "+25 to Strength",
+   "+15 to Dexterity",
+   "Fire Resist +38-45%",
+   "30% Increased Chance of Blocking",
+   "Poison Resist +40%",
+   "+2 to Poison and Bone (Necromancer Only)"
+  ]
+ },
+ {
+  "name": "Vidala's Ambush",
+  "alias": [],
+  "q": "s",
+  "set": "Vidala's Rig",
+  "type": "Leather Armor",
+  "tier": "Normal",
+  "lvl": 14,
+  "stats": [
+   "+50 Defense",
+   "+11 to Dexterity"
+  ]
+ },
+ {
+  "name": "Vidala's Barb",
+  "alias": [],
+  "q": "s",
+  "set": "Vidala's Rig",
+  "type": "Long Battle Bow",
+  "tier": "Normal",
+  "lvl": 14,
+  "stats": [
+   "+1 to Minimum Lightning Damage",
+   "+20 to Maximum Lightning Damage"
+  ]
+ },
+ {
+  "name": "Vidala's Fetlock",
+  "alias": [],
+  "q": "s",
+  "set": "Vidala's Rig",
+  "type": "Light Plated Boots",
+  "tier": "Normal",
+  "lvl": 14,
+  "stats": [
+   "+150 Maximum Stamina",
+   "+30% Faster Run/Walk"
+  ]
+ },
+ {
+  "name": "Vidala's Snare",
+  "alias": [],
+  "q": "s",
+  "set": "Vidala's Rig",
+  "type": "Amulet",
+  "tier": "",
+  "lvl": 14,
+  "stats": [
+   "+15 to Life",
+   "Cold Resist +20%"
+  ]
+ },
+ {
+  "name": "Warlord's Authority",
+  "alias": [],
+  "q": "s",
+  "set": "Warlord's Glory",
+  "type": "Plated Belt",
+  "tier": "Normal",
+  "lvl": 1,
+  "stats": [
+   "Lightning Resist +20%",
+   "+25 to Life"
+  ]
+ },
+ {
+  "name": "Warlord's Conquest",
+  "alias": [],
+  "q": "s",
+  "set": "Warlord's Glory",
+  "type": "Gauntlets",
+  "tier": "Normal",
+  "lvl": 1,
+  "stats": [
+   "+15 to Strength",
+   "+45 to Attack Rating"
+  ]
+ },
+ {
+  "name": "Warlord's Crushers",
+  "alias": [],
+  "q": "s",
+  "set": "Warlord's Glory",
+  "type": "Greaves",
+  "tier": "Normal",
+  "lvl": 1,
+  "stats": [
+   "+20% Faster Run/Walk",
+   "Fire Resist +20%"
+  ]
+ },
+ {
+  "name": "Warlord's Lust",
+  "alias": [],
+  "q": "s",
+  "set": "Warlord's Glory",
+  "type": "Great Helm",
+  "tier": "Normal",
+  "lvl": 1,
+  "stats": [
+   "+30 to Life",
+   "+15 Defense"
+  ]
+ },
+ {
+  "name": "Warlord's Mantle",
+  "alias": [],
+  "q": "s",
+  "set": "Warlord's Glory",
+  "type": "Full Plate Mail",
+  "tier": "Normal",
+  "lvl": 1,
+  "stats": [
+   "+25% Enhanced Defense",
+   "Cold Resist +30%"
+  ]
+ },
+ {
+  "name": "Whitstan's Guard",
+  "alias": [],
+  "q": "s",
+  "set": "Orphan's Call",
+  "type": "Round Shield",
+  "tier": "Exceptional",
+  "lvl": 29,
+  "stats": [
+   "+175% Enhanced Defense",
+   "+40% Faster Block Rate",
+   "55% Increased Chance of Blocking",
+   "Half Freeze Duration",
+   "+5 to Light Radius"
+  ]
+ },
+ {
+  "name": "Wilhelm's Pride",
+  "alias": [],
+  "q": "s",
+  "set": "Orphan's Call",
+  "type": "Battle Belt",
+  "tier": "Exceptional",
+  "lvl": 42,
+  "stats": [
+   "+75% Enhanced Defense",
+   "5% Mana Stolen per Hit",
+   "Cold Resist +10%",
+   "5% Life Stolen per Hit"
+  ]
+ }
+]
