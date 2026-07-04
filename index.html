@@ -159,6 +159,15 @@
   .nav button:hover{color:var(--gold-bright);border-color:#6a4f26}
   .nav button.active{color:#0a0806;background:var(--gold);border-color:var(--gold);font-weight:700}
   .info a{color:var(--gold);text-decoration:none} .info a:hover{text-decoration:underline}
+  .baseqrow{display:flex;gap:10px;align-items:center}
+  .baseqrow .lootq{flex:1;margin:0}
+  .baseqs{width:80px;padding:12px 10px;background:#0d0a06;border:1px solid var(--line);border-radius:8px;color:var(--gold-bright);font-size:15px;text-align:center}
+  .basematch{margin-top:12px;display:flex;flex-direction:column;gap:5px}
+  .bmrow{display:flex;align-items:center;gap:11px;padding:7px 13px;background:linear-gradient(180deg,var(--panel2),#100b06);border:1px solid var(--line);border-radius:8px;font-size:14px}
+  .bmsox{background:var(--gold);color:#0a0806;font-weight:700;font-size:11px;padding:2px 8px;border-radius:10px;white-space:nowrap;font-family:'Cinzel'}
+  .bmrow b{color:var(--gold-bright);font-family:'Cinzel';font-size:15px}
+  .bmrunes{color:var(--rune);font-size:13px}
+  .bmlvl{color:var(--muted);font-size:12px;margin-left:auto;white-space:nowrap}
   .section,#lvlnotes{scroll-margin-top:66px}
   html{scroll-behavior:smooth}
   .lootq{width:100%;font-family:'EB Garamond',serif;font-size:19px;background:#0d0a06;border:1px solid var(--line);
@@ -270,6 +279,15 @@
   <div class="tab" id="tab-craft" style="display:none">
   <div class="panel" style="margin:0 0 22px">
     <div class="clsbar" id="clsbar"><span class="lbl">Show runewords for:</span></div>
+  </div>
+
+  <h2 class="section">White Item Checker <span class="hint">found a white base? type it + its sockets → every runeword that fits</span></h2>
+  <div class="panel">
+    <div class="baseqrow">
+      <input id="baseq" class="lootq" type="text" placeholder="Base item or type — e.g. Monarch, Colossus Voulge, shield, polearm, bow" autocomplete="off" spellcheck="false">
+      <input id="baseqs" class="baseqs" type="number" min="1" max="6" placeholder="sox">
+    </div>
+    <div id="basematch" class="basematch"></div>
   </div>
 
   <h2 class="section" id="runes">Your Runes &amp; What's Left <span class="hint">only the runewords you mark "Make" count · enter what you own</span></h2>
@@ -1067,6 +1085,52 @@ document.getElementById('rwq').addEventListener('input',e=>{rwquery=lnorm(e.targ
 function showTab(id){document.querySelectorAll('.tab').forEach(t=>t.style.display=(t.id==='tab-'+id)?'block':'none');document.querySelectorAll('#nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===id));try{localStorage.setItem('d2r_tab',id);}catch(e){}window.scrollTo(0,0);}
 document.getElementById('nav').addEventListener('click',e=>{const b=e.target.closest('button');if(b)showTab(b.dataset.tab);});
 showTab((function(){try{return localStorage.getItem('d2r_tab')}catch(e){return null}})()||'craft');
+function baseTags(s){s=s.toLowerCase().replace(/\([^)]*\)/g,'');const ALL=['sword','axe','mace','scepter','polearm','spear','hammer','staff','wand','club','dagger','claw','bow','crossbow','orb','throwing','javelin'];
+ if(s.includes('missile'))return['bow','crossbow','amazonbow'];
+ if(s.includes('melee weapon'))return['sword','axe','mace','scepter','polearm','spear','hammer','staff','wand','club','dagger','claw'];
+ const t=[];[['sword','sword'],['axe','axe'],['scepter','scepter'],['mace','mace'],['polearm','polearm'],['spear','spear'],['hammer','hammer'],['staff','staff'],['wand','wand'],['club','club'],['dagger','dagger'],['katar','claw'],['claw','claw'],['crossbow','crossbow'],['bow','bow'],['orb','orb']].forEach(function(p){if(s.includes(p[0])&&t.indexOf(p[1])<0)t.push(p[1]);});
+ if(s.includes('body armor'))t.push('armor');
+ if(s.includes('pelt')){t.push('pelt');t.push('helm');}else if(s.includes('helm'))t.push('helm');
+ if(s.includes('paladin shield'))t.push('palshield');else if(s.includes('shield'))t.push('shield');
+ if(!t.length&&s.includes('weapon'))return ALL.slice();
+ return t;}
+const CATWORDS=['body armor','armor','helm','pelt','paladin shield','shield','sword','axe','scepter','mace','polearm','spear','hammer','staff','wand','club','dagger','claw','crossbow','bow','orb'];
+const BASEMAP={
+"Monarch":["shield"],"Aegis":["shield"],"Ward":["shield"],"Kite Shield":["shield"],"Tower Shield":["shield"],"Bone Shield":["shield"],"Grim Shield":["shield"],"Luna":["shield"],"Hyperion":["shield"],"Troll Nest":["shield"],"Blade Barrier":["shield"],"Heater":["shield"],"Barbed Shield":["shield"],
+"Vortex Shield":["shield","palshield"],"Sacred Targe":["shield","palshield"],"Sacred Rondache":["shield","palshield"],"Kurast Shield":["shield","palshield"],"Zakarum Shield":["shield","palshield"],"Gilded Shield":["shield","palshield"],"Akaran Targe":["shield","palshield"],"Akaran Rondache":["shield","palshield"],
+"Archon Plate":["armor"],"Dusk Shroud":["armor"],"Wyrmhide":["armor"],"Scarab Husk":["armor"],"Wire Fleece":["armor"],"Mage Plate":["armor"],"Breast Plate":["armor"],"Sacred Armor":["armor"],"Shadow Plate":["armor"],"Hellforge Plate":["armor"],"Kraken Shell":["armor"],"Lacquered Plate":["armor"],"Ornate Plate":["armor"],"Great Hauberk":["armor"],"Boneweave":["armor"],"Balrog Skin":["armor"],"Chaos Armor":["armor"],
+"Circlet":["helm","circlet"],"Coronet":["helm","circlet"],"Tiara":["helm","circlet"],"Diadem":["helm","circlet"],"Bone Visage":["helm"],"Death Mask":["helm"],"Grim Helm":["helm"],"Corona":["helm"],"Spired Helm":["helm"],"Armet":["helm"],"Shako":["helm"],"Demonhead":["helm"],"Winged Helm":["helm"],"Grand Crown":["helm"],
+"Wolf Head":["helm","pelt"],"Alpha Helm":["helm","pelt"],"Blood Spirit":["helm","pelt"],"Totemic Mask":["helm","pelt"],"Sky Spirit":["helm","pelt"],"Hierophant Trophy":["helm","pelt"],
+"Phase Blade":["sword"],"Colossus Blade":["sword"],"Colossus Sword":["sword"],"Crystal Sword":["sword"],"Cryptic Sword":["sword"],"Mythical Sword":["sword"],"Highland Blade":["sword"],"Legend Sword":["sword"],"Flamberge":["sword"],"War Sword":["sword"],"Broad Sword":["sword"],"Long Sword":["sword"],"Balrog Blade":["sword"],"Champion Sword":["sword"],"Conquest Sword":["sword"],
+"Berserker Axe":["axe"],"Ettin Axe":["axe"],"War Axe":["axe"],"Battle Axe":["axe"],"Great Axe":["axe"],"Feral Axe":["axe"],"Silver-Edged Axe":["axe"],"Decapitator":["axe"],"Small Crescent":["axe"],"Twin Axe":["axe"],
+"Thresher":["polearm"],"Giant Thresher":["polearm"],"Cryptic Axe":["polearm"],"Great Poleaxe":["polearm"],"Colossus Voulge":["polearm"],"Ogre Axe":["polearm"],"Bill":["polearm"],"Halberd":["polearm"],"War Scythe":["polearm"],"Partizan":["polearm"],"Bardiche":["polearm"],"Poleaxe":["polearm"],
+"War Pike":["spear"],"Ghost Spear":["spear"],"Hyperion Spear":["spear"],"Stygian Pike":["spear"],"Pike":["spear"],"Lance":["spear"],"War Spear":["spear"],
+"Flail":["mace"],"Ogre Maul":["mace"],"Thunder Maul":["mace"],"Martel de Fer":["mace"],"War Hammer":["mace"],"Legendary Mallet":["mace"],"Devil Star":["mace"],"Scourge":["mace"],"Reinforced Mace":["mace"],"Maul":["mace"],"Great Maul":["mace"],
+"War Scepter":["scepter"],"Grand Scepter":["scepter"],"Divine Scepter":["scepter"],"Mighty Scepter":["scepter"],"Caduceus":["scepter"],"Rune Scepter":["scepter"],
+"Archon Staff":["staff"],"Elder Staff":["staff"],"War Staff":["staff"],"Battle Staff":["staff"],"Long Staff":["staff"],
+"Grand Matron Bow":["bow","amazonbow"],"Matriarchal Bow":["bow","amazonbow"],"Hydra Bow":["bow"],"Shadow Bow":["bow"],"Great Bow":["bow"],"Diamond Bow":["bow"],"Crusader Bow":["bow"],"Ward Bow":["bow"],"Blade Bow":["bow"],"Gothic Bow":["bow"],
+"Ballista":["crossbow"],"Colossus Crossbow":["crossbow"],"Demon Crossbow":["crossbow"],"Chu-Ko-Nu":["crossbow"],"Arbalest":["crossbow"],"Siege Crossbow":["crossbow"],
+"Runic Talons":["claw"],"Feral Claws":["claw"],"Suwayyah":["claw"],"Scissors Suwayyah":["claw"],"Greater Talons":["claw"],"Battle Cestus":["claw"],"War Fist":["claw"],
+"Legend Spike":["dagger"],"Fanged Knife":["dagger"],"Bone Knife":["dagger"],"Kris":["dagger"],"Dirk":["dagger"],"Poignard":["dagger"],"Mithril Point":["dagger"],
+"Grim Wand":["wand"],"Tomb Wand":["wand"],"Lich Wand":["wand"]
+};
+function baseTagsFor(raw){const q=lnorm(raw);if(!q)return null;
+ for(const k in BASEMAP)if(lnorm(k)===q)return BASEMAP[k];
+ for(const k in BASEMAP)if(q.length>=3&&lnorm(k).includes(q))return BASEMAP[k];
+ const low=raw.toLowerCase();const cw=[];CATWORDS.forEach(function(c){if(low.includes(c)){if(c==='paladin shield'){cw.push('palshield','shield');}else if(c==='body armor'){cw.push('armor');}else{cw.push(c);}}});
+ return cw.length?cw.filter(function(v,i){return cw.indexOf(v)===i;}):null;}
+function renderBaseMatch(){const inp=document.getElementById('baseq');if(!inp)return;const raw=inp.value.trim();const sx=parseInt(document.getElementById('baseqs').value,10);const box=document.getElementById('basematch');
+ if(!raw){box.innerHTML='<div class="cnempty">Type the white base you found (or a type like &ldquo;shield&rdquo;, &ldquo;polearm&rdquo;, &ldquo;bow&rdquo;) and, if you want, its socket count.</div>';return;}
+ const tags=baseTagsFor(raw);
+ if(!tags){box.innerHTML='<div class="cnempty">Don&rsquo;t know that base yet &mdash; try the item type instead: body armor, helm, shield, sword, axe, mace, polearm, spear, bow, crossbow, claw, staff, dagger.</div>';return;}
+ let hits=RW.filter(function(rw){const rt=baseTags(rw.base);return rt.some(function(t){return tags.indexOf(t)>=0;});});
+ if(!isNaN(sx))hits=hits.filter(function(rw){return rw.sock===sx;});
+ hits.sort(function(a,b){return a.sock-b.sock||a.lvl-b.lvl;});
+ if(!hits.length){box.innerHTML='<div class="cnempty">No runewords fit that'+(!isNaN(sx)?' at '+sx+' sockets':'')+'. Runewords need an exact socket count &mdash; try a different number.</div>';return;}
+ box.innerHTML=hits.map(function(rw){return '<div class="bmrow"><span class="bmsox">'+rw.sock+' sox</span><b>'+rw.name+'</b><span class="bmrunes">'+rw.runes.join(' + ')+'</span><span class="bmlvl">clvl '+rw.lvl+'</span></div>';}).join('');}
+document.getElementById('baseq').addEventListener('input',renderBaseMatch);
+document.getElementById('baseqs').addEventListener('input',renderBaseMatch);
+renderBaseMatch();
 (function(){const links=[...document.querySelectorAll('#nav a')],map={};links.forEach(a=>map[a.getAttribute('href').slice(1)]=a);
  const io=new IntersectionObserver(es=>{es.forEach(en=>{if(en.isIntersecting){links.forEach(a=>a.classList.remove('active'));if(map[en.target.id])map[en.target.id].classList.add('active');}});},{rootMargin:'-60px 0px -72% 0px'});
  ['loot','runes','craft','bases','runewords','lvlnotes','zones','areas','topfarms'].forEach(id=>{const el=document.getElementById(id);if(el)io.observe(el);});})();
