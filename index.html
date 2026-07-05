@@ -73,6 +73,93 @@
   .cn .cnrunes .rune .lbl{font-size:10px} .cn .cnrunes .rune .no{font-size:9px}
   .cn .cnbase{font-size:14px;color:var(--muted)} .cn .cnbase b{color:var(--white)}
   .cnempty{color:var(--muted);font-style:italic}
+  .cn{cursor:help}
+  .rwpop{position:fixed;z-index:9999;max-width:340px;pointer-events:none;opacity:0;
+    transition:opacity .09s;background:linear-gradient(180deg,var(--panel2),#100b06);
+    border:1px solid #6a4f26;border-radius:10px;padding:12px 14px;
+    box-shadow:0 10px 34px rgba(0,0,0,.7),0 0 20px rgba(216,180,90,.1)}
+  .rwpop.on{opacity:1}
+  .rwpop .pn{font-family:'Cinzel';font-weight:900;font-size:20px;color:var(--gold-bright);line-height:1.1}
+  .rwpop .prole{color:var(--set);font-style:italic;font-size:13px;margin:2px 0 8px}
+  .rwpop .pchips{display:flex;gap:6px;margin-bottom:8px}
+  .rwpop .pchip{font-size:12px;padding:2px 7px;border-radius:5px;border:1px solid #5a3a1a;color:var(--rune);background:#170f08}
+  .rwpop .pchip.sk{color:var(--gold-bright);border-color:#6a5a2a;background:#171009}
+  .rwpop .prunes{display:flex;align-items:center;gap:2px;margin-bottom:8px}
+  .rwpop .prunes .rune{width:44px;height:54px} .rwpop .prunes .rune img{width:24px;height:24px}
+  .rwpop .prunes .rune .lbl{font-size:10px} .rwpop .prunes .rune .no{font-size:9px}
+  .rwpop ul{list-style:none;margin:0;padding:0}
+  .rwpop li{color:var(--magic);font-size:14px;padding:1px 0 1px 14px;position:relative}
+  .rwpop li::before{content:"◦";position:absolute;left:0;color:#4a4a8a}
+  .rwpop li.aura,.rwpop li.hot{color:var(--gold-bright);font-weight:700}
+  .rwpop .pbases{display:flex;gap:14px;margin-top:10px;padding-top:10px;border-top:1px solid #2a2016}
+  .rwpop .bart{display:flex;flex-direction:column;align-items:center;gap:3px;max-width:90px}
+  .rwpop .bart img{width:52px;height:auto;image-rendering:pixelated;filter:drop-shadow(0 0 6px rgba(216,180,90,.25))}
+  .rwpop .bart span{font-size:11px;color:var(--gold-bright);text-align:center;line-height:1.15}
+  .rwpop .pbase{font-size:13px;color:var(--muted);margin-top:8px} .rwpop .pbase b{color:var(--white)}
+  /* base items + imbue tabs */
+  .binote{color:var(--white);font-size:15px;line-height:1.5;margin:0 0 20px;padding:12px 14px;border-left:3px solid var(--gold);background:rgba(216,180,90,.05);border-radius:0 8px 8px 0}
+  .binote b{color:var(--gold-bright)}
+  .bisec{margin:0 0 26px}
+  .bisec>h3{font-family:'Cinzel';font-weight:900;color:var(--gold-bright);font-size:20px;margin:0 0 3px}
+  .bisec>.bisub{color:var(--muted);font-size:13.5px;font-style:italic;margin:0 0 12px;line-height:1.45}
+  .bigrid{display:flex;flex-wrap:wrap;gap:12px}
+  .bicard{border:1px solid var(--line);border-radius:10px;background:linear-gradient(180deg,var(--panel2),#100b06);
+    padding:11px 13px;width:270px;display:flex;gap:12px;align-items:flex-start}
+  .bicard.best{border-color:#6a5a2a;box-shadow:0 0 14px rgba(216,180,90,.12)}
+  .bicard img{width:46px;height:auto;image-rendering:pixelated;flex:0 0 auto;margin-top:2px;filter:drop-shadow(0 0 5px rgba(216,180,90,.22))}
+  .bicard .bic-noimg{width:46px;flex:0 0 auto}
+  .bicard .bic-b{min-width:0}
+  .bicard .bic-n{font-family:'Cinzel';font-weight:700;color:var(--gold-bright);font-size:16px;line-height:1.1}
+  .bitags{display:flex;flex-wrap:wrap;gap:4px;margin:5px 0 4px}
+  .bitag{font-size:11px;padding:1px 6px;border-radius:4px;border:1px solid #4a3a1a;color:var(--gold);background:#171009;white-space:nowrap}
+  .bitag.eth{color:#a678d6;border-color:#4a2a6a} .bitag.best{color:var(--set);border-color:#35662f}
+  .bicard .bic-note{color:var(--magic);font-size:13px;line-height:1.42;margin-top:2px}
+  .biups{display:flex;flex-wrap:wrap;gap:12px;margin-top:4px}
+  .biup{border:1px solid var(--line);border-radius:10px;background:var(--panel2);padding:12px 15px;flex:1 1 260px}
+  .biup .biu-h{font-family:'Cinzel';font-weight:700;color:var(--gold-bright);font-size:15px;margin-bottom:6px}
+  .biup .biu-r{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:14px;color:var(--white)}
+  .biup .biu-r .rune{width:42px;height:52px} .biup .biu-r .rune img{width:22px;height:22px}
+  .biup .biu-r .arrow{color:var(--gold);font-size:18px;margin:0 4px}
+  /* imbue */
+  .imbrec{border:1px solid #6a5a2a;border-radius:12px;background:linear-gradient(180deg,#1d160d,#100b06);padding:16px 18px;margin:0 0 22px;box-shadow:0 0 18px rgba(216,180,90,.12);display:flex;gap:16px;align-items:flex-start}
+  .imbrec img{width:60px;height:auto;image-rendering:pixelated;flex:0 0 auto;filter:drop-shadow(0 0 7px rgba(216,180,90,.3))}
+  .imbrec .imr-tag{font-family:'Cinzel';font-weight:900;color:var(--set);font-size:12px;letter-spacing:1px}
+  .imbrec .imr-n{font-family:'Cinzel';font-weight:900;color:var(--gold-bright);font-size:24px;line-height:1.1;margin:1px 0 6px}
+  .imbrec .imr-note{color:var(--white);font-size:14.5px;line-height:1.5}
+  .imbrec .imr-note b{color:var(--gold-bright)}
+  .imbblk{margin:0 0 20px}
+  .imbblk>h3{font-family:'Cinzel';font-weight:900;color:var(--gold-bright);font-size:19px;margin:0 0 8px}
+  .imbblk ul{margin:0;padding-left:20px}
+  .imbblk li{color:var(--white);font-size:14.5px;line-height:1.55;margin:3px 0}
+  .imbblk li b{color:var(--gold-bright)} .imbblk li .k{color:var(--rune);font-weight:700}
+  .imbwarn{border-left:3px solid var(--rune);background:rgba(255,138,42,.05);border-radius:0 8px 8px 0;padding:8px 12px;color:var(--muted);font-size:13.5px;line-height:1.5;font-style:italic}
+  .imbhelms{display:flex;gap:12px;flex-wrap:wrap;margin-top:4px}
+  .imbhelm{border:1px solid var(--line);border-radius:9px;background:var(--panel2);padding:9px 12px;display:flex;gap:10px;align-items:center}
+  .imbhelm img{width:38px;height:auto;image-rendering:pixelated}
+  .imbhelm .ih-n{font-family:'Cinzel';font-weight:700;color:var(--gold-bright);font-size:14px}
+  .imbhelm .ih-m{color:var(--muted);font-size:12px}
+  /* boss tracker */
+  .trkbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px;flex-wrap:wrap}
+  .trktot{font-size:15px;color:var(--white)} .trktot b{font-family:'Cinzel';color:var(--gold-bright);font-size:19px}
+  .trkresetall{font-family:inherit;font-size:12.5px;color:var(--muted);background:none;border:1px solid var(--line);border-radius:6px;padding:5px 11px;cursor:pointer}
+  .trkresetall:hover{color:var(--red);border-color:#5a2620}
+  .trksec{margin:0 0 22px}
+  .trksec>h3{font-family:'Cinzel';font-weight:900;color:var(--gold-bright);font-size:19px;margin:0 0 12px}
+  .trkgrid{display:flex;flex-wrap:wrap;gap:12px}
+  .trkcard{border:1px solid var(--line);border-radius:11px;background:linear-gradient(180deg,var(--panel2),#100b06);
+    padding:12px 14px;width:230px;display:flex;flex-direction:column;gap:9px}
+  .trkcard.hot{border-color:#6a5a2a;box-shadow:0 0 14px rgba(216,180,90,.1)}
+  .trkcard .trk-n{font-family:'Cinzel';font-weight:700;color:var(--gold-bright);font-size:16.5px;line-height:1.05}
+  .trkcard .trk-loc{color:var(--muted);font-size:12px;margin-top:1px}
+  .trkctr{display:flex;align-items:center;justify-content:space-between;gap:8px}
+  .trkbtn{width:40px;height:40px;flex:0 0 auto;border-radius:9px;border:1px solid #4a3a1a;background:#171009;
+    color:var(--gold-bright);font-size:24px;line-height:1;cursor:pointer;font-family:inherit;display:flex;align-items:center;justify-content:center;user-select:none}
+  .trkbtn:hover{border-color:var(--gold);background:#20160b}
+  .trkbtn:active{transform:scale(.92)}
+  .trkbtn.minus{color:var(--red)} .trkbtn.minus:hover{border-color:#5a2620}
+  .trkcount{font-family:'Cinzel';font-weight:900;font-size:30px;color:var(--white);min-width:48px;text-align:center;
+    text-shadow:0 0 14px rgba(216,180,90,.25)}
+  .trkcount.zero{color:#4a463c;text-shadow:none}
   .bitem{display:flex;align-items:center;gap:15px;padding:12px 6px;border-bottom:1px solid #23190e;cursor:pointer}
   .bitem:last-child{border-bottom:none}
   .bitem:hover{background:rgba(216,180,90,.03)}
@@ -286,7 +373,7 @@
   </header>
 
   <nav class="nav" id="nav">
-    <button data-tab="loot">Loot Check</button><button data-tab="craft">Crafting</button><button data-tab="level">Leveling</button><button data-tab="zones">Zones</button><button data-tab="areas">85 Areas</button><button data-tab="farms">Top Farms</button><button data-tab="credits">Credits</button>
+    <button data-tab="loot">Loot Check</button><button data-tab="craft">Crafting</button><button data-tab="level">Leveling</button><button data-tab="zones">Zones</button><button data-tab="areas">85 Areas</button><button data-tab="farms">Top Farms</button><button data-tab="tracker">Boss Tracker</button><button data-tab="bases">Base Items</button><button data-tab="imbue">Charsi Imbue</button><button data-tab="credits">Credits</button>
   </nav>
 
   <div class="tab" id="tab-loot">
@@ -367,6 +454,24 @@
   <div class="panel"><ol class="farmlist" id="farms"></ol></div>
   </div><!-- /tab-farms -->
 
+  <div class="tab" id="tab-tracker" style="display:none">
+  <h2 class="section" id="tracker">Boss Tracker <span class="hint">click + / − to log kills · counts save automatically in this browser</span></h2>
+  <div class="panel">
+    <div class="trkbar"><div class="trktot">Total runs logged: <b id="trktotal">0</b></div><button id="trkreset" class="trkresetall">Reset all</button></div>
+    <div id="trackerbox"></div>
+  </div>
+  </div><!-- /tab-tracker -->
+
+  <div class="tab" id="tab-bases" style="display:none">
+  <h2 class="section" id="baseitems">Base Items — What to Keep <span class="hint">endgame &amp; trade bases · from MrLlamaSC's "Item Bases / Upping Items" guide</span></h2>
+  <div class="panel"><div class="binote" id="baseintro"></div><div id="basesbox"></div></div>
+  </div><!-- /tab-bases -->
+
+  <div class="tab" id="tab-imbue" style="display:none">
+  <h2 class="section" id="charsiimbue">Charsi Imbue <span class="hint">turn a white item into a rare · from MrLlamaSC's "What to Imbue" guide</span></h2>
+  <div class="panel"><div id="imbuebox"></div></div>
+  </div><!-- /tab-imbue -->
+
   <div class="tab" id="tab-credits" style="display:none">
   <h2 class="section">Credits &amp; Sources <span class="hint">a fan project · not affiliated with Blizzard</span></h2>
   <div class="info">
@@ -428,6 +533,68 @@ const RUNE_IMG = {
   Jah:"https://static.wikia.nocookie.net/diablo/images/9/97/RuneJah.gif",
   Cham:"https://static.wikia.nocookie.net/diablo/images/f/fe/RuneCham.gif",
   Zod:"https://static.wikia.nocookie.net/diablo/images/9/92/RuneZod.gif",
+};
+// base-item inventory sprites (shared per tier family, as in-game) via Diablo Wiki CDN
+const BASE_IMG={
+  "Archon Plate":"https://static.wikia.nocookie.net/diablo/images/1/11/LightPlate.gif",
+  "Archon Staff":"https://static.wikia.nocookie.net/diablo/images/0/08/WarStaff.gif",
+  "Axe":"https://static.wikia.nocookie.net/diablo/images/3/31/Axe.gif",
+  "Berserker Axe":"https://static.wikia.nocookie.net/diablo/images/9/95/WarAxe.gif",
+  "Bone Wand":"https://static.wikia.nocookie.net/diablo/images/3/3d/BoneWand.gif",
+  "Breast Plate":"https://static.wikia.nocookie.net/diablo/images/2/29/BreastPlate.gif",
+  "Cap":"https://static.wikia.nocookie.net/diablo/images/6/62/Cap.gif",
+  "Circlet":"https://static.wikia.nocookie.net/diablo/images/7/7f/Circlet.gif",
+  "Colossus Blade":"https://static.wikia.nocookie.net/diablo/images/d/d2/Flamberge.gif",
+  "Cryptic Axe":"https://static.wikia.nocookie.net/diablo/images/2/2d/Poleaxe.gif",
+  "Cryptic Sword":"https://static.wikia.nocookie.net/diablo/images/5/53/D2Longsword.gif",
+  "Crystal Sword":"https://static.wikia.nocookie.net/diablo/images/1/15/CrystalSword.png",
+  "Druid Pelt":"https://static.wikia.nocookie.net/diablo/images/6/62/Cap.gif",
+  "Dusk Shroud":"https://static.wikia.nocookie.net/diablo/images/1/10/Quilted.gif",
+  "Flail":"https://static.wikia.nocookie.net/diablo/images/1/1d/Flail.png",
+  "Gnarled Staff":"https://static.wikia.nocookie.net/diablo/images/7/73/Gnarled_Staff.png",
+  "Grand Matron Bow":"https://static.wikia.nocookie.net/diablo/images/6/68/Reflexbow.gif",
+  "Grand Scepter":"https://static.wikia.nocookie.net/diablo/images/9/9a/Grandscepter.gif",
+  "Hunter's Bow":"https://static.wikia.nocookie.net/diablo/images/0/0f/HuntersBow.gif",
+  "Hydra Bow":"https://static.wikia.nocookie.net/diablo/images/9/93/LongWarBow.gif",
+  "Large Shield":"https://static.wikia.nocookie.net/diablo/images/9/93/Large_Shield.png",
+  "Legend Spike":"https://static.wikia.nocookie.net/diablo/images/5/5e/D2-Blade.gif",
+  "Mage Plate":"https://static.wikia.nocookie.net/diablo/images/1/11/LightPlate.gif",
+  "Mask":"https://static.wikia.nocookie.net/diablo/images/c/c7/Mask.gif",
+  "Matriarchal Bow":"https://static.wikia.nocookie.net/diablo/images/9/9f/Stagbow.gif",
+  "Monarch":"https://static.wikia.nocookie.net/diablo/images/2/2d/Kite_Shield.gif",
+  "Morning Star":"https://static.wikia.nocookie.net/diablo/images/b/bc/Morning_Star.png",
+  "Phase Blade":"https://static.wikia.nocookie.net/diablo/images/1/15/CrystalSword.png",
+  "Quilted Armor":"https://static.wikia.nocookie.net/diablo/images/0/00/Quiltedarmor.gif",
+  "Runic Talons":"https://static.wikia.nocookie.net/diablo/images/0/0f/Claws.gif",
+  "Short Bow":"https://static.wikia.nocookie.net/diablo/images/9/98/Short_Bow.png",
+  "Short Staff":"https://static.wikia.nocookie.net/diablo/images/a/aa/Shortstaff.gif",
+  "Short Sword":"https://static.wikia.nocookie.net/diablo/images/c/ca/Short_Sword.png",
+  "Small Shield":"https://static.wikia.nocookie.net/diablo/images/2/20/SmallShield.gif",
+  "Suwayyah":"https://static.wikia.nocookie.net/diablo/images/7/7f/Katar.gif",
+  "Thresher":"https://static.wikia.nocookie.net/diablo/images/8/8a/Thresher.png",
+  "Vortex Shield":"https://static.wikia.nocookie.net/diablo/images/8/80/CrownShield.gif",
+  "War Scepter":"https://static.wikia.nocookie.net/diablo/images/2/27/Warscepter.gif",
+  "Ward":"https://static.wikia.nocookie.net/diablo/images/3/33/GothicShield.gif",
+  "Wire Fleece":"https://static.wikia.nocookie.net/diablo/images/d/d7/Studded.gif",
+  "Aegis":"https://static.wikia.nocookie.net/diablo/images/3/33/GothicShield.gif",
+  "Boneweave":"https://static.wikia.nocookie.net/diablo/images/d/d1/ChainMail.gif",
+  "Colossus Voulge":"https://static.wikia.nocookie.net/diablo/images/2/2d/Poleaxe.gif",
+  "Coronet":"https://static.wikia.nocookie.net/diablo/images/6/62/Cap.gif",
+  "Diadem":"https://static.wikia.nocookie.net/diablo/images/0/08/Diadem.gif",
+  "Dimensional Blade":"https://static.wikia.nocookie.net/diablo/images/5/53/D2Longsword.gif",
+  "Giant Thresher":"https://static.wikia.nocookie.net/diablo/images/b/b6/Warscythe.gif",
+  "Great Hauberk":"https://static.wikia.nocookie.net/diablo/images/2/29/BreastPlate.gif",
+  "Great Poleaxe":"https://static.wikia.nocookie.net/diablo/images/2/2d/Poleaxe.gif",
+  "Hellforge Plate":"https://static.wikia.nocookie.net/diablo/images/1/11/LightPlate.gif",
+  "Kraken Shell":"https://static.wikia.nocookie.net/diablo/images/3/30/FieldPlate.gif",
+  "Ogre Axe":"https://static.wikia.nocookie.net/diablo/images/9/95/WarAxe.gif",
+  "Sacred Armor":"https://static.wikia.nocookie.net/diablo/images/5/54/GothicPlate.gif",
+  "Sacred Rondache":"https://static.wikia.nocookie.net/diablo/images/e/e9/Rondache.gif",
+  "Sacred Targe":"https://static.wikia.nocookie.net/diablo/images/4/40/Targe.gif",
+  "Scarab Husk":"https://static.wikia.nocookie.net/diablo/images/1/15/HardLeather.gif",
+  "Tiara":"https://static.wikia.nocookie.net/diablo/images/6/62/Cap.gif",
+  "Wyrmhide":"https://static.wikia.nocookie.net/diablo/images/5/5f/LeatherArmor.gif",
+  "Zakarum Shield":"https://static.wikia.nocookie.net/diablo/images/9/96/Aerinshield.gif"
 };
 const RUNE_NO = {El:1,Eld:2,Tir:3,Nef:4,Eth:5,Ith:6,Tal:7,Ral:8,Ort:9,Thul:10,Amn:11,Sol:12,Shael:13,Dol:14,Hel:15,Io:16,Lum:17,Ko:18,Fal:19,Lem:20,Pul:21,Um:22,Mal:23,Ist:24,Gul:25,Vex:26,Ohm:27,Lo:28,Sur:29,Ber:30,Jah:31,Cham:32,Zod:33};
 const RUNE_ORDER = ["El","Eld","Tir","Nef","Eth","Ith","Tal","Ral","Ort","Thul","Amn","Sol","Shael","Dol","Hel","Io","Lum","Ko","Fal","Lem","Pul","Um","Mal","Ist","Gul","Vex","Ohm","Lo","Sur","Ber","Jah","Cham","Zod"];
@@ -567,7 +734,7 @@ const RW = [
 // Primary = localStorage; fallback = the URL hash (survives a refresh even if a
 // privacy browser blocks/clears file:// storage, because F5 reloads the same URL).
 const KEY="d2r_state_v3";
-let plan={},made={},have={},lvl=85,diff='H',cf='all',bh={},bv={},rwquery='';
+let plan={},made={},have={},lvl=85,diff='H',cf='all',bh={},bv={},rwquery='',runs={};
 (function load(){
   let s=null;
   try{ s=JSON.parse(localStorage.getItem(KEY)||"null"); }catch(e){}
@@ -580,12 +747,12 @@ let plan={},made={},have={},lvl=85,diff='H',cf='all',bh={},bv={},rwquery='';
       if(p||Object.keys(h).length||Object.keys(m).length) s={plan:p||{},made:m,have:h};
     }catch(e){}
   }
-  if(s){ plan=s.plan||{}; made=s.made||{}; have=s.have||{}; if(s.lvl)lvl=s.lvl; if(s.diff)diff=s.diff; if(s.cf)cf=s.cf; if(s.bh)bh=s.bh; if(s.bv)bv=s.bv; }
+  if(s){ plan=s.plan||{}; made=s.made||{}; have=s.have||{}; if(s.lvl)lvl=s.lvl; if(s.diff)diff=s.diff; if(s.cf)cf=s.cf; if(s.bh)bh=s.bh; if(s.bv)bv=s.bv; if(s.runs)runs=s.runs; }
   RW.forEach(r=>{ if(plan[r.id]===undefined) plan[r.id]=!r.off; }); // default: all planned
 })();
 const isPlan=id=>plan[id]!==false;
 function save(){
-  const str=JSON.stringify({plan,made,have,lvl,diff,cf,bh,bv});
+  const str=JSON.stringify({plan,made,have,lvl,diff,cf,bh,bv,runs});
   try{ localStorage.setItem(KEY,str); }catch(e){}
   try{ history.replaceState(null,"","#"+encodeURIComponent(str)); }catch(e){}
 }
@@ -888,9 +1055,46 @@ function renderCraftable(){
     const rr=document.createElement("div");rr.className="cnrunes";
     rw.runes.forEach((r,i)=>{if(i)rr.insertAdjacentHTML("beforeend",'<span class="plus">+</span>');rr.appendChild(runeTile(r));});
     const base=document.createElement("div");base.className="cnbase";base.innerHTML=`in <b>${rw.base}</b>`;
-    el.append(nm,rr,base);box.appendChild(el);
+    el.append(nm,rr,base);
+    el.addEventListener("mouseenter",()=>rwPopShow(rw));
+    el.addEventListener("mousemove",rwPopMove);
+    el.addEventListener("mouseleave",rwPopHide);
+    box.appendChild(el);
   });
 }
+let rwPop;
+function rwPopShow(rw){
+  if(!rwPop){rwPop=document.createElement("div");rwPop.className="rwpop";document.body.appendChild(rwPop);}
+  const runes=document.createElement("div");runes.className="prunes";
+  rw.runes.forEach((r,i)=>{if(i)runes.insertAdjacentHTML("beforeend",'<span class="plus">+</span>');runes.appendChild(runeTile(r));});
+  rwPop.innerHTML=`<div class="pn">${rw.name}</div><div class="prole">${rw.role||""}</div>
+    <div class="pchips"><span class="pchip sk">${rw.sock} sockets</span><span class="pchip">Req Level ${rw.lvl}</span></div>`;
+  rwPop.appendChild(runes);
+  rwPop.insertAdjacentHTML("beforeend",
+    `<ul>${rw.stats.map(s=>`<li class="${s[0]}">${s[1]}</li>`).join("")}</ul>${baseArtHTML(rw)}`);
+  rwPop.classList.add("on");
+}
+const BASE_FALLBACK={"Body Armor":"Breast Plate",Helm:"Cap",Shield:"Small Shield",Sword:"Short Sword",Scepter:"War Scepter",Mace:"Morning Star",Hammer:"Morning Star",Club:"Morning Star",Axe:"Axe",Bow:"Short Bow",Crossbow:"Short Bow",Staff:"Short Staff",Polearm:"Thresher",Wand:"Bone Wand"};
+function bartHTML(url,label){return `<span class="bart"><img src="${url}" alt="${label}" referrerpolicy="no-referrer"><span>${label}</span></span>`;}
+function baseArtHTML(rw){
+  const vs=BASES[rw.id]||[];
+  const seen=new Set();const arts=[];
+  vs.forEach(v=>{ const u=BASE_IMG[v.name]; if(u&&!seen.has(v.name)){seen.add(v.name);arts.push(bartHTML(u,v.label||v.name)); }});
+  if(!arts.length){ // no specific recommended base: show the sprite for the generic base type
+    for(const k in BASE_FALLBACK){ if(rw.base.includes(k)&&BASE_IMG[BASE_FALLBACK[k]]){arts.push(bartHTML(BASE_IMG[BASE_FALLBACK[k]],BASE_FALLBACK[k]));break;} }
+  }
+  const art=arts.length?`<div class="pbases">${arts.join("")}</div>`:"";
+  return `${art}<div class="pbase">in <b>${rw.base}</b></div>`;
+}
+function rwPopMove(e){
+  if(!rwPop)return;
+  const pad=14,w=rwPop.offsetWidth,h=rwPop.offsetHeight;
+  let x=e.clientX+pad,y=e.clientY+pad;
+  if(x+w>innerWidth-8)x=e.clientX-w-pad;
+  if(y+h>innerHeight-8)y=Math.max(8,innerHeight-h-8);
+  rwPop.style.left=x+"px";rwPop.style.top=y+"px";
+}
+function rwPopHide(){ if(rwPop)rwPop.classList.remove("on"); }
 // ---- zones + farming + XP-penalty calculator --------------------------------
 const EXP_RATIO={70:976,71:928,72:880,73:832,74:784,75:736,76:688,77:640,78:592,79:544,80:496,81:448,82:400,83:352,84:304,85:256,86:192,87:144,88:108,89:81,90:61,91:46,92:35,93:26,94:20,95:15,96:11,97:8,98:6,99:5};
 function diffFactor(c,m){ if(m>c)return c/m; const d=c-m; if(d<=5)return 1; if(d<=10)return (100-19*(d-5))/100; return .05; }
@@ -1258,6 +1462,180 @@ attachAC(document.getElementById('baseq'),acBase,renderBaseMatch);
 (function(){const links=[...document.querySelectorAll('#nav a')],map={};links.forEach(a=>map[a.getAttribute('href').slice(1)]=a);
  const io=new IntersectionObserver(es=>{es.forEach(en=>{if(en.isIntersecting){links.forEach(a=>a.classList.remove('active'));if(map[en.target.id])map[en.target.id].classList.add('active');}});},{rootMargin:'-60px 0px -72% 0px'});
  ['loot','runes','craft','bases','runewords','lvlnotes','zones','areas','topfarms'].forEach(id=>{const el=document.getElementById(id);if(el)io.observe(el);});})();
+// ---- Base Items tab (MrLlamaSC: "Item Bases / Upping Items — What to Keep") ----
+const BASE_SECTIONS=[
+ {title:"Body Armor — for your character",sub:"Prefer LIGHT armor: medium/heavy armors carry a run/walk penalty. Aim for the high end of the defense range. Every base has normal → exceptional → elite tiers (same graphic, higher stats and requirements).",items:[
+  {name:"Archon Plate",tags:["elite · light","most desired"],note:"Best all-round body-armor base: high defense for a relatively low 103 strength."},
+  {name:"Dusk Shroud",tags:["elite · light"],note:"Very low strength requirement. Popular when you want minimal stats and don't care about max defense."},
+  {name:"Wyrmhide",tags:["elite · light"],note:"Fine alternative light elite base."},
+  {name:"Scarab Husk",tags:["elite · light"],note:"Fine alternative light elite base."},
+  {name:"Wire Fleece",tags:["elite · light"],note:"Fine alternative light elite base."},
+  {name:"Great Hauberk",tags:["elite · light"],note:"Fine alternative light elite base."},
+  {name:"Mage Plate",tags:["exceptional · light"],note:"55 strength, decent defense. For a low-strength Enigma when defense isn't the priority."},
+  {name:"Breast Plate",tags:["normal","don't keep"],note:"50 strength, lowest option. Not worth saving — shop a 3-socket one from Act 1/2 Normal."},
+ ]},
+ {title:"Ethereal Armor — for your mercenary",sub:"The merc has far more strength (plus Andariel's Visage) and durability never drains him, so ethereal is free defense. Keep ANY elite armor if it's ethereal and high-defense.",items:[
+  {name:"Sacred Armor",tags:["elite","ethereal"],note:"Top merc body armor (e.g. Fortitude)."},
+  {name:"Kraken Shell",tags:["elite","ethereal"],note:"High-defense ethereal merc base."},
+  {name:"Hellforge Plate",tags:["elite","ethereal"],note:"High-defense ethereal merc base."},
+  {name:"Archon Plate",tags:["elite","ethereal"],note:"Also loved ethereal on the merc."},
+  {name:"Boneweave",tags:["elite","ethereal"],note:"148 strength ethereal (−10 for being ethereal); a big defensive Fortitude piece for the merc."},
+ ]},
+ {title:"Paladin shields",sub:"All paladin shields roll up to 4 open sockets (easy Spirit).",items:[
+  {name:"Sacred Targe",tags:["elite","most desired"],note:"Highest % block and the lowest strength requirement of the paladin shields."},
+  {name:"Vortex Shield",tags:["ethereal"],note:"For Exile — its repair mod means the ethereal base won't break, so you get the extra defense for free."},
+  {name:"Zakarum Shield",tags:["smite PvM"],note:"Smiter shield; prefer ethereal for Exile (repair mod, won't break)."},
+  {name:"Sacred Rondache",tags:["4os + implicit"],note:"A 4os one with a native +45 all-resist implicit gives Spirit's stats plus the resist in one shield. Wanted even at 41–43 res."},
+ ]},
+ {title:"Other shields",sub:"Only three non-paladin shields can hit 4 open sockets — Monarch (light, 150 str), Aegis (heavy, 219 str) and Ward (medium, 185 str). Monarch wins on weight and strength.",items:[
+  {name:"Monarch",tags:["elite · light","most desired"],note:"The only non-paladin shield worth keeping. Rolls 4os at Larzuk for Spirit / Phoenix."},
+  {name:"Aegis",tags:["elite · heavy"],note:"Can reach 4os but 219 strength and heavy — generally passed over for Monarch."},
+  {name:"Ward",tags:["elite · medium"],note:"Can reach 4os but medium weight and 185 strength — generally passed over for Monarch."},
+ ]},
+ {title:"Weapons — Axes",items:[
+  {name:"Berserker Axe",tags:["5 / 6 os","eth or non-eth"],note:"Ethereal and non-ethereal are both good. Base for Grief, Breath of the Dying, Death, Beast. 4os is worth much less."},
+ ]},
+ {title:"Weapons — Swords",items:[
+  {name:"Phase Blade",tags:["5 / 6 os","indestructible"],note:"Never ethereal (it can't break). For Grief and Last Wish; smiters love it — no repairing. The only elite sword worth keeping."},
+  {name:"Crystal Sword",tags:["4 / 5 / 6 os","normal"],note:"The normal base of the Phase Blade. Keep for Call to Arms, or 6× Ist / 6× Um for MF / gold find."},
+  {name:"Colossus Blade",tags:["two-hand","ethereal"],note:"Barbarians make Death or ethereal Breath of the Dying in it."},
+  {name:"Dimensional Blade",tags:["+3 skills · 2H"],note:"A +3-skills two-hander is a low-cost Call to Arms base."},
+ ]},
+ {title:"Weapons — Bows",items:[
+  {name:"Grand Matron Bow",tags:["+3 · 4os"],note:"The +3 skills / 4-socket combo is the sweet spot for Faith."},
+ ]},
+ {title:"Weapons — Polearms (ethereal, for the merc)",sub:"Elite ethereal polearms with 4+ open sockets for the merc's Insight / Infinity / Pride. Non-ethereal is worth far less.",items:[
+  {name:"Cryptic Axe",tags:["4+ os","ethereal","most desired"],note:"Lower strength requirement — one of the two most wanted merc polearms."},
+  {name:"Thresher",tags:["4+ os","ethereal","most desired"],note:"Lower strength and fast attack speed — the other most-wanted merc polearm."},
+  {name:"Giant Thresher",tags:["4+ os","ethereal"],note:"Good high-end ethereal merc polearm."},
+  {name:"Great Poleaxe",tags:["4+ os","ethereal"],note:"Good high-end ethereal merc polearm."},
+  {name:"Colossus Voulge",tags:["ethereal"],note:"Always rolls 4os at Larzuk, but very high strength even ethereal."},
+  {name:"Ogre Axe",tags:["max 3 os"],note:"Niche — capped at 3 sockets."},
+ ]},
+ {title:"Caster / class one-handers (niche)",sub:"Low-requirement or +skill bases for Chaos, White and other class runewords. No sprite — look for the affix, not the graphic.",items:[
+  {name:"+3 Bone Spear wand (2os)",noimg:true,note:"For White / Chaos on a Necromancer."},
+  {name:"+3 Lightning Sentry claws",noimg:true,note:"For Chaos / Assassin trap runewords."},
+  {name:"+3 War Cries spear",noimg:true,note:"For a Barbarian war-cry runeword."},
+  {name:"Flail",noimg:true,tags:["4 / 5 / 6 os"],note:"Low-requirement base for Call to Arms or 6× Ist."},
+ ]},
+];
+const UPGRADES=[
+ {h:"Normal → Exceptional (armor)",r:["Shael","Tal"],g:"Perfect Diamond"},
+ {h:"Exceptional → Elite (armor)",r:["Lem","Ko"],g:"Perfect Diamond"},
+];
+function biSprite(name,noimg){const u=!noimg&&BASE_IMG[name];return u?`<img src="${u}" alt="${name}" referrerpolicy="no-referrer">`:'<span class="bic-noimg"></span>';}
+function renderBaseItems(){
+ const intro=document.getElementById("baseintro");
+ if(intro) intro.innerHTML='Every item has <b>normal → exceptional → elite</b> tiers — same graphic, higher stats and requirements. While leveling, any base is fine; defense barely matters. These are the bases worth <b>keeping for the endgame or to trade</b>. Sprites are the shared tier-family inventory graphics, as in-game.';
+ const box=document.getElementById("basesbox"); if(!box) return;
+ let html=BASE_SECTIONS.map(sec=>{
+  const cards=sec.items.map(it=>{
+   const best=(it.tags||[]).some(t=>/most desired|best/.test(t));
+   const tags=(it.tags||[]).map(t=>{const c=/eth/.test(t)?'eth':/most desired|best/.test(t)?'best':'';return `<span class="bitag ${c}">${t}</span>`;}).join('');
+   return `<div class="bicard${best?' best':''}">${biSprite(it.name,it.noimg)}<div class="bic-b">
+     <div class="bic-n">${it.name}</div>${tags?`<div class="bitags">${tags}</div>`:''}
+     <div class="bic-note">${it.note}</div></div></div>`;
+  }).join('');
+  return `<div class="bisec"><h3>${sec.title}</h3>${sec.sub?`<div class="bisub">${sec.sub}</div>`:''}<div class="bigrid">${cards}</div></div>`;
+ }).join('');
+ const ups=UPGRADES.map(u=>{
+  const runes=u.r.map(r=>runeTile(r).outerHTML).join('<span class="plus">+</span>');
+  return `<div class="biup"><div class="biu-h">${u.h}</div><div class="biu-r">${runes}<span class="plus">+</span><b>${u.g}</b><span class="arrow">→</span>upgraded base</div></div>`;
+ }).join('');
+ html+=`<div class="bisec"><h3>Upgrading a base (Horadric Cube)</h3>
+   <div class="bisub">Only works on <b style="color:var(--gold-bright)">rare and unique</b> items — not set, magic, socketed or runeword bases. Upgrading raises defense, required level and required strength while keeping the item's identity (e.g. Viper Magi → higher-defense elite, or a Gold Wrap belt from 12 → 16 potion slots). Weapons use different runes/gems, not shown in the guide.</div>
+   <div class="biups">${ups}</div></div>`;
+ box.innerHTML=html;
+}
+// ---- Charsi Imbue tab (MrLlamaSC: "What to Imbue at Charsi") ----
+function renderImbue(){
+ const box=document.getElementById("imbuebox"); if(!box) return;
+ const dia=BASE_IMG["Diadem"], cor=BASE_IMG["Coronet"], tia=BASE_IMG["Tiara"];
+ box.innerHTML=`
+ <div class="imbrec">${dia?`<img src="${dia}" alt="Diadem" referrerpolicy="no-referrer">`:''}
+   <div><div class="imr-tag">TOP RECOMMENDATION</div><div class="imr-n">Diadem</div>
+   <div class="imr-note">Imbue a <b>Diadem</b> and it always has a shot at godly — from as low as <b>character level 8</b>. Its hidden magic level (18) and Q-level (85) force high-tier affixes even at a low item level, so it can roll the <b>+2 class skills / 20% FCR</b> prefix at any level. The most recommended imbue, and craftable at essentially any point.</div></div>
+ </div>
+ <div class="imbblk"><h3>How the quest works</h3><ul>
+   <li>Grab the <b>Horadric Malus</b> (the hammer) in the <b>Barracks</b> in Act 1 — you do <b>not</b> need to kill the Smith, just take the hammer.</li>
+   <li>Return it to <b>Charsi</b>; she imbues one item, turning it into a rare.</li>
+   <li>Input must be a <b>white</b> item (or a white <b>ethereal</b> one), any quality — crude / low quality is fine. No magic, socketed, rare, unique or set items, and no jewelry (there is no white jewelry).</li>
+ </ul></div>
+ <div class="imbblk"><h3>The one rule that matters</h3><ul>
+   <li>The result rolls at your <span class="k">character level + 4</span>. Nothing else matters — not the item's level, not the difficulty. Higher character level = better possible affixes.</li>
+ </ul></div>
+ <div class="imbblk"><h3>When to imbue</h3><ul>
+   <li><b>Diadem:</b> level 8+, any time (see above).</li>
+   <li><b>Everything else:</b> level <b>94+</b> for the best odds — there's no meaningful difference between 94 and 99. Expect ~99% junk, ~1% great.</li>
+   <li><b>While leveling (solo self-found):</b> fine to spend it early on boots or a belt — aim for fast run/walk + multiple resists, or a life + all-resist belt.</li>
+   <li>You can also <b>save it for later</b> in the journey — e.g. imbue a white belt back in Normal while you're already in Hell.</li>
+ </ul></div>
+ <div class="imbblk"><h3>Circlet-type helms (same trick, weaker)</h3>
+   <div class="bisub" style="margin-bottom:8px">These share the Diadem's hidden-stat benefit but with a lower magic level, so they roll top affixes less reliably.</div>
+   <div class="imbhelms">
+     <div class="imbhelm">${cor?`<img src="${cor}" alt="Coronet" referrerpolicy="no-referrer">`:''}<div><div class="ih-n">Coronet</div><div class="ih-m">magic level 8</div></div></div>
+     <div class="imbhelm">${tia?`<img src="${tia}" alt="Tiara" referrerpolicy="no-referrer">`:''}<div><div class="ih-n">Tiara</div><div class="ih-m">magic level 13</div></div></div>
+     <div class="imbhelm">${dia?`<img src="${dia}" alt="Diadem" referrerpolicy="no-referrer">`:''}<div><div class="ih-n">Diadem</div><div class="ih-m">magic level 18 (best)</div></div></div>
+   </div></div>
+ <div class="imbwarn">Advanced (not covered in the guide): a few items have a specific affix window — e.g. gloves at level 56 — where imbuing before max level avoids rolling into higher-tier mods. Ignore this unless you already know the affix-level math.</div>`;
+}
+// ---- Boss / zone run tracker ----
+const TRACK_SECTIONS=[
+ {title:"Bosses & Uniques",items:[
+  {id:"countess",name:"Countess",loc:"Act 1 · Forgotten Tower (runes)"},
+  {id:"andariel",name:"Andariel",loc:"Act 1 · Catacombs"},
+  {id:"summoner",name:"The Summoner",loc:"Act 2 · Arcane Sanctuary"},
+  {id:"duriel",name:"Duriel",loc:"Act 2 · Tal Rasha's Tomb"},
+  {id:"mephisto",name:"Mephisto",loc:"Act 3 · Durance of Hate"},
+  {id:"council",name:"Travincal Council",loc:"Act 3 · Travincal"},
+  {id:"diablo",name:"Diablo",loc:"Act 4 · Chaos Sanctuary"},
+  {id:"pindle",name:"Pindleskin",loc:"Act 5 · Nihlathak's Temple"},
+  {id:"eldritch",name:"Eldritch",loc:"Act 5 · Frigid Highlands"},
+  {id:"shenk",name:"Shenk",loc:"Act 5 · Bloody Foothills"},
+  {id:"nihlathak",name:"Nihlathak",loc:"Act 5 · Halls of Vaught"},
+  {id:"baal",name:"Baal",loc:"Act 5 · Throne of Destruction"},
+  {id:"griswold",name:"Griswold",loc:"Act 1 · Tristram"},
+ ]},
+ {title:"Area / Zone runs",items:[
+  {id:"pit",name:"The Pit",loc:"Act 1 · Tamoe Highland"},
+  {id:"mausoleum",name:"Mausoleum",loc:"Act 1 · Burial Grounds"},
+  {id:"stonytomb",name:"Stony Tomb",loc:"Act 2 · Rocky Waste"},
+  {id:"ancienttunnels",name:"Ancient Tunnels",loc:"Act 2 · Lost City"},
+  {id:"arcane",name:"Arcane Sanctuary",loc:"Act 2"},
+  {id:"chaos",name:"Chaos Sanctuary",loc:"Act 4"},
+  {id:"wsk",name:"Worldstone Keep",loc:"Act 5"},
+  {id:"cows",name:"Secret Cow Level",loc:"Act 1 · red portal"},
+ ]},
+];
+if(runs.mephisto===undefined){ runs.mephisto=3; save(); } // seeded: already at 3 kills
+const trkTotal=()=>Object.values(runs).reduce((a,b)=>a+(b>0?b:0),0);
+function renderTracker(){
+ const box=document.getElementById("trackerbox"); if(!box) return;
+ box.innerHTML=TRACK_SECTIONS.map(sec=>{
+  const cards=sec.items.map(it=>{const c=runs[it.id]||0;
+   return `<div class="trkcard${c>0?' hot':''}" data-id="${it.id}">
+     <div><div class="trk-n">${it.name}</div><div class="trk-loc">${it.loc}</div></div>
+     <div class="trkctr"><button class="trkbtn minus" data-d="-1" aria-label="decrease">−</button>
+       <span class="trkcount${c?'':' zero'}">${c}</span>
+       <button class="trkbtn plus" data-d="1" aria-label="increase">+</button></div></div>`;
+  }).join('');
+  return `<div class="trksec"><h3>${sec.title}</h3><div class="trkgrid">${cards}</div></div>`;
+ }).join('');
+ const t=document.getElementById("trktotal"); if(t)t.textContent=trkTotal();
+}
+document.getElementById("trackerbox").addEventListener("click",e=>{
+ const b=e.target.closest(".trkbtn"); if(!b)return;
+ const card=b.closest(".trkcard"),id=card.dataset.id;
+ runs[id]=Math.max(0,(runs[id]||0)+(+b.dataset.d)); save();
+ const cnt=card.querySelector(".trkcount"); cnt.textContent=runs[id];
+ cnt.classList.toggle("zero",runs[id]===0); card.classList.toggle("hot",runs[id]>0);
+ document.getElementById("trktotal").textContent=trkTotal();
+});
+document.getElementById("trkreset").addEventListener("click",()=>{
+ if(confirm("Reset all boss/zone run counts to zero?")){ runs={}; save(); renderTracker(); }
+});
+renderTracker();
+renderBaseItems();renderImbue();
 renderLoot();
 render85();renderFarms();
 renderAll();
